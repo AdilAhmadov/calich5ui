@@ -1,0 +1,50 @@
+<template id="shadezone-widget"> 
+    <div class="shadezone-widget" aria-labelledby="Shadezone"> 
+        <div class="zone-name">
+            <h5 data-ch5-textcontent="ShadePage.ShadeZones.Zone[{{idx}}].ZoneName">Zone Name</h5>
+        </div>
+       
+    <ch5-button id="btn_shade_open_{{idx}}"
+        iconclass="fas fa-arrow-up"
+        label="Open"
+        sendeventonclick="ShadePage.ShadeZones.Zone[{{idx}}].Open_PressEvent"
+        receivestateselected="ShadePage.ShadeZones.Zones[{{idx}}].Open_Fb">
+    </ch5-button>
+
+    <ch5-button id="btn_shade_stop_{{idx}}"
+        iconclass="fas fa-arrow-down-up-across-line"
+        label="Stop"
+        sendeventonclick="ShadePage.ShadeZones.Zone[{{idx}}].Stop_PressEvent"
+        receivestateselected="ShadePage.ShadeZones.Zone[{{idx}}].Stop_Fb">
+    </ch5-button>
+    
+    <ch5-button id="btn_shade_close_{{idx}}"
+        iconclass="fas fa-arrow-down"
+        label="Close"
+        sendeventonclick="ShadePage.ShadeZones.Zone[{{idx}}].Close_PressEvent"
+        receivestateselected="ShadePage.ShadeZones.Zone[{{idx}}].Close_Fb">
+    </ch5-button>
+
+    <div class="percentage">
+        <h5 data-ch5-textcontent=""></h5>%
+    </div>
+    
+    <ch5-button id="btn_shade_preset1_{{idx}}"
+        label="25%"
+        sendeventonclick="ShadePage.ShadeZones.Zone[{{idx}}].Preset1_PressEvent"
+        receivestateselected="ShadePage.ShadeZones.Zone[{{idx}}].Perset_1_Fb">
+    </ch5-button>
+
+    <ch5-button id="btn_shade_preset2_{{idx}}"
+        label="50%"
+        sendeventonclick="ShadePage.ShadeZones.Zone[{{idx}}].Preset2_PressEvent"
+        receivestateselected="ShadePage.ShadeZones.Zone[{{idx}}].Perset_2_Fb">
+    </ch5-button>
+
+    <ch5-button id="btn_shade_preset3_{{idx}}"
+        label="75%"
+        sendeventonclick="ShadePage.ShadeZones.Zone[{{idx}}].Preset3_PressEvent"
+        receivestateselected="ShadePage.ShadeZones.Zone[{{idx}}].Perset_3_Fb">
+    </ch5-button>
+    </div>
+</template>

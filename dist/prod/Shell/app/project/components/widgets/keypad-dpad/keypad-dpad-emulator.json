@@ -1,0 +1,29 @@
+{
+  "cues": [
+    {
+      "type": "b",
+      "event": "btn_dpad_clicked",
+      "trigger": true,
+      "actions": [
+        {
+          "state": "btn_dpad_selected",
+          "type": "boolean",
+          "logic": "toggle"
+        }
+      ]
+    },
+    {
+      "type": "b",
+      "event": "btn_keypad_clicked",
+      "trigger": true,
+      "actions": [
+        {
+          "state": "dbtn_keypad_selected",
+          "type": "boolean",
+          "logic": "toggle"
+        }
+      ]
+    }
+  ],
+  "onStart": []
+}

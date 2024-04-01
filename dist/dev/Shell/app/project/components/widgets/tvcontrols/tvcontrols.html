@@ -1,0 +1,41 @@
+<template id="tvcontrols-widget">
+  <div class="container tv__container">
+    <div class="zone-icon"> 
+      <i data-ch5-appendclass="VideoPage.Zones.Items[{{idx}}].ZoneNameIconClass"></i>
+    </div>
+    <div class="zone-name">
+      <ch5-jointotext-string
+        receivestatevalue="VideoPage.Zones.Items[{{idx}}].ZoneName">
+      </ch5-jointotext-string>
+    </div>
+    <div class="zone-source">
+      <ch5-button
+        label="Source" 
+        sendeventonclick="VideoPage.Zones.Items[{{idx}}].SourceSelection"
+        receivestateselected="VideoPage.Zones.Items[{{idx}}].SourceSelected">
+      </ch5-button>
+    </div>
+    <div class="zone-toggle">
+      <ch5-toggle
+        id="ch5-toggle_id"
+        handleShape="circle"
+        label="Power"
+        labelOn="On"
+        labelOff="Off"
+        orientation="horizontal"
+        size="regular"
+        value="false"
+        sendeventonclick="VideoPage.Zones.Items[{{idx}}].PowerState"
+        receivestatevalue="VideoPage.Zones.Items[{{idx}}].PowerToggle">
+      </ch5-toggle>
+    </div>
+    <div class="source-icon">
+      <i data-ch5-appendclass="VideoPage.Zones.Items[{{idx}}].SelectedSourceIconClass"></i>
+    </div>
+    <div class="source-name">
+      <ch5-jointotext-string
+        receivestatevalue="VideoPage.Zones.Items[{{idx}}].SelectedSourceName">
+      </ch5-jointotext-string>
+    </div>
+  </div>
+</template>

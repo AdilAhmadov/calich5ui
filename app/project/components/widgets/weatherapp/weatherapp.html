@@ -1,0 +1,146 @@
+<template id="weatherapp-widget">
+  <div class="weatherapp-widget" aria-labelledby="Weatherapp">
+    <div class="time-date">
+      <div class="time">
+        <ch5-datetime
+          id="ch5-datetime_id"
+          customclass="ch5-time"
+          display24HourFormat="false"
+          displayAmPm="true"
+          displayTwoDigitsHour="true"
+          displaySeconds="false"
+          horizontalAlignment="center"
+          displayType="time"
+          timeOffsetHours="0"
+        >
+        </ch5-datetime>
+      </div>
+      <div class="date">
+        <ch5-datetime
+          id="ch5-datetime_id"
+          display24HourFormat="true"
+          displayAmPm="true"
+          displayTwoDigitsHour="true"
+          displaySeconds="false"
+          styleForDate="MM-dd-yyyy"
+          horizontalAlignment="center"
+          displayType="date"
+          timeOffsetHours="0"
+        >
+        </ch5-datetime>
+      </div>
+      <div class="place-container">
+        <div class="time-zone" id="time-zone">Asia/Baku</div>
+        <div id="country" class="country">40.4546N 49.7387E</div>
+      </div>
+    </div>
+
+    <div class="current-info">
+      <div class="others" id="current-weather-items">
+        <div class="weather-item">
+          <div>Humidity</div>
+          <div>74%</div>
+        </div>
+        <div class="weather-item">
+          <div>Pressure</div>
+          <div>1013</div>
+        </div>
+        <div class="weather-item">
+          <div>Wind Speed</div>
+          <div>5.28</div>
+        </div>
+
+        <div class="weather-item">
+          <div>Sunrise</div>
+          <div>06:40 am</div>
+        </div>
+        <div class="weather-item">
+          <div>Sunset</div>
+          <div>18:54 pm</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="logo">
+      <img src="./app/project/assets/img/Logo/CaliLogo.png" alt="calilogo" />
+    </div>
+
+    <div class="future-forecast">
+      <div class="today" id="current-temp">
+        <img
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt="weather icon"
+          class="w-icon"
+        />
+        <div class="other">
+          <div class="day">Monday</div>
+          <div class="temp">Night - 25.6&#176; C</div>
+          <div class="temp">Day - 35.6&#176; C</div>
+        </div>
+      </div>
+
+      <div class="weather-forecast" id="weather-forecast">
+        <div class="weather-forecast-item">
+          <div class="day">Tue</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 25.6&#176; C</div>
+          <div class="temp">Day - 35.6&#176; C</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Wed</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 25.6&#176; C</div>
+          <div class="temp">Day - 35.6&#176; C</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Thur</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 25.6&#176; C</div>
+          <div class="temp">Day - 35.6&#176; C</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Fri</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 25.6&#176; C</div>
+          <div class="temp">Day - 35.6&#176; C</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Sat</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 25.6&#176; C</div>
+          <div class="temp">Day - 35.6&#176; C</div>
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">San</div>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="w-icon"
+          />
+          <div class="temp">Night - 25.6&#176; C</div>
+          <div class="temp">Day - 35.6&#176; C</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

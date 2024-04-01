@@ -1,0 +1,5367 @@
+{
+	"name": "UpworkContract",
+	"timestamp": "2024-04-01 21:08:17.509",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "Automation Project Joins Names over Contract",
+	"signals": {
+		"states": {
+			"boolean": {
+				"1": {
+					"1": "AudioPage.AudioPageVisibility"
+				},
+				"2": {
+					"1": "AudioPage.DuckerButton.SelectedState"
+				},
+				"7": {
+					"1": "AudioPage.ZoneLists.Items[0].MuteState",
+					"2": "AudioPage.ZoneLists.Items[0].MasterState",
+					"3": "AudioPage.ZoneLists.Items[0].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[0].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[0].SourceSelectionState"
+				},
+				"8": {
+					"1": "AudioPage.ZoneLists.Items[1].MuteState",
+					"2": "AudioPage.ZoneLists.Items[1].MasterState",
+					"3": "AudioPage.ZoneLists.Items[1].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[1].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[1].SourceSelectionState"
+				},
+				"9": {
+					"1": "AudioPage.ZoneLists.Items[2].MuteState",
+					"2": "AudioPage.ZoneLists.Items[2].MasterState",
+					"3": "AudioPage.ZoneLists.Items[2].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[2].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[2].SourceSelectionState"
+				},
+				"10": {
+					"1": "AudioPage.ZoneLists.Items[3].MuteState",
+					"2": "AudioPage.ZoneLists.Items[3].MasterState",
+					"3": "AudioPage.ZoneLists.Items[3].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[3].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[3].SourceSelectionState"
+				},
+				"11": {
+					"1": "AudioPage.ZoneLists.Items[4].MuteState",
+					"2": "AudioPage.ZoneLists.Items[4].MasterState",
+					"3": "AudioPage.ZoneLists.Items[4].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[4].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[4].SourceSelectionState"
+				},
+				"12": {
+					"1": "AudioPage.ZoneLists.Items[5].MuteState",
+					"2": "AudioPage.ZoneLists.Items[5].MasterState",
+					"3": "AudioPage.ZoneLists.Items[5].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[5].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[5].SourceSelectionState"
+				},
+				"13": {
+					"1": "AudioPage.ZoneLists.Items[6].MuteState",
+					"2": "AudioPage.ZoneLists.Items[6].MasterState",
+					"3": "AudioPage.ZoneLists.Items[6].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[6].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[6].SourceSelectionState"
+				},
+				"14": {
+					"1": "AudioPage.ZoneLists.Items[7].MuteState",
+					"2": "AudioPage.ZoneLists.Items[7].MasterState",
+					"3": "AudioPage.ZoneLists.Items[7].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[7].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[7].SourceSelectionState"
+				},
+				"15": {
+					"1": "AudioPage.ZoneLists.Items[8].MuteState",
+					"2": "AudioPage.ZoneLists.Items[8].MasterState",
+					"3": "AudioPage.ZoneLists.Items[8].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[8].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[8].SourceSelectionState"
+				},
+				"16": {
+					"1": "AudioPage.ZoneLists.Items[9].MuteState",
+					"2": "AudioPage.ZoneLists.Items[9].MasterState",
+					"3": "AudioPage.ZoneLists.Items[9].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[9].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[9].SourceSelectionState"
+				},
+				"17": {
+					"1": "AudioPage.ZoneLists.Items[10].MuteState",
+					"2": "AudioPage.ZoneLists.Items[10].MasterState",
+					"3": "AudioPage.ZoneLists.Items[10].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[10].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[10].SourceSelectionState"
+				},
+				"18": {
+					"1": "AudioPage.ZoneLists.Items[11].MuteState",
+					"2": "AudioPage.ZoneLists.Items[11].MasterState",
+					"3": "AudioPage.ZoneLists.Items[11].VolumeDownState",
+					"4": "AudioPage.ZoneLists.Items[11].VolumeUpState",
+					"5": "AudioPage.ZoneLists.Items[11].SourceSelectionState"
+				},
+				"19": {
+					"1": "AudioPage.PresetLists.Presets[0].SelectedState"
+				},
+				"20": {
+					"1": "AudioPage.PresetLists.Presets[1].SelectedState"
+				},
+				"21": {
+					"1": "AudioPage.PresetLists.Presets[2].SelectedState"
+				},
+				"22": {
+					"1": "AudioPage.PresetLists.Presets[3].SelectedState"
+				},
+				"23": {
+					"1": "AudioPage.PresetLists.Presets[4].SelectedState"
+				},
+				"24": {
+					"1": "AudioPage.PresetLists.Presets[5].SelectedState"
+				},
+				"25": {
+					"1": "AudioPage.VolumeLists.VolumeList[0].SelectedState"
+				},
+				"26": {
+					"1": "AudioPage.VolumeLists.VolumeList[1].SelectedState"
+				},
+				"27": {
+					"1": "AudioPage.VolumeLists.VolumeList[2].SelectedState"
+				},
+				"28": {
+					"1": "AudioPage.SourceLists.Items[0].SelectedState"
+				},
+				"29": {
+					"1": "AudioPage.SourceLists.Items[1].SelectedState"
+				},
+				"30": {
+					"1": "AudioPage.SourceLists.Items[2].SelectedState"
+				},
+				"31": {
+					"1": "AudioPage.SourceLists.Items[3].SelectedState"
+				},
+				"32": {
+					"1": "AudioPage.SourceLists.Items[4].SelectedState"
+				},
+				"33": {
+					"1": "AudioPage.SourceLists.Items[5].SelectedState"
+				},
+				"34": {
+					"1": "AudioPage.SourceLists.Items[6].SelectedState"
+				},
+				"35": {
+					"1": "AudioPage.SourceLists.Items[7].SelectedState"
+				},
+				"36": {
+					"1": "AudioPage.SourceLists.Items[8].SelectedState"
+				},
+				"37": {
+					"1": "AudioPage.SourceLists.Items[9].SelectedState"
+				},
+				"38": {
+					"1": "AudioPage.SourceLists.Items[10].SelectedState"
+				},
+				"40": {
+					"1": "LightPage.LightList[0].LightOnState",
+					"2": "LightPage.LightList[0].LightOffState"
+				},
+				"41": {
+					"1": "LightPage.LightList[1].LightOnState",
+					"2": "LightPage.LightList[1].LightOffState"
+				},
+				"42": {
+					"1": "LightPage.LightList[2].LightOnState",
+					"2": "LightPage.LightList[2].LightOffState"
+				},
+				"43": {
+					"1": "LightPage.LightList[3].LightOnState",
+					"2": "LightPage.LightList[3].LightOffState"
+				},
+				"44": {
+					"1": "LightPage.LightList[4].LightOnState",
+					"2": "LightPage.LightList[4].LightOffState"
+				},
+				"45": {
+					"1": "LightPage.LightList[5].LightOnState",
+					"2": "LightPage.LightList[5].LightOffState"
+				},
+				"46": {
+					"1": "LightPage.LightList[6].LightOnState",
+					"2": "LightPage.LightList[6].LightOffState"
+				},
+				"47": {
+					"1": "LightPage.LightList[7].LightOnState",
+					"2": "LightPage.LightList[7].LightOffState"
+				},
+				"48": {
+					"1": "LightPage.LightList[8].LightOnState",
+					"2": "LightPage.LightList[8].LightOffState"
+				},
+				"49": {
+					"1": "LightPage.LightList[9].LightOnState",
+					"2": "LightPage.LightList[9].LightOffState"
+				},
+				"50": {
+					"1": "LightPage.LightList[10].LightOnState",
+					"2": "LightPage.LightList[10].LightOffState"
+				},
+				"51": {
+					"1": "LightPage.LightList[11].LightOnState",
+					"2": "LightPage.LightList[11].LightOffState"
+				},
+				"52": {
+					"1": "LightPage.LightList[12].LightOnState",
+					"2": "LightPage.LightList[12].LightOffState"
+				},
+				"53": {
+					"1": "LightPage.LightList[13].LightOnState",
+					"2": "LightPage.LightList[13].LightOffState"
+				},
+				"54": {
+					"1": "LightPage.LightList[14].LightOnState",
+					"2": "LightPage.LightList[14].LightOffState"
+				},
+				"55": {
+					"1": "LightPage.LightList[15].LightOnState",
+					"2": "LightPage.LightList[15].LightOffState"
+				},
+				"56": {
+					"1": "LightPage.LightList[16].LightOnState",
+					"2": "LightPage.LightList[16].LightOffState"
+				},
+				"57": {
+					"1": "LightPage.LightList[17].LightOnState",
+					"2": "LightPage.LightList[17].LightOffState"
+				},
+				"58": {
+					"1": "LightPage.LightList[18].LightOnState",
+					"2": "LightPage.LightList[18].LightOffState"
+				},
+				"59": {
+					"1": "LightPage.LightList[19].LightOnState",
+					"2": "LightPage.LightList[19].LightOffState"
+				},
+				"60": {
+					"1": "LightPage.LightList[20].LightOnState",
+					"2": "LightPage.LightList[20].LightOffState"
+				},
+				"61": {
+					"1": "LightPage.LightList[21].LightOnState",
+					"2": "LightPage.LightList[21].LightOffState"
+				},
+				"62": {
+					"1": "LightPage.LightList[22].LightOnState",
+					"2": "LightPage.LightList[22].LightOffState"
+				},
+				"63": {
+					"1": "LightPage.LightList[23].LightOnState",
+					"2": "LightPage.LightList[23].LightOffState"
+				},
+				"64": {
+					"1": "LightPage.LightList[24].LightOnState",
+					"2": "LightPage.LightList[24].LightOffState"
+				},
+				"65": {
+					"1": "LightPage.LightList[25].LightOnState",
+					"2": "LightPage.LightList[25].LightOffState"
+				},
+				"66": {
+					"1": "LightPage.LightList[26].LightOnState",
+					"2": "LightPage.LightList[26].LightOffState"
+				},
+				"67": {
+					"1": "LightPage.LightList[27].LightOnState",
+					"2": "LightPage.LightList[27].LightOffState"
+				},
+				"68": {
+					"1": "LightPage.LightList[28].LightOnState",
+					"2": "LightPage.LightList[28].LightOffState"
+				},
+				"69": {
+					"1": "LightPage.LightList[29].LightOnState",
+					"2": "LightPage.LightList[29].LightOffState"
+				},
+				"70": {
+					"1": "LightPage.LightList[30].LightOnState",
+					"2": "LightPage.LightList[30].LightOffState"
+				},
+				"71": {
+					"1": "LightPage.LightList[31].LightOnState",
+					"2": "LightPage.LightList[31].LightOffState"
+				},
+				"72": {
+					"1": "LightPage.LightList[32].LightOnState",
+					"2": "LightPage.LightList[32].LightOffState"
+				},
+				"73": {
+					"1": "LightPage.LightList[33].LightOnState",
+					"2": "LightPage.LightList[33].LightOffState"
+				},
+				"74": {
+					"1": "LightPage.LightList[34].LightOnState",
+					"2": "LightPage.LightList[34].LightOffState"
+				},
+				"75": {
+					"1": "LightPage.LightList[35].LightOnState",
+					"2": "LightPage.LightList[35].LightOffState"
+				},
+				"76": {
+					"1": "LightPage.LightList[36].LightOnState",
+					"2": "LightPage.LightList[36].LightOffState"
+				},
+				"77": {
+					"1": "LightPage.LightList[37].LightOnState",
+					"2": "LightPage.LightList[37].LightOffState"
+				},
+				"78": {
+					"1": "LightPage.LightList[38].LightOnState",
+					"2": "LightPage.LightList[38].LightOffState"
+				},
+				"79": {
+					"1": "LightPage.LightList[39].LightOnState",
+					"2": "LightPage.LightList[39].LightOffState"
+				},
+				"80": {
+					"1": "LightPage.LightList[40].LightOnState",
+					"2": "LightPage.LightList[40].LightOffState"
+				},
+				"81": {
+					"1": "LightPage.LightList[41].LightOnState",
+					"2": "LightPage.LightList[41].LightOffState"
+				},
+				"82": {
+					"1": "LightPage.LightList[42].LightOnState",
+					"2": "LightPage.LightList[42].LightOffState"
+				},
+				"83": {
+					"1": "LightPage.LightList[43].LightOnState",
+					"2": "LightPage.LightList[43].LightOffState"
+				},
+				"84": {
+					"1": "LightPage.LightList[44].LightOnState",
+					"2": "LightPage.LightList[44].LightOffState"
+				},
+				"85": {
+					"1": "LightPage.LightList[45].LightOnState",
+					"2": "LightPage.LightList[45].LightOffState"
+				},
+				"86": {
+					"1": "LightPage.LightList[46].LightOnState",
+					"2": "LightPage.LightList[46].LightOffState"
+				},
+				"87": {
+					"1": "LightPage.LightList[47].LightOnState",
+					"2": "LightPage.LightList[47].LightOffState"
+				},
+				"88": {
+					"1": "LightPage.LightList[48].LightOnState",
+					"2": "LightPage.LightList[48].LightOffState"
+				},
+				"89": {
+					"1": "LightPage.LightList[49].LightOnState",
+					"2": "LightPage.LightList[49].LightOffState"
+				},
+				"90": {
+					"1": "LightPage.LightList[50].LightOnState",
+					"2": "LightPage.LightList[50].LightOffState"
+				},
+				"91": {
+					"1": "LightPage.LightList[51].LightOnState",
+					"2": "LightPage.LightList[51].LightOffState"
+				},
+				"92": {
+					"1": "LightPage.LightList[52].LightOnState",
+					"2": "LightPage.LightList[52].LightOffState"
+				},
+				"93": {
+					"1": "LightPage.LightList[53].LightOnState",
+					"2": "LightPage.LightList[53].LightOffState"
+				},
+				"94": {
+					"1": "LightPage.LightList[54].LightOnState",
+					"2": "LightPage.LightList[54].LightOffState"
+				},
+				"95": {
+					"1": "LightPage.LightList[55].LightOnState",
+					"2": "LightPage.LightList[55].LightOffState"
+				},
+				"96": {
+					"1": "LightPage.LightList[56].LightOnState",
+					"2": "LightPage.LightList[56].LightOffState"
+				},
+				"97": {
+					"1": "LightPage.LightList[57].LightOnState",
+					"2": "LightPage.LightList[57].LightOffState"
+				},
+				"98": {
+					"1": "LightPage.LightList[58].LightOnState",
+					"2": "LightPage.LightList[58].LightOffState"
+				},
+				"99": {
+					"1": "LightPage.LightList[59].LightOnState",
+					"2": "LightPage.LightList[59].LightOffState"
+				},
+				"100": {
+					"1": "LightPage.LightList[60].LightOnState",
+					"2": "LightPage.LightList[60].LightOffState"
+				},
+				"101": {
+					"1": "LightPage.LightList[61].LightOnState",
+					"2": "LightPage.LightList[61].LightOffState"
+				},
+				"102": {
+					"1": "LightPage.LightList[62].LightOnState",
+					"2": "LightPage.LightList[62].LightOffState"
+				},
+				"103": {
+					"1": "LightPage.LightList[63].LightOnState",
+					"2": "LightPage.LightList[63].LightOffState"
+				},
+				"104": {
+					"1": "LightPage.LightList[64].LightOnState",
+					"2": "LightPage.LightList[64].LightOffState"
+				},
+				"105": {
+					"1": "LightPage.LightList[65].LightOnState",
+					"2": "LightPage.LightList[65].LightOffState"
+				},
+				"106": {
+					"1": "LightPage.LightList[66].LightOnState",
+					"2": "LightPage.LightList[66].LightOffState"
+				},
+				"107": {
+					"1": "LightPage.LightList[67].LightOnState",
+					"2": "LightPage.LightList[67].LightOffState"
+				},
+				"108": {
+					"1": "LightPage.LightList[68].LightOnState",
+					"2": "LightPage.LightList[68].LightOffState"
+				},
+				"109": {
+					"1": "LightPage.LightList[69].LightOnState",
+					"2": "LightPage.LightList[69].LightOffState"
+				},
+				"110": {
+					"1": "LightPage.LightList[70].LightOnState",
+					"2": "LightPage.LightList[70].LightOffState"
+				},
+				"111": {
+					"1": "LightPage.LightList[71].LightOnState",
+					"2": "LightPage.LightList[71].LightOffState"
+				},
+				"112": {
+					"1": "LightPage.LightList[72].LightOnState",
+					"2": "LightPage.LightList[72].LightOffState"
+				},
+				"113": {
+					"1": "LightPage.LightList[73].LightOnState",
+					"2": "LightPage.LightList[73].LightOffState"
+				},
+				"114": {
+					"1": "LightPage.LightList[74].LightOnState",
+					"2": "LightPage.LightList[74].LightOffState"
+				},
+				"115": {
+					"1": "LightPage.LightList[75].LightOnState",
+					"2": "LightPage.LightList[75].LightOffState"
+				},
+				"116": {
+					"1": "LightPage.LightList[76].LightOnState",
+					"2": "LightPage.LightList[76].LightOffState"
+				},
+				"117": {
+					"1": "LightPage.LightList[77].LightOnState",
+					"2": "LightPage.LightList[77].LightOffState"
+				},
+				"118": {
+					"1": "LightPage.LightList[78].LightOnState",
+					"2": "LightPage.LightList[78].LightOffState"
+				},
+				"119": {
+					"1": "LightPage.LightList[79].LightOnState",
+					"2": "LightPage.LightList[79].LightOffState"
+				},
+				"120": {
+					"1": "LightPage.LightList[80].LightOnState",
+					"2": "LightPage.LightList[80].LightOffState"
+				},
+				"121": {
+					"1": "LightPage.LightList[81].LightOnState",
+					"2": "LightPage.LightList[81].LightOffState"
+				},
+				"122": {
+					"1": "LightPage.LightList[82].LightOnState",
+					"2": "LightPage.LightList[82].LightOffState"
+				},
+				"123": {
+					"1": "LightPage.LightList[83].LightOnState",
+					"2": "LightPage.LightList[83].LightOffState"
+				},
+				"124": {
+					"1": "LightPage.LightList[84].LightOnState",
+					"2": "LightPage.LightList[84].LightOffState"
+				},
+				"125": {
+					"1": "LightPage.LightList[85].LightOnState",
+					"2": "LightPage.LightList[85].LightOffState"
+				},
+				"126": {
+					"1": "LightPage.LightList[86].LightOnState",
+					"2": "LightPage.LightList[86].LightOffState"
+				},
+				"127": {
+					"1": "LightPage.LightList[87].LightOnState",
+					"2": "LightPage.LightList[87].LightOffState"
+				},
+				"128": {
+					"1": "LightPage.LightList[88].LightOnState",
+					"2": "LightPage.LightList[88].LightOffState"
+				},
+				"129": {
+					"1": "LightPage.LightList[89].LightOnState",
+					"2": "LightPage.LightList[89].LightOffState"
+				},
+				"130": {
+					"1": "LightPage.LightList[90].LightOnState",
+					"2": "LightPage.LightList[90].LightOffState"
+				},
+				"131": {
+					"1": "LightPage.LightList[91].LightOnState",
+					"2": "LightPage.LightList[91].LightOffState"
+				},
+				"132": {
+					"1": "LightPage.LightList[92].LightOnState",
+					"2": "LightPage.LightList[92].LightOffState"
+				},
+				"133": {
+					"1": "LightPage.LightList[93].LightOnState",
+					"2": "LightPage.LightList[93].LightOffState"
+				},
+				"134": {
+					"1": "LightPage.LightList[94].LightOnState",
+					"2": "LightPage.LightList[94].LightOffState"
+				},
+				"135": {
+					"1": "LightPage.LightList[95].LightOnState",
+					"2": "LightPage.LightList[95].LightOffState"
+				},
+				"136": {
+					"1": "LightPage.LightList[96].LightOnState",
+					"2": "LightPage.LightList[96].LightOffState"
+				},
+				"137": {
+					"1": "LightPage.LightList[97].LightOnState",
+					"2": "LightPage.LightList[97].LightOffState"
+				},
+				"138": {
+					"1": "LightPage.LightList[98].LightOnState",
+					"2": "LightPage.LightList[98].LightOffState"
+				},
+				"139": {
+					"1": "LightPage.LightList[99].LightOnState",
+					"2": "LightPage.LightList[99].LightOffState"
+				},
+				"140": {
+					"1": "LightPage.Scene[0].SelectedState"
+				},
+				"141": {
+					"1": "LightPage.Scene[1].SelectedState"
+				},
+				"142": {
+					"1": "LightPage.Scene[2].SelectedState"
+				},
+				"143": {
+					"1": "LightPage.Scene[3].SelectedState"
+				},
+				"144": {
+					"1": "LightPage.Scene[4].SelectedState"
+				},
+				"145": {
+					"1": "LightPage.Filter[0].SelectedState"
+				},
+				"146": {
+					"1": "LightPage.Filter[1].SelectedState"
+				},
+				"147": {
+					"1": "LightPage.Filter[2].SelectedState"
+				},
+				"148": {
+					"1": "LightPage.Filter[3].SelectedState"
+				},
+				"149": {
+					"1": "LightPage.Filter[4].SelectedState"
+				},
+				"150": {
+					"1": "LightPage.Filter[5].SelectedState"
+				},
+				"151": {
+					"1": "LightPage.Filter[6].SelectedState"
+				},
+				"152": {
+					"1": "LightPage.Filter[7].SelectedState"
+				},
+				"153": {
+					"1": "MainPage.DayMode_Selected",
+					"2": "MainPage.EveningMode_Selected",
+					"3": "MainPage.NightMode_Selected",
+					"4": "MainPage.CloseMode_Selected",
+					"5": "MainPage.ModeRecall_Selected",
+					"6": "MainPage.MainPageVisibility",
+					"7": "MainPage.BrandLogo1_Enable",
+					"8": "MainPage.BrandLogo2_Enable",
+					"9": "MainPage.System_Info_Enable",
+					"10": "MainPage.WeatherApp_Enable"
+				},
+				"154": {
+					"1": "ShadePage.ShadePageVisibility"
+				},
+				"156": {
+					"1": "ShadePage.ShadeZones.Zone[0].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[0].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[0].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[0].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[0].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[0].Preset_3_Fb"
+				},
+				"157": {
+					"1": "ShadePage.ShadeZones.Zone[1].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[1].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[1].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[1].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[1].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[1].Preset_3_Fb"
+				},
+				"158": {
+					"1": "ShadePage.ShadeZones.Zone[2].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[2].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[2].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[2].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[2].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[2].Preset_3_Fb"
+				},
+				"159": {
+					"1": "ShadePage.ShadeZones.Zone[3].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[3].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[3].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[3].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[3].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[3].Preset_3_Fb"
+				},
+				"160": {
+					"1": "ShadePage.ShadeZones.Zone[4].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[4].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[4].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[4].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[4].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[4].Preset_3_Fb"
+				},
+				"161": {
+					"1": "ShadePage.ShadeZones.Zone[5].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[5].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[5].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[5].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[5].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[5].Preset_3_Fb"
+				},
+				"162": {
+					"1": "ShadePage.ShadeZones.Zone[6].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[6].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[6].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[6].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[6].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[6].Preset_3_Fb"
+				},
+				"163": {
+					"1": "ShadePage.ShadeZones.Zone[7].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[7].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[7].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[7].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[7].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[7].Preset_3_Fb"
+				},
+				"164": {
+					"1": "ShadePage.ShadeZones.Zone[8].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[8].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[8].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[8].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[8].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[8].Preset_3_Fb"
+				},
+				"165": {
+					"1": "ShadePage.ShadeZones.Zone[9].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[9].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[9].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[9].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[9].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[9].Preset_3_Fb"
+				},
+				"166": {
+					"1": "ShadePage.ShadeZones.Zone[10].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[10].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[10].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[10].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[10].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[10].Preset_3_Fb"
+				},
+				"167": {
+					"1": "ShadePage.ShadeZones.Zone[11].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[11].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[11].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[11].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[11].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[11].Preset_3_Fb"
+				},
+				"168": {
+					"1": "ShadePage.ShadeZones.Zone[12].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[12].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[12].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[12].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[12].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[12].Preset_3_Fb"
+				},
+				"169": {
+					"1": "ShadePage.ShadeZones.Zone[13].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[13].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[13].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[13].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[13].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[13].Preset_3_Fb"
+				},
+				"170": {
+					"1": "ShadePage.ShadeZones.Zone[14].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[14].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[14].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[14].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[14].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[14].Preset_3_Fb"
+				},
+				"171": {
+					"1": "ShadePage.ShadeZones.Zone[15].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[15].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[15].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[15].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[15].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[15].Preset_3_Fb"
+				},
+				"172": {
+					"1": "ShadePage.ShadeZones.Zone[16].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[16].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[16].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[16].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[16].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[16].Preset_3_Fb"
+				},
+				"173": {
+					"1": "ShadePage.ShadeZones.Zone[17].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[17].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[17].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[17].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[17].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[17].Preset_3_Fb"
+				},
+				"174": {
+					"1": "ShadePage.ShadeZones.Zone[18].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[18].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[18].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[18].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[18].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[18].Preset_3_Fb"
+				},
+				"175": {
+					"1": "ShadePage.ShadeZones.Zone[19].Open_Fb",
+					"2": "ShadePage.ShadeZones.Zone[19].Stop_Fb",
+					"3": "ShadePage.ShadeZones.Zone[19].Close_Fb",
+					"4": "ShadePage.ShadeZones.Zone[19].Perset_1_Fb",
+					"5": "ShadePage.ShadeZones.Zone[19].Preset_2_Fb",
+					"6": "ShadePage.ShadeZones.Zone[19].Preset_3_Fb"
+				},
+				"176": {
+					"1": "VideoPage.PageVisibility",
+					"2": "VideoPage.PowerAllDisplay_Fb"
+				},
+				"177": {
+					"1": "VideoPage.ControlButtons.Forward_State",
+					"2": "VideoPage.ControlButtons.Backward_State",
+					"3": "VideoPage.ControlButtons.Play_State",
+					"4": "VideoPage.ControlButtons.Pause_State",
+					"5": "VideoPage.ControlButtons.ChannelUp_State",
+					"6": "VideoPage.ControlButtons.ChannelDown_State",
+					"7": "VideoPage.ControlButtons.BackwardStep_State",
+					"8": "VideoPage.ControlButtons.ForwardStep_State",
+					"9": "VideoPage.ControlButtons.Stop_State",
+					"10": "VideoPage.ControlButtons.Power_State",
+					"11": "VideoPage.ControlButtons.Info_State",
+					"12": "VideoPage.ControlButtons.Eject_State",
+					"13": "VideoPage.ControlButtons.Guide_State",
+					"14": "VideoPage.ControlButtons.Menu_State",
+					"15": "VideoPage.ControlButtons.Minus_State",
+					"16": "VideoPage.ControlButtons.Plus_State",
+					"17": "VideoPage.ControlButtons.Red_State",
+					"18": "VideoPage.ControlButtons.Green_State",
+					"19": "VideoPage.ControlButtons.Yellow_State",
+					"20": "VideoPage.ControlButtons.Blue_State"
+				},
+				"183": {
+					"1": "VideoPage.Zones.Items[0].PowerState",
+					"2": "VideoPage.Zones.Items[0].SourceSelected"
+				},
+				"184": {
+					"1": "VideoPage.Zones.Items[1].PowerState",
+					"2": "VideoPage.Zones.Items[1].SourceSelected"
+				},
+				"185": {
+					"1": "VideoPage.Zones.Items[2].PowerState",
+					"2": "VideoPage.Zones.Items[2].SourceSelected"
+				},
+				"186": {
+					"1": "VideoPage.Zones.Items[3].PowerState",
+					"2": "VideoPage.Zones.Items[3].SourceSelected"
+				},
+				"187": {
+					"1": "VideoPage.Zones.Items[4].PowerState",
+					"2": "VideoPage.Zones.Items[4].SourceSelected"
+				},
+				"188": {
+					"1": "VideoPage.Zones.Items[5].PowerState",
+					"2": "VideoPage.Zones.Items[5].SourceSelected"
+				},
+				"189": {
+					"1": "VideoPage.Zones.Items[6].PowerState",
+					"2": "VideoPage.Zones.Items[6].SourceSelected"
+				},
+				"190": {
+					"1": "VideoPage.Zones.Items[7].PowerState",
+					"2": "VideoPage.Zones.Items[7].SourceSelected"
+				},
+				"191": {
+					"1": "VideoPage.Zones.Items[8].PowerState",
+					"2": "VideoPage.Zones.Items[8].SourceSelected"
+				},
+				"192": {
+					"1": "VideoPage.Zones.Items[9].PowerState",
+					"2": "VideoPage.Zones.Items[9].SourceSelected"
+				},
+				"193": {
+					"1": "VideoPage.Zones.Items[10].PowerState",
+					"2": "VideoPage.Zones.Items[10].SourceSelected"
+				},
+				"194": {
+					"1": "VideoPage.Zones.Items[11].PowerState",
+					"2": "VideoPage.Zones.Items[11].SourceSelected"
+				},
+				"195": {
+					"1": "VideoPage.Zones.Items[12].PowerState",
+					"2": "VideoPage.Zones.Items[12].SourceSelected"
+				},
+				"196": {
+					"1": "VideoPage.Zones.Items[13].PowerState",
+					"2": "VideoPage.Zones.Items[13].SourceSelected"
+				},
+				"197": {
+					"1": "VideoPage.Zones.Items[14].PowerState",
+					"2": "VideoPage.Zones.Items[14].SourceSelected"
+				},
+				"198": {
+					"1": "VideoPage.Zones.Items[15].PowerState",
+					"2": "VideoPage.Zones.Items[15].SourceSelected"
+				},
+				"199": {
+					"1": "VideoPage.Zones.Items[16].PowerState",
+					"2": "VideoPage.Zones.Items[16].SourceSelected"
+				},
+				"200": {
+					"1": "VideoPage.Zones.Items[17].PowerState",
+					"2": "VideoPage.Zones.Items[17].SourceSelected"
+				},
+				"201": {
+					"1": "VideoPage.Zones.Items[18].PowerState",
+					"2": "VideoPage.Zones.Items[18].SourceSelected"
+				},
+				"202": {
+					"1": "VideoPage.Zones.Items[19].PowerState",
+					"2": "VideoPage.Zones.Items[19].SourceSelected"
+				},
+				"203": {
+					"1": "VideoPage.Zones.Items[20].PowerState",
+					"2": "VideoPage.Zones.Items[20].SourceSelected"
+				},
+				"204": {
+					"1": "VideoPage.Zones.Items[21].PowerState",
+					"2": "VideoPage.Zones.Items[21].SourceSelected"
+				},
+				"205": {
+					"1": "VideoPage.Zones.Items[22].PowerState",
+					"2": "VideoPage.Zones.Items[22].SourceSelected"
+				},
+				"206": {
+					"1": "VideoPage.Zones.Items[23].PowerState",
+					"2": "VideoPage.Zones.Items[23].SourceSelected"
+				},
+				"207": {
+					"1": "VideoPage.Zones.Items[24].PowerState",
+					"2": "VideoPage.Zones.Items[24].SourceSelected"
+				},
+				"208": {
+					"1": "VideoPage.Zones.Items[25].PowerState",
+					"2": "VideoPage.Zones.Items[25].SourceSelected"
+				},
+				"209": {
+					"1": "VideoPage.Zones.Items[26].PowerState",
+					"2": "VideoPage.Zones.Items[26].SourceSelected"
+				},
+				"210": {
+					"1": "VideoPage.Zones.Items[27].PowerState",
+					"2": "VideoPage.Zones.Items[27].SourceSelected"
+				},
+				"211": {
+					"1": "VideoPage.Zones.Items[28].PowerState",
+					"2": "VideoPage.Zones.Items[28].SourceSelected"
+				},
+				"212": {
+					"1": "VideoPage.Zones.Items[29].PowerState",
+					"2": "VideoPage.Zones.Items[29].SourceSelected"
+				},
+				"213": {
+					"1": "VideoPage.Zones.Items[30].PowerState",
+					"2": "VideoPage.Zones.Items[30].SourceSelected"
+				},
+				"214": {
+					"1": "VideoPage.Zones.Items[31].PowerState",
+					"2": "VideoPage.Zones.Items[31].SourceSelected"
+				},
+				"215": {
+					"1": "VideoPage.Zones.Items[32].PowerState",
+					"2": "VideoPage.Zones.Items[32].SourceSelected"
+				},
+				"216": {
+					"1": "VideoPage.Zones.Items[33].PowerState",
+					"2": "VideoPage.Zones.Items[33].SourceSelected"
+				},
+				"217": {
+					"1": "VideoPage.Zones.Items[34].PowerState",
+					"2": "VideoPage.Zones.Items[34].SourceSelected"
+				},
+				"218": {
+					"1": "VideoPage.Zones.Items[35].PowerState",
+					"2": "VideoPage.Zones.Items[35].SourceSelected"
+				},
+				"219": {
+					"1": "VideoPage.Zones.Items[36].PowerState",
+					"2": "VideoPage.Zones.Items[36].SourceSelected"
+				},
+				"220": {
+					"1": "VideoPage.Zones.Items[37].PowerState",
+					"2": "VideoPage.Zones.Items[37].SourceSelected"
+				},
+				"221": {
+					"1": "VideoPage.Zones.Items[38].PowerState",
+					"2": "VideoPage.Zones.Items[38].SourceSelected"
+				},
+				"222": {
+					"1": "VideoPage.Zones.Items[39].PowerState",
+					"2": "VideoPage.Zones.Items[39].SourceSelected"
+				},
+				"223": {
+					"1": "VideoPage.Zones.Items[40].PowerState",
+					"2": "VideoPage.Zones.Items[40].SourceSelected"
+				},
+				"224": {
+					"1": "VideoPage.Zones.Items[41].PowerState",
+					"2": "VideoPage.Zones.Items[41].SourceSelected"
+				},
+				"225": {
+					"1": "VideoPage.Zones.Items[42].PowerState",
+					"2": "VideoPage.Zones.Items[42].SourceSelected"
+				},
+				"226": {
+					"1": "VideoPage.Zones.Items[43].PowerState",
+					"2": "VideoPage.Zones.Items[43].SourceSelected"
+				},
+				"227": {
+					"1": "VideoPage.Zones.Items[44].PowerState",
+					"2": "VideoPage.Zones.Items[44].SourceSelected"
+				},
+				"228": {
+					"1": "VideoPage.Zones.Items[45].PowerState",
+					"2": "VideoPage.Zones.Items[45].SourceSelected"
+				},
+				"229": {
+					"1": "VideoPage.Zones.Items[46].PowerState",
+					"2": "VideoPage.Zones.Items[46].SourceSelected"
+				},
+				"230": {
+					"1": "VideoPage.Zones.Items[47].PowerState",
+					"2": "VideoPage.Zones.Items[47].SourceSelected"
+				},
+				"231": {
+					"1": "VideoPage.Zones.Items[48].PowerState",
+					"2": "VideoPage.Zones.Items[48].SourceSelected"
+				},
+				"232": {
+					"1": "VideoPage.Zones.Items[49].PowerState",
+					"2": "VideoPage.Zones.Items[49].SourceSelected"
+				},
+				"233": {
+					"1": "VideoPage.Presets.Preset[0].SelectedState"
+				},
+				"234": {
+					"1": "VideoPage.Presets.Preset[1].SelectedState"
+				},
+				"235": {
+					"1": "VideoPage.Presets.Preset[2].SelectedState"
+				},
+				"236": {
+					"1": "VideoPage.Presets.Preset[3].SelectedState"
+				},
+				"237": {
+					"1": "VideoPage.Presets.Preset[4].SelectedState"
+				},
+				"238": {
+					"1": "VideoPage.Presets.Preset[5].SelectedState"
+				},
+				"239": {
+					"1": "VideoPage.Presets.Preset[6].SelectedState"
+				},
+				"240": {
+					"1": "VideoPage.Presets.Preset[7].SelectedState"
+				},
+				"241": {
+					"1": "VideoPage.Presets.Preset[8].SelectedState"
+				},
+				"242": {
+					"1": "VideoPage.Presets.Preset[9].SelectedState"
+				},
+				"243": {
+					"1": "VideoPage.VideoSources.Source[0].SelectedState"
+				},
+				"244": {
+					"1": "VideoPage.VideoSources.Source[1].SelectedState"
+				},
+				"245": {
+					"1": "VideoPage.VideoSources.Source[2].SelectedState"
+				},
+				"246": {
+					"1": "VideoPage.VideoSources.Source[3].SelectedState"
+				},
+				"247": {
+					"1": "VideoPage.VideoSources.Source[4].SelectedState"
+				},
+				"248": {
+					"1": "VideoPage.VideoSources.Source[5].SelectedState"
+				},
+				"249": {
+					"1": "VideoPage.VideoSources.Source[6].SelectedState"
+				},
+				"250": {
+					"1": "VideoPage.VideoSources.Source[7].SelectedState"
+				},
+				"251": {
+					"1": "VideoPage.VideoSources.Source[8].SelectedState"
+				},
+				"252": {
+					"1": "VideoPage.VideoSources.Source[9].SelectedState"
+				},
+				"253": {
+					"1": "VideoPage.VideoSources.Source[10].SelectedState"
+				}
+			},
+			"numeric": {
+				"3": {
+					"1": "AudioPage.ZoneLists.ListSize"
+				},
+				"4": {
+					"1": "AudioPage.PresetLists.PresetListSize",
+					"2": "AudioPage.PresetLists.ItemSelected"
+				},
+				"5": {
+					"1": "AudioPage.VolumeLists.ListSize"
+				},
+				"6": {
+					"1": "AudioPage.SourceLists.ListSize"
+				},
+				"39": {
+					"1": "LightPage.LightItemSize",
+					"2": "LightPage.SceneItemSize",
+					"3": "LightPage.FilterItemSize"
+				},
+				"40": {
+					"1": "LightPage.LightList[0].LightNumericValue",
+					"2": "LightPage.LightList[0].LightControlSliderState"
+				},
+				"41": {
+					"1": "LightPage.LightList[1].LightNumericValue",
+					"2": "LightPage.LightList[1].LightControlSliderState"
+				},
+				"42": {
+					"1": "LightPage.LightList[2].LightNumericValue",
+					"2": "LightPage.LightList[2].LightControlSliderState"
+				},
+				"43": {
+					"1": "LightPage.LightList[3].LightNumericValue",
+					"2": "LightPage.LightList[3].LightControlSliderState"
+				},
+				"44": {
+					"1": "LightPage.LightList[4].LightNumericValue",
+					"2": "LightPage.LightList[4].LightControlSliderState"
+				},
+				"45": {
+					"1": "LightPage.LightList[5].LightNumericValue",
+					"2": "LightPage.LightList[5].LightControlSliderState"
+				},
+				"46": {
+					"1": "LightPage.LightList[6].LightNumericValue",
+					"2": "LightPage.LightList[6].LightControlSliderState"
+				},
+				"47": {
+					"1": "LightPage.LightList[7].LightNumericValue",
+					"2": "LightPage.LightList[7].LightControlSliderState"
+				},
+				"48": {
+					"1": "LightPage.LightList[8].LightNumericValue",
+					"2": "LightPage.LightList[8].LightControlSliderState"
+				},
+				"49": {
+					"1": "LightPage.LightList[9].LightNumericValue",
+					"2": "LightPage.LightList[9].LightControlSliderState"
+				},
+				"50": {
+					"1": "LightPage.LightList[10].LightNumericValue",
+					"2": "LightPage.LightList[10].LightControlSliderState"
+				},
+				"51": {
+					"1": "LightPage.LightList[11].LightNumericValue",
+					"2": "LightPage.LightList[11].LightControlSliderState"
+				},
+				"52": {
+					"1": "LightPage.LightList[12].LightNumericValue",
+					"2": "LightPage.LightList[12].LightControlSliderState"
+				},
+				"53": {
+					"1": "LightPage.LightList[13].LightNumericValue",
+					"2": "LightPage.LightList[13].LightControlSliderState"
+				},
+				"54": {
+					"1": "LightPage.LightList[14].LightNumericValue",
+					"2": "LightPage.LightList[14].LightControlSliderState"
+				},
+				"55": {
+					"1": "LightPage.LightList[15].LightNumericValue",
+					"2": "LightPage.LightList[15].LightControlSliderState"
+				},
+				"56": {
+					"1": "LightPage.LightList[16].LightNumericValue",
+					"2": "LightPage.LightList[16].LightControlSliderState"
+				},
+				"57": {
+					"1": "LightPage.LightList[17].LightNumericValue",
+					"2": "LightPage.LightList[17].LightControlSliderState"
+				},
+				"58": {
+					"1": "LightPage.LightList[18].LightNumericValue",
+					"2": "LightPage.LightList[18].LightControlSliderState"
+				},
+				"59": {
+					"1": "LightPage.LightList[19].LightNumericValue",
+					"2": "LightPage.LightList[19].LightControlSliderState"
+				},
+				"60": {
+					"1": "LightPage.LightList[20].LightNumericValue",
+					"2": "LightPage.LightList[20].LightControlSliderState"
+				},
+				"61": {
+					"1": "LightPage.LightList[21].LightNumericValue",
+					"2": "LightPage.LightList[21].LightControlSliderState"
+				},
+				"62": {
+					"1": "LightPage.LightList[22].LightNumericValue",
+					"2": "LightPage.LightList[22].LightControlSliderState"
+				},
+				"63": {
+					"1": "LightPage.LightList[23].LightNumericValue",
+					"2": "LightPage.LightList[23].LightControlSliderState"
+				},
+				"64": {
+					"1": "LightPage.LightList[24].LightNumericValue",
+					"2": "LightPage.LightList[24].LightControlSliderState"
+				},
+				"65": {
+					"1": "LightPage.LightList[25].LightNumericValue",
+					"2": "LightPage.LightList[25].LightControlSliderState"
+				},
+				"66": {
+					"1": "LightPage.LightList[26].LightNumericValue",
+					"2": "LightPage.LightList[26].LightControlSliderState"
+				},
+				"67": {
+					"1": "LightPage.LightList[27].LightNumericValue",
+					"2": "LightPage.LightList[27].LightControlSliderState"
+				},
+				"68": {
+					"1": "LightPage.LightList[28].LightNumericValue",
+					"2": "LightPage.LightList[28].LightControlSliderState"
+				},
+				"69": {
+					"1": "LightPage.LightList[29].LightNumericValue",
+					"2": "LightPage.LightList[29].LightControlSliderState"
+				},
+				"70": {
+					"1": "LightPage.LightList[30].LightNumericValue",
+					"2": "LightPage.LightList[30].LightControlSliderState"
+				},
+				"71": {
+					"1": "LightPage.LightList[31].LightNumericValue",
+					"2": "LightPage.LightList[31].LightControlSliderState"
+				},
+				"72": {
+					"1": "LightPage.LightList[32].LightNumericValue",
+					"2": "LightPage.LightList[32].LightControlSliderState"
+				},
+				"73": {
+					"1": "LightPage.LightList[33].LightNumericValue",
+					"2": "LightPage.LightList[33].LightControlSliderState"
+				},
+				"74": {
+					"1": "LightPage.LightList[34].LightNumericValue",
+					"2": "LightPage.LightList[34].LightControlSliderState"
+				},
+				"75": {
+					"1": "LightPage.LightList[35].LightNumericValue",
+					"2": "LightPage.LightList[35].LightControlSliderState"
+				},
+				"76": {
+					"1": "LightPage.LightList[36].LightNumericValue",
+					"2": "LightPage.LightList[36].LightControlSliderState"
+				},
+				"77": {
+					"1": "LightPage.LightList[37].LightNumericValue",
+					"2": "LightPage.LightList[37].LightControlSliderState"
+				},
+				"78": {
+					"1": "LightPage.LightList[38].LightNumericValue",
+					"2": "LightPage.LightList[38].LightControlSliderState"
+				},
+				"79": {
+					"1": "LightPage.LightList[39].LightNumericValue",
+					"2": "LightPage.LightList[39].LightControlSliderState"
+				},
+				"80": {
+					"1": "LightPage.LightList[40].LightNumericValue",
+					"2": "LightPage.LightList[40].LightControlSliderState"
+				},
+				"81": {
+					"1": "LightPage.LightList[41].LightNumericValue",
+					"2": "LightPage.LightList[41].LightControlSliderState"
+				},
+				"82": {
+					"1": "LightPage.LightList[42].LightNumericValue",
+					"2": "LightPage.LightList[42].LightControlSliderState"
+				},
+				"83": {
+					"1": "LightPage.LightList[43].LightNumericValue",
+					"2": "LightPage.LightList[43].LightControlSliderState"
+				},
+				"84": {
+					"1": "LightPage.LightList[44].LightNumericValue",
+					"2": "LightPage.LightList[44].LightControlSliderState"
+				},
+				"85": {
+					"1": "LightPage.LightList[45].LightNumericValue",
+					"2": "LightPage.LightList[45].LightControlSliderState"
+				},
+				"86": {
+					"1": "LightPage.LightList[46].LightNumericValue",
+					"2": "LightPage.LightList[46].LightControlSliderState"
+				},
+				"87": {
+					"1": "LightPage.LightList[47].LightNumericValue",
+					"2": "LightPage.LightList[47].LightControlSliderState"
+				},
+				"88": {
+					"1": "LightPage.LightList[48].LightNumericValue",
+					"2": "LightPage.LightList[48].LightControlSliderState"
+				},
+				"89": {
+					"1": "LightPage.LightList[49].LightNumericValue",
+					"2": "LightPage.LightList[49].LightControlSliderState"
+				},
+				"90": {
+					"1": "LightPage.LightList[50].LightNumericValue",
+					"2": "LightPage.LightList[50].LightControlSliderState"
+				},
+				"91": {
+					"1": "LightPage.LightList[51].LightNumericValue",
+					"2": "LightPage.LightList[51].LightControlSliderState"
+				},
+				"92": {
+					"1": "LightPage.LightList[52].LightNumericValue",
+					"2": "LightPage.LightList[52].LightControlSliderState"
+				},
+				"93": {
+					"1": "LightPage.LightList[53].LightNumericValue",
+					"2": "LightPage.LightList[53].LightControlSliderState"
+				},
+				"94": {
+					"1": "LightPage.LightList[54].LightNumericValue",
+					"2": "LightPage.LightList[54].LightControlSliderState"
+				},
+				"95": {
+					"1": "LightPage.LightList[55].LightNumericValue",
+					"2": "LightPage.LightList[55].LightControlSliderState"
+				},
+				"96": {
+					"1": "LightPage.LightList[56].LightNumericValue",
+					"2": "LightPage.LightList[56].LightControlSliderState"
+				},
+				"97": {
+					"1": "LightPage.LightList[57].LightNumericValue",
+					"2": "LightPage.LightList[57].LightControlSliderState"
+				},
+				"98": {
+					"1": "LightPage.LightList[58].LightNumericValue",
+					"2": "LightPage.LightList[58].LightControlSliderState"
+				},
+				"99": {
+					"1": "LightPage.LightList[59].LightNumericValue",
+					"2": "LightPage.LightList[59].LightControlSliderState"
+				},
+				"100": {
+					"1": "LightPage.LightList[60].LightNumericValue",
+					"2": "LightPage.LightList[60].LightControlSliderState"
+				},
+				"101": {
+					"1": "LightPage.LightList[61].LightNumericValue",
+					"2": "LightPage.LightList[61].LightControlSliderState"
+				},
+				"102": {
+					"1": "LightPage.LightList[62].LightNumericValue",
+					"2": "LightPage.LightList[62].LightControlSliderState"
+				},
+				"103": {
+					"1": "LightPage.LightList[63].LightNumericValue",
+					"2": "LightPage.LightList[63].LightControlSliderState"
+				},
+				"104": {
+					"1": "LightPage.LightList[64].LightNumericValue",
+					"2": "LightPage.LightList[64].LightControlSliderState"
+				},
+				"105": {
+					"1": "LightPage.LightList[65].LightNumericValue",
+					"2": "LightPage.LightList[65].LightControlSliderState"
+				},
+				"106": {
+					"1": "LightPage.LightList[66].LightNumericValue",
+					"2": "LightPage.LightList[66].LightControlSliderState"
+				},
+				"107": {
+					"1": "LightPage.LightList[67].LightNumericValue",
+					"2": "LightPage.LightList[67].LightControlSliderState"
+				},
+				"108": {
+					"1": "LightPage.LightList[68].LightNumericValue",
+					"2": "LightPage.LightList[68].LightControlSliderState"
+				},
+				"109": {
+					"1": "LightPage.LightList[69].LightNumericValue",
+					"2": "LightPage.LightList[69].LightControlSliderState"
+				},
+				"110": {
+					"1": "LightPage.LightList[70].LightNumericValue",
+					"2": "LightPage.LightList[70].LightControlSliderState"
+				},
+				"111": {
+					"1": "LightPage.LightList[71].LightNumericValue",
+					"2": "LightPage.LightList[71].LightControlSliderState"
+				},
+				"112": {
+					"1": "LightPage.LightList[72].LightNumericValue",
+					"2": "LightPage.LightList[72].LightControlSliderState"
+				},
+				"113": {
+					"1": "LightPage.LightList[73].LightNumericValue",
+					"2": "LightPage.LightList[73].LightControlSliderState"
+				},
+				"114": {
+					"1": "LightPage.LightList[74].LightNumericValue",
+					"2": "LightPage.LightList[74].LightControlSliderState"
+				},
+				"115": {
+					"1": "LightPage.LightList[75].LightNumericValue",
+					"2": "LightPage.LightList[75].LightControlSliderState"
+				},
+				"116": {
+					"1": "LightPage.LightList[76].LightNumericValue",
+					"2": "LightPage.LightList[76].LightControlSliderState"
+				},
+				"117": {
+					"1": "LightPage.LightList[77].LightNumericValue",
+					"2": "LightPage.LightList[77].LightControlSliderState"
+				},
+				"118": {
+					"1": "LightPage.LightList[78].LightNumericValue",
+					"2": "LightPage.LightList[78].LightControlSliderState"
+				},
+				"119": {
+					"1": "LightPage.LightList[79].LightNumericValue",
+					"2": "LightPage.LightList[79].LightControlSliderState"
+				},
+				"120": {
+					"1": "LightPage.LightList[80].LightNumericValue",
+					"2": "LightPage.LightList[80].LightControlSliderState"
+				},
+				"121": {
+					"1": "LightPage.LightList[81].LightNumericValue",
+					"2": "LightPage.LightList[81].LightControlSliderState"
+				},
+				"122": {
+					"1": "LightPage.LightList[82].LightNumericValue",
+					"2": "LightPage.LightList[82].LightControlSliderState"
+				},
+				"123": {
+					"1": "LightPage.LightList[83].LightNumericValue",
+					"2": "LightPage.LightList[83].LightControlSliderState"
+				},
+				"124": {
+					"1": "LightPage.LightList[84].LightNumericValue",
+					"2": "LightPage.LightList[84].LightControlSliderState"
+				},
+				"125": {
+					"1": "LightPage.LightList[85].LightNumericValue",
+					"2": "LightPage.LightList[85].LightControlSliderState"
+				},
+				"126": {
+					"1": "LightPage.LightList[86].LightNumericValue",
+					"2": "LightPage.LightList[86].LightControlSliderState"
+				},
+				"127": {
+					"1": "LightPage.LightList[87].LightNumericValue",
+					"2": "LightPage.LightList[87].LightControlSliderState"
+				},
+				"128": {
+					"1": "LightPage.LightList[88].LightNumericValue",
+					"2": "LightPage.LightList[88].LightControlSliderState"
+				},
+				"129": {
+					"1": "LightPage.LightList[89].LightNumericValue",
+					"2": "LightPage.LightList[89].LightControlSliderState"
+				},
+				"130": {
+					"1": "LightPage.LightList[90].LightNumericValue",
+					"2": "LightPage.LightList[90].LightControlSliderState"
+				},
+				"131": {
+					"1": "LightPage.LightList[91].LightNumericValue",
+					"2": "LightPage.LightList[91].LightControlSliderState"
+				},
+				"132": {
+					"1": "LightPage.LightList[92].LightNumericValue",
+					"2": "LightPage.LightList[92].LightControlSliderState"
+				},
+				"133": {
+					"1": "LightPage.LightList[93].LightNumericValue",
+					"2": "LightPage.LightList[93].LightControlSliderState"
+				},
+				"134": {
+					"1": "LightPage.LightList[94].LightNumericValue",
+					"2": "LightPage.LightList[94].LightControlSliderState"
+				},
+				"135": {
+					"1": "LightPage.LightList[95].LightNumericValue",
+					"2": "LightPage.LightList[95].LightControlSliderState"
+				},
+				"136": {
+					"1": "LightPage.LightList[96].LightNumericValue",
+					"2": "LightPage.LightList[96].LightControlSliderState"
+				},
+				"137": {
+					"1": "LightPage.LightList[97].LightNumericValue",
+					"2": "LightPage.LightList[97].LightControlSliderState"
+				},
+				"138": {
+					"1": "LightPage.LightList[98].LightNumericValue",
+					"2": "LightPage.LightList[98].LightControlSliderState"
+				},
+				"139": {
+					"1": "LightPage.LightList[99].LightNumericValue",
+					"2": "LightPage.LightList[99].LightControlSliderState"
+				},
+				"155": {
+					"1": "ShadePage.ShadeZones.ListSize"
+				},
+				"156": {
+					"1": "ShadePage.ShadeZones.Zone[0].Percentage_Num"
+				},
+				"157": {
+					"1": "ShadePage.ShadeZones.Zone[1].Percentage_Num"
+				},
+				"158": {
+					"1": "ShadePage.ShadeZones.Zone[2].Percentage_Num"
+				},
+				"159": {
+					"1": "ShadePage.ShadeZones.Zone[3].Percentage_Num"
+				},
+				"160": {
+					"1": "ShadePage.ShadeZones.Zone[4].Percentage_Num"
+				},
+				"161": {
+					"1": "ShadePage.ShadeZones.Zone[5].Percentage_Num"
+				},
+				"162": {
+					"1": "ShadePage.ShadeZones.Zone[6].Percentage_Num"
+				},
+				"163": {
+					"1": "ShadePage.ShadeZones.Zone[7].Percentage_Num"
+				},
+				"164": {
+					"1": "ShadePage.ShadeZones.Zone[8].Percentage_Num"
+				},
+				"165": {
+					"1": "ShadePage.ShadeZones.Zone[9].Percentage_Num"
+				},
+				"166": {
+					"1": "ShadePage.ShadeZones.Zone[10].Percentage_Num"
+				},
+				"167": {
+					"1": "ShadePage.ShadeZones.Zone[11].Percentage_Num"
+				},
+				"168": {
+					"1": "ShadePage.ShadeZones.Zone[12].Percentage_Num"
+				},
+				"169": {
+					"1": "ShadePage.ShadeZones.Zone[13].Percentage_Num"
+				},
+				"170": {
+					"1": "ShadePage.ShadeZones.Zone[14].Percentage_Num"
+				},
+				"171": {
+					"1": "ShadePage.ShadeZones.Zone[15].Percentage_Num"
+				},
+				"172": {
+					"1": "ShadePage.ShadeZones.Zone[16].Percentage_Num"
+				},
+				"173": {
+					"1": "ShadePage.ShadeZones.Zone[17].Percentage_Num"
+				},
+				"174": {
+					"1": "ShadePage.ShadeZones.Zone[18].Percentage_Num"
+				},
+				"175": {
+					"1": "ShadePage.ShadeZones.Zone[19].Percentage_Num"
+				},
+				"180": {
+					"1": "VideoPage.Zones.ListSize"
+				},
+				"181": {
+					"1": "VideoPage.Presets.ListSize"
+				},
+				"182": {
+					"1": "VideoPage.VideoSources.ListSize"
+				}
+			},
+			"string": {
+				"2": {
+					"1": "AudioPage.DuckerButton.Name",
+					"2": "AudioPage.DuckerButton.IconClass"
+				},
+				"7": {
+					"1": "AudioPage.ZoneLists.Items[0].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[0].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[0].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[0].SelectedSourceIconClass"
+				},
+				"8": {
+					"1": "AudioPage.ZoneLists.Items[1].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[1].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[1].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[1].SelectedSourceIconClass"
+				},
+				"9": {
+					"1": "AudioPage.ZoneLists.Items[2].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[2].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[2].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[2].SelectedSourceIconClass"
+				},
+				"10": {
+					"1": "AudioPage.ZoneLists.Items[3].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[3].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[3].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[3].SelectedSourceIconClass"
+				},
+				"11": {
+					"1": "AudioPage.ZoneLists.Items[4].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[4].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[4].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[4].SelectedSourceIconClass"
+				},
+				"12": {
+					"1": "AudioPage.ZoneLists.Items[5].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[5].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[5].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[5].SelectedSourceIconClass"
+				},
+				"13": {
+					"1": "AudioPage.ZoneLists.Items[6].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[6].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[6].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[6].SelectedSourceIconClass"
+				},
+				"14": {
+					"1": "AudioPage.ZoneLists.Items[7].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[7].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[7].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[7].SelectedSourceIconClass"
+				},
+				"15": {
+					"1": "AudioPage.ZoneLists.Items[8].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[8].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[8].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[8].SelectedSourceIconClass"
+				},
+				"16": {
+					"1": "AudioPage.ZoneLists.Items[9].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[9].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[9].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[9].SelectedSourceIconClass"
+				},
+				"17": {
+					"1": "AudioPage.ZoneLists.Items[10].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[10].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[10].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[10].SelectedSourceIconClass"
+				},
+				"18": {
+					"1": "AudioPage.ZoneLists.Items[11].ZoneLabel",
+					"2": "AudioPage.ZoneLists.Items[11].ZoneVolumeValue",
+					"3": "AudioPage.ZoneLists.Items[11].SelectedSourceLabel",
+					"4": "AudioPage.ZoneLists.Items[11].SelectedSourceIconClass"
+				},
+				"19": {
+					"1": "AudioPage.PresetLists.Presets[0].Name",
+					"2": "AudioPage.PresetLists.Presets[0].IconClass"
+				},
+				"20": {
+					"1": "AudioPage.PresetLists.Presets[1].Name",
+					"2": "AudioPage.PresetLists.Presets[1].IconClass"
+				},
+				"21": {
+					"1": "AudioPage.PresetLists.Presets[2].Name",
+					"2": "AudioPage.PresetLists.Presets[2].IconClass"
+				},
+				"22": {
+					"1": "AudioPage.PresetLists.Presets[3].Name",
+					"2": "AudioPage.PresetLists.Presets[3].IconClass"
+				},
+				"23": {
+					"1": "AudioPage.PresetLists.Presets[4].Name",
+					"2": "AudioPage.PresetLists.Presets[4].IconClass"
+				},
+				"24": {
+					"1": "AudioPage.PresetLists.Presets[5].Name",
+					"2": "AudioPage.PresetLists.Presets[5].IconClass"
+				},
+				"25": {
+					"1": "AudioPage.VolumeLists.VolumeList[0].Name",
+					"2": "AudioPage.VolumeLists.VolumeList[0].IconClass"
+				},
+				"26": {
+					"1": "AudioPage.VolumeLists.VolumeList[1].Name",
+					"2": "AudioPage.VolumeLists.VolumeList[1].IconClass"
+				},
+				"27": {
+					"1": "AudioPage.VolumeLists.VolumeList[2].Name",
+					"2": "AudioPage.VolumeLists.VolumeList[2].IconClass"
+				},
+				"28": {
+					"1": "AudioPage.SourceLists.Items[0].Name",
+					"2": "AudioPage.SourceLists.Items[0].IconClass"
+				},
+				"29": {
+					"1": "AudioPage.SourceLists.Items[1].Name",
+					"2": "AudioPage.SourceLists.Items[1].IconClass"
+				},
+				"30": {
+					"1": "AudioPage.SourceLists.Items[2].Name",
+					"2": "AudioPage.SourceLists.Items[2].IconClass"
+				},
+				"31": {
+					"1": "AudioPage.SourceLists.Items[3].Name",
+					"2": "AudioPage.SourceLists.Items[3].IconClass"
+				},
+				"32": {
+					"1": "AudioPage.SourceLists.Items[4].Name",
+					"2": "AudioPage.SourceLists.Items[4].IconClass"
+				},
+				"33": {
+					"1": "AudioPage.SourceLists.Items[5].Name",
+					"2": "AudioPage.SourceLists.Items[5].IconClass"
+				},
+				"34": {
+					"1": "AudioPage.SourceLists.Items[6].Name",
+					"2": "AudioPage.SourceLists.Items[6].IconClass"
+				},
+				"35": {
+					"1": "AudioPage.SourceLists.Items[7].Name",
+					"2": "AudioPage.SourceLists.Items[7].IconClass"
+				},
+				"36": {
+					"1": "AudioPage.SourceLists.Items[8].Name",
+					"2": "AudioPage.SourceLists.Items[8].IconClass"
+				},
+				"37": {
+					"1": "AudioPage.SourceLists.Items[9].Name",
+					"2": "AudioPage.SourceLists.Items[9].IconClass"
+				},
+				"38": {
+					"1": "AudioPage.SourceLists.Items[10].Name",
+					"2": "AudioPage.SourceLists.Items[10].IconClass"
+				},
+				"40": {
+					"1": "LightPage.LightList[0].ZoneName",
+					"2": "LightPage.LightList[0].LightStringValue"
+				},
+				"41": {
+					"1": "LightPage.LightList[1].ZoneName",
+					"2": "LightPage.LightList[1].LightStringValue"
+				},
+				"42": {
+					"1": "LightPage.LightList[2].ZoneName",
+					"2": "LightPage.LightList[2].LightStringValue"
+				},
+				"43": {
+					"1": "LightPage.LightList[3].ZoneName",
+					"2": "LightPage.LightList[3].LightStringValue"
+				},
+				"44": {
+					"1": "LightPage.LightList[4].ZoneName",
+					"2": "LightPage.LightList[4].LightStringValue"
+				},
+				"45": {
+					"1": "LightPage.LightList[5].ZoneName",
+					"2": "LightPage.LightList[5].LightStringValue"
+				},
+				"46": {
+					"1": "LightPage.LightList[6].ZoneName",
+					"2": "LightPage.LightList[6].LightStringValue"
+				},
+				"47": {
+					"1": "LightPage.LightList[7].ZoneName",
+					"2": "LightPage.LightList[7].LightStringValue"
+				},
+				"48": {
+					"1": "LightPage.LightList[8].ZoneName",
+					"2": "LightPage.LightList[8].LightStringValue"
+				},
+				"49": {
+					"1": "LightPage.LightList[9].ZoneName",
+					"2": "LightPage.LightList[9].LightStringValue"
+				},
+				"50": {
+					"1": "LightPage.LightList[10].ZoneName",
+					"2": "LightPage.LightList[10].LightStringValue"
+				},
+				"51": {
+					"1": "LightPage.LightList[11].ZoneName",
+					"2": "LightPage.LightList[11].LightStringValue"
+				},
+				"52": {
+					"1": "LightPage.LightList[12].ZoneName",
+					"2": "LightPage.LightList[12].LightStringValue"
+				},
+				"53": {
+					"1": "LightPage.LightList[13].ZoneName",
+					"2": "LightPage.LightList[13].LightStringValue"
+				},
+				"54": {
+					"1": "LightPage.LightList[14].ZoneName",
+					"2": "LightPage.LightList[14].LightStringValue"
+				},
+				"55": {
+					"1": "LightPage.LightList[15].ZoneName",
+					"2": "LightPage.LightList[15].LightStringValue"
+				},
+				"56": {
+					"1": "LightPage.LightList[16].ZoneName",
+					"2": "LightPage.LightList[16].LightStringValue"
+				},
+				"57": {
+					"1": "LightPage.LightList[17].ZoneName",
+					"2": "LightPage.LightList[17].LightStringValue"
+				},
+				"58": {
+					"1": "LightPage.LightList[18].ZoneName",
+					"2": "LightPage.LightList[18].LightStringValue"
+				},
+				"59": {
+					"1": "LightPage.LightList[19].ZoneName",
+					"2": "LightPage.LightList[19].LightStringValue"
+				},
+				"60": {
+					"1": "LightPage.LightList[20].ZoneName",
+					"2": "LightPage.LightList[20].LightStringValue"
+				},
+				"61": {
+					"1": "LightPage.LightList[21].ZoneName",
+					"2": "LightPage.LightList[21].LightStringValue"
+				},
+				"62": {
+					"1": "LightPage.LightList[22].ZoneName",
+					"2": "LightPage.LightList[22].LightStringValue"
+				},
+				"63": {
+					"1": "LightPage.LightList[23].ZoneName",
+					"2": "LightPage.LightList[23].LightStringValue"
+				},
+				"64": {
+					"1": "LightPage.LightList[24].ZoneName",
+					"2": "LightPage.LightList[24].LightStringValue"
+				},
+				"65": {
+					"1": "LightPage.LightList[25].ZoneName",
+					"2": "LightPage.LightList[25].LightStringValue"
+				},
+				"66": {
+					"1": "LightPage.LightList[26].ZoneName",
+					"2": "LightPage.LightList[26].LightStringValue"
+				},
+				"67": {
+					"1": "LightPage.LightList[27].ZoneName",
+					"2": "LightPage.LightList[27].LightStringValue"
+				},
+				"68": {
+					"1": "LightPage.LightList[28].ZoneName",
+					"2": "LightPage.LightList[28].LightStringValue"
+				},
+				"69": {
+					"1": "LightPage.LightList[29].ZoneName",
+					"2": "LightPage.LightList[29].LightStringValue"
+				},
+				"70": {
+					"1": "LightPage.LightList[30].ZoneName",
+					"2": "LightPage.LightList[30].LightStringValue"
+				},
+				"71": {
+					"1": "LightPage.LightList[31].ZoneName",
+					"2": "LightPage.LightList[31].LightStringValue"
+				},
+				"72": {
+					"1": "LightPage.LightList[32].ZoneName",
+					"2": "LightPage.LightList[32].LightStringValue"
+				},
+				"73": {
+					"1": "LightPage.LightList[33].ZoneName",
+					"2": "LightPage.LightList[33].LightStringValue"
+				},
+				"74": {
+					"1": "LightPage.LightList[34].ZoneName",
+					"2": "LightPage.LightList[34].LightStringValue"
+				},
+				"75": {
+					"1": "LightPage.LightList[35].ZoneName",
+					"2": "LightPage.LightList[35].LightStringValue"
+				},
+				"76": {
+					"1": "LightPage.LightList[36].ZoneName",
+					"2": "LightPage.LightList[36].LightStringValue"
+				},
+				"77": {
+					"1": "LightPage.LightList[37].ZoneName",
+					"2": "LightPage.LightList[37].LightStringValue"
+				},
+				"78": {
+					"1": "LightPage.LightList[38].ZoneName",
+					"2": "LightPage.LightList[38].LightStringValue"
+				},
+				"79": {
+					"1": "LightPage.LightList[39].ZoneName",
+					"2": "LightPage.LightList[39].LightStringValue"
+				},
+				"80": {
+					"1": "LightPage.LightList[40].ZoneName",
+					"2": "LightPage.LightList[40].LightStringValue"
+				},
+				"81": {
+					"1": "LightPage.LightList[41].ZoneName",
+					"2": "LightPage.LightList[41].LightStringValue"
+				},
+				"82": {
+					"1": "LightPage.LightList[42].ZoneName",
+					"2": "LightPage.LightList[42].LightStringValue"
+				},
+				"83": {
+					"1": "LightPage.LightList[43].ZoneName",
+					"2": "LightPage.LightList[43].LightStringValue"
+				},
+				"84": {
+					"1": "LightPage.LightList[44].ZoneName",
+					"2": "LightPage.LightList[44].LightStringValue"
+				},
+				"85": {
+					"1": "LightPage.LightList[45].ZoneName",
+					"2": "LightPage.LightList[45].LightStringValue"
+				},
+				"86": {
+					"1": "LightPage.LightList[46].ZoneName",
+					"2": "LightPage.LightList[46].LightStringValue"
+				},
+				"87": {
+					"1": "LightPage.LightList[47].ZoneName",
+					"2": "LightPage.LightList[47].LightStringValue"
+				},
+				"88": {
+					"1": "LightPage.LightList[48].ZoneName",
+					"2": "LightPage.LightList[48].LightStringValue"
+				},
+				"89": {
+					"1": "LightPage.LightList[49].ZoneName",
+					"2": "LightPage.LightList[49].LightStringValue"
+				},
+				"90": {
+					"1": "LightPage.LightList[50].ZoneName",
+					"2": "LightPage.LightList[50].LightStringValue"
+				},
+				"91": {
+					"1": "LightPage.LightList[51].ZoneName",
+					"2": "LightPage.LightList[51].LightStringValue"
+				},
+				"92": {
+					"1": "LightPage.LightList[52].ZoneName",
+					"2": "LightPage.LightList[52].LightStringValue"
+				},
+				"93": {
+					"1": "LightPage.LightList[53].ZoneName",
+					"2": "LightPage.LightList[53].LightStringValue"
+				},
+				"94": {
+					"1": "LightPage.LightList[54].ZoneName",
+					"2": "LightPage.LightList[54].LightStringValue"
+				},
+				"95": {
+					"1": "LightPage.LightList[55].ZoneName",
+					"2": "LightPage.LightList[55].LightStringValue"
+				},
+				"96": {
+					"1": "LightPage.LightList[56].ZoneName",
+					"2": "LightPage.LightList[56].LightStringValue"
+				},
+				"97": {
+					"1": "LightPage.LightList[57].ZoneName",
+					"2": "LightPage.LightList[57].LightStringValue"
+				},
+				"98": {
+					"1": "LightPage.LightList[58].ZoneName",
+					"2": "LightPage.LightList[58].LightStringValue"
+				},
+				"99": {
+					"1": "LightPage.LightList[59].ZoneName",
+					"2": "LightPage.LightList[59].LightStringValue"
+				},
+				"100": {
+					"1": "LightPage.LightList[60].ZoneName",
+					"2": "LightPage.LightList[60].LightStringValue"
+				},
+				"101": {
+					"1": "LightPage.LightList[61].ZoneName",
+					"2": "LightPage.LightList[61].LightStringValue"
+				},
+				"102": {
+					"1": "LightPage.LightList[62].ZoneName",
+					"2": "LightPage.LightList[62].LightStringValue"
+				},
+				"103": {
+					"1": "LightPage.LightList[63].ZoneName",
+					"2": "LightPage.LightList[63].LightStringValue"
+				},
+				"104": {
+					"1": "LightPage.LightList[64].ZoneName",
+					"2": "LightPage.LightList[64].LightStringValue"
+				},
+				"105": {
+					"1": "LightPage.LightList[65].ZoneName",
+					"2": "LightPage.LightList[65].LightStringValue"
+				},
+				"106": {
+					"1": "LightPage.LightList[66].ZoneName",
+					"2": "LightPage.LightList[66].LightStringValue"
+				},
+				"107": {
+					"1": "LightPage.LightList[67].ZoneName",
+					"2": "LightPage.LightList[67].LightStringValue"
+				},
+				"108": {
+					"1": "LightPage.LightList[68].ZoneName",
+					"2": "LightPage.LightList[68].LightStringValue"
+				},
+				"109": {
+					"1": "LightPage.LightList[69].ZoneName",
+					"2": "LightPage.LightList[69].LightStringValue"
+				},
+				"110": {
+					"1": "LightPage.LightList[70].ZoneName",
+					"2": "LightPage.LightList[70].LightStringValue"
+				},
+				"111": {
+					"1": "LightPage.LightList[71].ZoneName",
+					"2": "LightPage.LightList[71].LightStringValue"
+				},
+				"112": {
+					"1": "LightPage.LightList[72].ZoneName",
+					"2": "LightPage.LightList[72].LightStringValue"
+				},
+				"113": {
+					"1": "LightPage.LightList[73].ZoneName",
+					"2": "LightPage.LightList[73].LightStringValue"
+				},
+				"114": {
+					"1": "LightPage.LightList[74].ZoneName",
+					"2": "LightPage.LightList[74].LightStringValue"
+				},
+				"115": {
+					"1": "LightPage.LightList[75].ZoneName",
+					"2": "LightPage.LightList[75].LightStringValue"
+				},
+				"116": {
+					"1": "LightPage.LightList[76].ZoneName",
+					"2": "LightPage.LightList[76].LightStringValue"
+				},
+				"117": {
+					"1": "LightPage.LightList[77].ZoneName",
+					"2": "LightPage.LightList[77].LightStringValue"
+				},
+				"118": {
+					"1": "LightPage.LightList[78].ZoneName",
+					"2": "LightPage.LightList[78].LightStringValue"
+				},
+				"119": {
+					"1": "LightPage.LightList[79].ZoneName",
+					"2": "LightPage.LightList[79].LightStringValue"
+				},
+				"120": {
+					"1": "LightPage.LightList[80].ZoneName",
+					"2": "LightPage.LightList[80].LightStringValue"
+				},
+				"121": {
+					"1": "LightPage.LightList[81].ZoneName",
+					"2": "LightPage.LightList[81].LightStringValue"
+				},
+				"122": {
+					"1": "LightPage.LightList[82].ZoneName",
+					"2": "LightPage.LightList[82].LightStringValue"
+				},
+				"123": {
+					"1": "LightPage.LightList[83].ZoneName",
+					"2": "LightPage.LightList[83].LightStringValue"
+				},
+				"124": {
+					"1": "LightPage.LightList[84].ZoneName",
+					"2": "LightPage.LightList[84].LightStringValue"
+				},
+				"125": {
+					"1": "LightPage.LightList[85].ZoneName",
+					"2": "LightPage.LightList[85].LightStringValue"
+				},
+				"126": {
+					"1": "LightPage.LightList[86].ZoneName",
+					"2": "LightPage.LightList[86].LightStringValue"
+				},
+				"127": {
+					"1": "LightPage.LightList[87].ZoneName",
+					"2": "LightPage.LightList[87].LightStringValue"
+				},
+				"128": {
+					"1": "LightPage.LightList[88].ZoneName",
+					"2": "LightPage.LightList[88].LightStringValue"
+				},
+				"129": {
+					"1": "LightPage.LightList[89].ZoneName",
+					"2": "LightPage.LightList[89].LightStringValue"
+				},
+				"130": {
+					"1": "LightPage.LightList[90].ZoneName",
+					"2": "LightPage.LightList[90].LightStringValue"
+				},
+				"131": {
+					"1": "LightPage.LightList[91].ZoneName",
+					"2": "LightPage.LightList[91].LightStringValue"
+				},
+				"132": {
+					"1": "LightPage.LightList[92].ZoneName",
+					"2": "LightPage.LightList[92].LightStringValue"
+				},
+				"133": {
+					"1": "LightPage.LightList[93].ZoneName",
+					"2": "LightPage.LightList[93].LightStringValue"
+				},
+				"134": {
+					"1": "LightPage.LightList[94].ZoneName",
+					"2": "LightPage.LightList[94].LightStringValue"
+				},
+				"135": {
+					"1": "LightPage.LightList[95].ZoneName",
+					"2": "LightPage.LightList[95].LightStringValue"
+				},
+				"136": {
+					"1": "LightPage.LightList[96].ZoneName",
+					"2": "LightPage.LightList[96].LightStringValue"
+				},
+				"137": {
+					"1": "LightPage.LightList[97].ZoneName",
+					"2": "LightPage.LightList[97].LightStringValue"
+				},
+				"138": {
+					"1": "LightPage.LightList[98].ZoneName",
+					"2": "LightPage.LightList[98].LightStringValue"
+				},
+				"139": {
+					"1": "LightPage.LightList[99].ZoneName",
+					"2": "LightPage.LightList[99].LightStringValue"
+				},
+				"140": {
+					"1": "LightPage.Scene[0].Name",
+					"2": "LightPage.Scene[0].IconClass"
+				},
+				"141": {
+					"1": "LightPage.Scene[1].Name",
+					"2": "LightPage.Scene[1].IconClass"
+				},
+				"142": {
+					"1": "LightPage.Scene[2].Name",
+					"2": "LightPage.Scene[2].IconClass"
+				},
+				"143": {
+					"1": "LightPage.Scene[3].Name",
+					"2": "LightPage.Scene[3].IconClass"
+				},
+				"144": {
+					"1": "LightPage.Scene[4].Name",
+					"2": "LightPage.Scene[4].IconClass"
+				},
+				"145": {
+					"1": "LightPage.Filter[0].Name",
+					"2": "LightPage.Filter[0].IconClass"
+				},
+				"146": {
+					"1": "LightPage.Filter[1].Name",
+					"2": "LightPage.Filter[1].IconClass"
+				},
+				"147": {
+					"1": "LightPage.Filter[2].Name",
+					"2": "LightPage.Filter[2].IconClass"
+				},
+				"148": {
+					"1": "LightPage.Filter[3].Name",
+					"2": "LightPage.Filter[3].IconClass"
+				},
+				"149": {
+					"1": "LightPage.Filter[4].Name",
+					"2": "LightPage.Filter[4].IconClass"
+				},
+				"150": {
+					"1": "LightPage.Filter[5].Name",
+					"2": "LightPage.Filter[5].IconClass"
+				},
+				"151": {
+					"1": "LightPage.Filter[6].Name",
+					"2": "LightPage.Filter[6].IconClass"
+				},
+				"152": {
+					"1": "LightPage.Filter[7].Name",
+					"2": "LightPage.Filter[7].IconClass"
+				},
+				"153": {
+					"1": "MainPage.SystemNameInfo",
+					"2": "MainPage.SupportEmailInfo",
+					"3": "MainPage.SupportContactInfo"
+				},
+				"156": {
+					"1": "ShadePage.ShadeZones.Zone[0].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[0].Percentage_str"
+				},
+				"157": {
+					"1": "ShadePage.ShadeZones.Zone[1].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[1].Percentage_str"
+				},
+				"158": {
+					"1": "ShadePage.ShadeZones.Zone[2].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[2].Percentage_str"
+				},
+				"159": {
+					"1": "ShadePage.ShadeZones.Zone[3].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[3].Percentage_str"
+				},
+				"160": {
+					"1": "ShadePage.ShadeZones.Zone[4].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[4].Percentage_str"
+				},
+				"161": {
+					"1": "ShadePage.ShadeZones.Zone[5].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[5].Percentage_str"
+				},
+				"162": {
+					"1": "ShadePage.ShadeZones.Zone[6].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[6].Percentage_str"
+				},
+				"163": {
+					"1": "ShadePage.ShadeZones.Zone[7].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[7].Percentage_str"
+				},
+				"164": {
+					"1": "ShadePage.ShadeZones.Zone[8].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[8].Percentage_str"
+				},
+				"165": {
+					"1": "ShadePage.ShadeZones.Zone[9].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[9].Percentage_str"
+				},
+				"166": {
+					"1": "ShadePage.ShadeZones.Zone[10].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[10].Percentage_str"
+				},
+				"167": {
+					"1": "ShadePage.ShadeZones.Zone[11].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[11].Percentage_str"
+				},
+				"168": {
+					"1": "ShadePage.ShadeZones.Zone[12].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[12].Percentage_str"
+				},
+				"169": {
+					"1": "ShadePage.ShadeZones.Zone[13].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[13].Percentage_str"
+				},
+				"170": {
+					"1": "ShadePage.ShadeZones.Zone[14].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[14].Percentage_str"
+				},
+				"171": {
+					"1": "ShadePage.ShadeZones.Zone[15].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[15].Percentage_str"
+				},
+				"172": {
+					"1": "ShadePage.ShadeZones.Zone[16].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[16].Percentage_str"
+				},
+				"173": {
+					"1": "ShadePage.ShadeZones.Zone[17].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[17].Percentage_str"
+				},
+				"174": {
+					"1": "ShadePage.ShadeZones.Zone[18].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[18].Percentage_str"
+				},
+				"175": {
+					"1": "ShadePage.ShadeZones.Zone[19].ZoneName",
+					"2": "ShadePage.ShadeZones.Zone[19].Percentage_str"
+				},
+				"183": {
+					"1": "VideoPage.Zones.Items[0].ZoneName",
+					"2": "VideoPage.Zones.Items[0].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[0].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[0].SelectedSourceName"
+				},
+				"184": {
+					"1": "VideoPage.Zones.Items[1].ZoneName",
+					"2": "VideoPage.Zones.Items[1].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[1].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[1].SelectedSourceName"
+				},
+				"185": {
+					"1": "VideoPage.Zones.Items[2].ZoneName",
+					"2": "VideoPage.Zones.Items[2].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[2].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[2].SelectedSourceName"
+				},
+				"186": {
+					"1": "VideoPage.Zones.Items[3].ZoneName",
+					"2": "VideoPage.Zones.Items[3].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[3].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[3].SelectedSourceName"
+				},
+				"187": {
+					"1": "VideoPage.Zones.Items[4].ZoneName",
+					"2": "VideoPage.Zones.Items[4].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[4].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[4].SelectedSourceName"
+				},
+				"188": {
+					"1": "VideoPage.Zones.Items[5].ZoneName",
+					"2": "VideoPage.Zones.Items[5].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[5].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[5].SelectedSourceName"
+				},
+				"189": {
+					"1": "VideoPage.Zones.Items[6].ZoneName",
+					"2": "VideoPage.Zones.Items[6].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[6].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[6].SelectedSourceName"
+				},
+				"190": {
+					"1": "VideoPage.Zones.Items[7].ZoneName",
+					"2": "VideoPage.Zones.Items[7].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[7].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[7].SelectedSourceName"
+				},
+				"191": {
+					"1": "VideoPage.Zones.Items[8].ZoneName",
+					"2": "VideoPage.Zones.Items[8].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[8].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[8].SelectedSourceName"
+				},
+				"192": {
+					"1": "VideoPage.Zones.Items[9].ZoneName",
+					"2": "VideoPage.Zones.Items[9].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[9].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[9].SelectedSourceName"
+				},
+				"193": {
+					"1": "VideoPage.Zones.Items[10].ZoneName",
+					"2": "VideoPage.Zones.Items[10].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[10].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[10].SelectedSourceName"
+				},
+				"194": {
+					"1": "VideoPage.Zones.Items[11].ZoneName",
+					"2": "VideoPage.Zones.Items[11].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[11].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[11].SelectedSourceName"
+				},
+				"195": {
+					"1": "VideoPage.Zones.Items[12].ZoneName",
+					"2": "VideoPage.Zones.Items[12].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[12].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[12].SelectedSourceName"
+				},
+				"196": {
+					"1": "VideoPage.Zones.Items[13].ZoneName",
+					"2": "VideoPage.Zones.Items[13].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[13].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[13].SelectedSourceName"
+				},
+				"197": {
+					"1": "VideoPage.Zones.Items[14].ZoneName",
+					"2": "VideoPage.Zones.Items[14].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[14].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[14].SelectedSourceName"
+				},
+				"198": {
+					"1": "VideoPage.Zones.Items[15].ZoneName",
+					"2": "VideoPage.Zones.Items[15].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[15].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[15].SelectedSourceName"
+				},
+				"199": {
+					"1": "VideoPage.Zones.Items[16].ZoneName",
+					"2": "VideoPage.Zones.Items[16].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[16].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[16].SelectedSourceName"
+				},
+				"200": {
+					"1": "VideoPage.Zones.Items[17].ZoneName",
+					"2": "VideoPage.Zones.Items[17].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[17].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[17].SelectedSourceName"
+				},
+				"201": {
+					"1": "VideoPage.Zones.Items[18].ZoneName",
+					"2": "VideoPage.Zones.Items[18].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[18].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[18].SelectedSourceName"
+				},
+				"202": {
+					"1": "VideoPage.Zones.Items[19].ZoneName",
+					"2": "VideoPage.Zones.Items[19].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[19].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[19].SelectedSourceName"
+				},
+				"203": {
+					"1": "VideoPage.Zones.Items[20].ZoneName",
+					"2": "VideoPage.Zones.Items[20].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[20].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[20].SelectedSourceName"
+				},
+				"204": {
+					"1": "VideoPage.Zones.Items[21].ZoneName",
+					"2": "VideoPage.Zones.Items[21].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[21].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[21].SelectedSourceName"
+				},
+				"205": {
+					"1": "VideoPage.Zones.Items[22].ZoneName",
+					"2": "VideoPage.Zones.Items[22].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[22].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[22].SelectedSourceName"
+				},
+				"206": {
+					"1": "VideoPage.Zones.Items[23].ZoneName",
+					"2": "VideoPage.Zones.Items[23].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[23].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[23].SelectedSourceName"
+				},
+				"207": {
+					"1": "VideoPage.Zones.Items[24].ZoneName",
+					"2": "VideoPage.Zones.Items[24].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[24].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[24].SelectedSourceName"
+				},
+				"208": {
+					"1": "VideoPage.Zones.Items[25].ZoneName",
+					"2": "VideoPage.Zones.Items[25].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[25].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[25].SelectedSourceName"
+				},
+				"209": {
+					"1": "VideoPage.Zones.Items[26].ZoneName",
+					"2": "VideoPage.Zones.Items[26].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[26].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[26].SelectedSourceName"
+				},
+				"210": {
+					"1": "VideoPage.Zones.Items[27].ZoneName",
+					"2": "VideoPage.Zones.Items[27].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[27].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[27].SelectedSourceName"
+				},
+				"211": {
+					"1": "VideoPage.Zones.Items[28].ZoneName",
+					"2": "VideoPage.Zones.Items[28].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[28].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[28].SelectedSourceName"
+				},
+				"212": {
+					"1": "VideoPage.Zones.Items[29].ZoneName",
+					"2": "VideoPage.Zones.Items[29].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[29].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[29].SelectedSourceName"
+				},
+				"213": {
+					"1": "VideoPage.Zones.Items[30].ZoneName",
+					"2": "VideoPage.Zones.Items[30].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[30].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[30].SelectedSourceName"
+				},
+				"214": {
+					"1": "VideoPage.Zones.Items[31].ZoneName",
+					"2": "VideoPage.Zones.Items[31].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[31].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[31].SelectedSourceName"
+				},
+				"215": {
+					"1": "VideoPage.Zones.Items[32].ZoneName",
+					"2": "VideoPage.Zones.Items[32].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[32].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[32].SelectedSourceName"
+				},
+				"216": {
+					"1": "VideoPage.Zones.Items[33].ZoneName",
+					"2": "VideoPage.Zones.Items[33].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[33].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[33].SelectedSourceName"
+				},
+				"217": {
+					"1": "VideoPage.Zones.Items[34].ZoneName",
+					"2": "VideoPage.Zones.Items[34].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[34].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[34].SelectedSourceName"
+				},
+				"218": {
+					"1": "VideoPage.Zones.Items[35].ZoneName",
+					"2": "VideoPage.Zones.Items[35].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[35].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[35].SelectedSourceName"
+				},
+				"219": {
+					"1": "VideoPage.Zones.Items[36].ZoneName",
+					"2": "VideoPage.Zones.Items[36].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[36].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[36].SelectedSourceName"
+				},
+				"220": {
+					"1": "VideoPage.Zones.Items[37].ZoneName",
+					"2": "VideoPage.Zones.Items[37].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[37].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[37].SelectedSourceName"
+				},
+				"221": {
+					"1": "VideoPage.Zones.Items[38].ZoneName",
+					"2": "VideoPage.Zones.Items[38].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[38].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[38].SelectedSourceName"
+				},
+				"222": {
+					"1": "VideoPage.Zones.Items[39].ZoneName",
+					"2": "VideoPage.Zones.Items[39].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[39].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[39].SelectedSourceName"
+				},
+				"223": {
+					"1": "VideoPage.Zones.Items[40].ZoneName",
+					"2": "VideoPage.Zones.Items[40].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[40].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[40].SelectedSourceName"
+				},
+				"224": {
+					"1": "VideoPage.Zones.Items[41].ZoneName",
+					"2": "VideoPage.Zones.Items[41].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[41].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[41].SelectedSourceName"
+				},
+				"225": {
+					"1": "VideoPage.Zones.Items[42].ZoneName",
+					"2": "VideoPage.Zones.Items[42].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[42].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[42].SelectedSourceName"
+				},
+				"226": {
+					"1": "VideoPage.Zones.Items[43].ZoneName",
+					"2": "VideoPage.Zones.Items[43].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[43].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[43].SelectedSourceName"
+				},
+				"227": {
+					"1": "VideoPage.Zones.Items[44].ZoneName",
+					"2": "VideoPage.Zones.Items[44].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[44].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[44].SelectedSourceName"
+				},
+				"228": {
+					"1": "VideoPage.Zones.Items[45].ZoneName",
+					"2": "VideoPage.Zones.Items[45].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[45].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[45].SelectedSourceName"
+				},
+				"229": {
+					"1": "VideoPage.Zones.Items[46].ZoneName",
+					"2": "VideoPage.Zones.Items[46].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[46].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[46].SelectedSourceName"
+				},
+				"230": {
+					"1": "VideoPage.Zones.Items[47].ZoneName",
+					"2": "VideoPage.Zones.Items[47].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[47].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[47].SelectedSourceName"
+				},
+				"231": {
+					"1": "VideoPage.Zones.Items[48].ZoneName",
+					"2": "VideoPage.Zones.Items[48].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[48].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[48].SelectedSourceName"
+				},
+				"232": {
+					"1": "VideoPage.Zones.Items[49].ZoneName",
+					"2": "VideoPage.Zones.Items[49].ZoneNameIconClass",
+					"3": "VideoPage.Zones.Items[49].SelectedSourceIconClass",
+					"4": "VideoPage.Zones.Items[49].SelectedSourceName"
+				},
+				"233": {
+					"1": "VideoPage.Presets.Preset[0].Name",
+					"2": "VideoPage.Presets.Preset[0].IconClass"
+				},
+				"234": {
+					"1": "VideoPage.Presets.Preset[1].Name",
+					"2": "VideoPage.Presets.Preset[1].IconClass"
+				},
+				"235": {
+					"1": "VideoPage.Presets.Preset[2].Name",
+					"2": "VideoPage.Presets.Preset[2].IconClass"
+				},
+				"236": {
+					"1": "VideoPage.Presets.Preset[3].Name",
+					"2": "VideoPage.Presets.Preset[3].IconClass"
+				},
+				"237": {
+					"1": "VideoPage.Presets.Preset[4].Name",
+					"2": "VideoPage.Presets.Preset[4].IconClass"
+				},
+				"238": {
+					"1": "VideoPage.Presets.Preset[5].Name",
+					"2": "VideoPage.Presets.Preset[5].IconClass"
+				},
+				"239": {
+					"1": "VideoPage.Presets.Preset[6].Name",
+					"2": "VideoPage.Presets.Preset[6].IconClass"
+				},
+				"240": {
+					"1": "VideoPage.Presets.Preset[7].Name",
+					"2": "VideoPage.Presets.Preset[7].IconClass"
+				},
+				"241": {
+					"1": "VideoPage.Presets.Preset[8].Name",
+					"2": "VideoPage.Presets.Preset[8].IconClass"
+				},
+				"242": {
+					"1": "VideoPage.Presets.Preset[9].Name",
+					"2": "VideoPage.Presets.Preset[9].IconClass"
+				},
+				"243": {
+					"1": "VideoPage.VideoSources.Source[0].Name",
+					"2": "VideoPage.VideoSources.Source[0].IconClass"
+				},
+				"244": {
+					"1": "VideoPage.VideoSources.Source[1].Name",
+					"2": "VideoPage.VideoSources.Source[1].IconClass"
+				},
+				"245": {
+					"1": "VideoPage.VideoSources.Source[2].Name",
+					"2": "VideoPage.VideoSources.Source[2].IconClass"
+				},
+				"246": {
+					"1": "VideoPage.VideoSources.Source[3].Name",
+					"2": "VideoPage.VideoSources.Source[3].IconClass"
+				},
+				"247": {
+					"1": "VideoPage.VideoSources.Source[4].Name",
+					"2": "VideoPage.VideoSources.Source[4].IconClass"
+				},
+				"248": {
+					"1": "VideoPage.VideoSources.Source[5].Name",
+					"2": "VideoPage.VideoSources.Source[5].IconClass"
+				},
+				"249": {
+					"1": "VideoPage.VideoSources.Source[6].Name",
+					"2": "VideoPage.VideoSources.Source[6].IconClass"
+				},
+				"250": {
+					"1": "VideoPage.VideoSources.Source[7].Name",
+					"2": "VideoPage.VideoSources.Source[7].IconClass"
+				},
+				"251": {
+					"1": "VideoPage.VideoSources.Source[8].Name",
+					"2": "VideoPage.VideoSources.Source[8].IconClass"
+				},
+				"252": {
+					"1": "VideoPage.VideoSources.Source[9].Name",
+					"2": "VideoPage.VideoSources.Source[9].IconClass"
+				},
+				"253": {
+					"1": "VideoPage.VideoSources.Source[10].Name",
+					"2": "VideoPage.VideoSources.Source[10].IconClass"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"AudioPage.AudioPagePress": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"MainPage.DayModePress_Event": {
+					"joinId": 1,
+					"smartObjectId": 153
+				},
+				"MainPage.EveningModePress_Event": {
+					"joinId": 2,
+					"smartObjectId": 153
+				},
+				"MainPage.NightModePress_Event": {
+					"joinId": 3,
+					"smartObjectId": 153
+				},
+				"MainPage.CloseModePress_Event": {
+					"joinId": 4,
+					"smartObjectId": 153
+				},
+				"MainPage.ModeRecellPress_Event": {
+					"joinId": 5,
+					"smartObjectId": 153
+				},
+				"MainPage.MainPageSelection": {
+					"joinId": 6,
+					"smartObjectId": 153
+				},
+				"VideoPage.PowerAllDisplay_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 176
+				},
+				"AudioPage.DuckerButton.Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 2
+				},
+				"LightPage.LightList[0].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 40
+				},
+				"LightPage.LightList[0].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 40
+				},
+				"LightPage.LightList[1].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 41
+				},
+				"LightPage.LightList[1].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 41
+				},
+				"LightPage.LightList[2].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 42
+				},
+				"LightPage.LightList[2].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 42
+				},
+				"LightPage.LightList[3].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 43
+				},
+				"LightPage.LightList[3].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 43
+				},
+				"LightPage.LightList[4].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 44
+				},
+				"LightPage.LightList[4].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 44
+				},
+				"LightPage.LightList[5].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 45
+				},
+				"LightPage.LightList[5].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 45
+				},
+				"LightPage.LightList[6].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 46
+				},
+				"LightPage.LightList[6].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 46
+				},
+				"LightPage.LightList[7].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 47
+				},
+				"LightPage.LightList[7].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 47
+				},
+				"LightPage.LightList[8].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 48
+				},
+				"LightPage.LightList[8].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 48
+				},
+				"LightPage.LightList[9].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 49
+				},
+				"LightPage.LightList[9].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 49
+				},
+				"LightPage.LightList[10].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 50
+				},
+				"LightPage.LightList[10].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 50
+				},
+				"LightPage.LightList[11].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 51
+				},
+				"LightPage.LightList[11].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 51
+				},
+				"LightPage.LightList[12].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 52
+				},
+				"LightPage.LightList[12].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 52
+				},
+				"LightPage.LightList[13].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 53
+				},
+				"LightPage.LightList[13].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 53
+				},
+				"LightPage.LightList[14].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 54
+				},
+				"LightPage.LightList[14].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 54
+				},
+				"LightPage.LightList[15].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 55
+				},
+				"LightPage.LightList[15].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 55
+				},
+				"LightPage.LightList[16].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 56
+				},
+				"LightPage.LightList[16].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 56
+				},
+				"LightPage.LightList[17].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 57
+				},
+				"LightPage.LightList[17].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 57
+				},
+				"LightPage.LightList[18].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 58
+				},
+				"LightPage.LightList[18].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 58
+				},
+				"LightPage.LightList[19].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 59
+				},
+				"LightPage.LightList[19].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 59
+				},
+				"LightPage.LightList[20].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 60
+				},
+				"LightPage.LightList[20].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 60
+				},
+				"LightPage.LightList[21].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 61
+				},
+				"LightPage.LightList[21].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 61
+				},
+				"LightPage.LightList[22].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 62
+				},
+				"LightPage.LightList[22].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 62
+				},
+				"LightPage.LightList[23].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 63
+				},
+				"LightPage.LightList[23].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 63
+				},
+				"LightPage.LightList[24].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 64
+				},
+				"LightPage.LightList[24].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 64
+				},
+				"LightPage.LightList[25].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 65
+				},
+				"LightPage.LightList[25].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 65
+				},
+				"LightPage.LightList[26].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 66
+				},
+				"LightPage.LightList[26].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 66
+				},
+				"LightPage.LightList[27].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 67
+				},
+				"LightPage.LightList[27].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 67
+				},
+				"LightPage.LightList[28].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 68
+				},
+				"LightPage.LightList[28].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 68
+				},
+				"LightPage.LightList[29].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 69
+				},
+				"LightPage.LightList[29].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 69
+				},
+				"LightPage.LightList[30].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 70
+				},
+				"LightPage.LightList[30].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 70
+				},
+				"LightPage.LightList[31].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 71
+				},
+				"LightPage.LightList[31].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 71
+				},
+				"LightPage.LightList[32].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 72
+				},
+				"LightPage.LightList[32].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 72
+				},
+				"LightPage.LightList[33].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 73
+				},
+				"LightPage.LightList[33].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 73
+				},
+				"LightPage.LightList[34].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 74
+				},
+				"LightPage.LightList[34].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 74
+				},
+				"LightPage.LightList[35].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 75
+				},
+				"LightPage.LightList[35].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 75
+				},
+				"LightPage.LightList[36].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 76
+				},
+				"LightPage.LightList[36].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 76
+				},
+				"LightPage.LightList[37].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 77
+				},
+				"LightPage.LightList[37].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 77
+				},
+				"LightPage.LightList[38].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 78
+				},
+				"LightPage.LightList[38].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 78
+				},
+				"LightPage.LightList[39].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 79
+				},
+				"LightPage.LightList[39].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 79
+				},
+				"LightPage.LightList[40].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 80
+				},
+				"LightPage.LightList[40].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 80
+				},
+				"LightPage.LightList[41].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 81
+				},
+				"LightPage.LightList[41].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 81
+				},
+				"LightPage.LightList[42].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 82
+				},
+				"LightPage.LightList[42].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 82
+				},
+				"LightPage.LightList[43].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 83
+				},
+				"LightPage.LightList[43].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 83
+				},
+				"LightPage.LightList[44].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 84
+				},
+				"LightPage.LightList[44].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 84
+				},
+				"LightPage.LightList[45].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 85
+				},
+				"LightPage.LightList[45].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 85
+				},
+				"LightPage.LightList[46].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 86
+				},
+				"LightPage.LightList[46].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 86
+				},
+				"LightPage.LightList[47].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 87
+				},
+				"LightPage.LightList[47].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 87
+				},
+				"LightPage.LightList[48].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 88
+				},
+				"LightPage.LightList[48].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 88
+				},
+				"LightPage.LightList[49].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 89
+				},
+				"LightPage.LightList[49].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 89
+				},
+				"LightPage.LightList[50].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 90
+				},
+				"LightPage.LightList[50].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 90
+				},
+				"LightPage.LightList[51].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 91
+				},
+				"LightPage.LightList[51].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 91
+				},
+				"LightPage.LightList[52].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 92
+				},
+				"LightPage.LightList[52].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 92
+				},
+				"LightPage.LightList[53].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 93
+				},
+				"LightPage.LightList[53].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 93
+				},
+				"LightPage.LightList[54].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 94
+				},
+				"LightPage.LightList[54].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 94
+				},
+				"LightPage.LightList[55].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 95
+				},
+				"LightPage.LightList[55].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 95
+				},
+				"LightPage.LightList[56].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 96
+				},
+				"LightPage.LightList[56].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 96
+				},
+				"LightPage.LightList[57].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 97
+				},
+				"LightPage.LightList[57].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 97
+				},
+				"LightPage.LightList[58].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 98
+				},
+				"LightPage.LightList[58].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 98
+				},
+				"LightPage.LightList[59].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 99
+				},
+				"LightPage.LightList[59].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 99
+				},
+				"LightPage.LightList[60].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 100
+				},
+				"LightPage.LightList[60].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 100
+				},
+				"LightPage.LightList[61].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 101
+				},
+				"LightPage.LightList[61].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 101
+				},
+				"LightPage.LightList[62].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 102
+				},
+				"LightPage.LightList[62].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 102
+				},
+				"LightPage.LightList[63].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 103
+				},
+				"LightPage.LightList[63].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 103
+				},
+				"LightPage.LightList[64].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 104
+				},
+				"LightPage.LightList[64].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 104
+				},
+				"LightPage.LightList[65].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 105
+				},
+				"LightPage.LightList[65].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 105
+				},
+				"LightPage.LightList[66].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 106
+				},
+				"LightPage.LightList[66].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 106
+				},
+				"LightPage.LightList[67].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 107
+				},
+				"LightPage.LightList[67].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 107
+				},
+				"LightPage.LightList[68].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 108
+				},
+				"LightPage.LightList[68].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 108
+				},
+				"LightPage.LightList[69].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 109
+				},
+				"LightPage.LightList[69].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 109
+				},
+				"LightPage.LightList[70].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 110
+				},
+				"LightPage.LightList[70].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 110
+				},
+				"LightPage.LightList[71].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 111
+				},
+				"LightPage.LightList[71].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 111
+				},
+				"LightPage.LightList[72].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 112
+				},
+				"LightPage.LightList[72].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 112
+				},
+				"LightPage.LightList[73].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 113
+				},
+				"LightPage.LightList[73].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 113
+				},
+				"LightPage.LightList[74].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 114
+				},
+				"LightPage.LightList[74].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 114
+				},
+				"LightPage.LightList[75].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 115
+				},
+				"LightPage.LightList[75].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 115
+				},
+				"LightPage.LightList[76].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 116
+				},
+				"LightPage.LightList[76].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 116
+				},
+				"LightPage.LightList[77].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 117
+				},
+				"LightPage.LightList[77].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 117
+				},
+				"LightPage.LightList[78].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 118
+				},
+				"LightPage.LightList[78].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 118
+				},
+				"LightPage.LightList[79].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 119
+				},
+				"LightPage.LightList[79].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 119
+				},
+				"LightPage.LightList[80].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 120
+				},
+				"LightPage.LightList[80].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 120
+				},
+				"LightPage.LightList[81].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 121
+				},
+				"LightPage.LightList[81].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 121
+				},
+				"LightPage.LightList[82].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 122
+				},
+				"LightPage.LightList[82].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 122
+				},
+				"LightPage.LightList[83].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 123
+				},
+				"LightPage.LightList[83].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 123
+				},
+				"LightPage.LightList[84].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 124
+				},
+				"LightPage.LightList[84].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 124
+				},
+				"LightPage.LightList[85].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 125
+				},
+				"LightPage.LightList[85].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 125
+				},
+				"LightPage.LightList[86].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 126
+				},
+				"LightPage.LightList[86].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 126
+				},
+				"LightPage.LightList[87].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 127
+				},
+				"LightPage.LightList[87].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 127
+				},
+				"LightPage.LightList[88].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 128
+				},
+				"LightPage.LightList[88].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 128
+				},
+				"LightPage.LightList[89].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 129
+				},
+				"LightPage.LightList[89].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 129
+				},
+				"LightPage.LightList[90].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 130
+				},
+				"LightPage.LightList[90].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 130
+				},
+				"LightPage.LightList[91].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 131
+				},
+				"LightPage.LightList[91].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 131
+				},
+				"LightPage.LightList[92].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 132
+				},
+				"LightPage.LightList[92].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 132
+				},
+				"LightPage.LightList[93].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 133
+				},
+				"LightPage.LightList[93].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 133
+				},
+				"LightPage.LightList[94].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 134
+				},
+				"LightPage.LightList[94].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 134
+				},
+				"LightPage.LightList[95].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 135
+				},
+				"LightPage.LightList[95].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 135
+				},
+				"LightPage.LightList[96].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 136
+				},
+				"LightPage.LightList[96].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 136
+				},
+				"LightPage.LightList[97].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 137
+				},
+				"LightPage.LightList[97].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 137
+				},
+				"LightPage.LightList[98].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 138
+				},
+				"LightPage.LightList[98].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 138
+				},
+				"LightPage.LightList[99].LightOn": {
+					"joinId": 1,
+					"smartObjectId": 139
+				},
+				"LightPage.LightList[99].LightOff": {
+					"joinId": 2,
+					"smartObjectId": 139
+				},
+				"LightPage.Scene[0].Selection": {
+					"joinId": 1,
+					"smartObjectId": 140
+				},
+				"LightPage.Scene[1].Selection": {
+					"joinId": 1,
+					"smartObjectId": 141
+				},
+				"LightPage.Scene[2].Selection": {
+					"joinId": 1,
+					"smartObjectId": 142
+				},
+				"LightPage.Scene[3].Selection": {
+					"joinId": 1,
+					"smartObjectId": 143
+				},
+				"LightPage.Scene[4].Selection": {
+					"joinId": 1,
+					"smartObjectId": 144
+				},
+				"LightPage.Filter[0].Selection": {
+					"joinId": 1,
+					"smartObjectId": 145
+				},
+				"LightPage.Filter[1].Selection": {
+					"joinId": 1,
+					"smartObjectId": 146
+				},
+				"LightPage.Filter[2].Selection": {
+					"joinId": 1,
+					"smartObjectId": 147
+				},
+				"LightPage.Filter[3].Selection": {
+					"joinId": 1,
+					"smartObjectId": 148
+				},
+				"LightPage.Filter[4].Selection": {
+					"joinId": 1,
+					"smartObjectId": 149
+				},
+				"LightPage.Filter[5].Selection": {
+					"joinId": 1,
+					"smartObjectId": 150
+				},
+				"LightPage.Filter[6].Selection": {
+					"joinId": 1,
+					"smartObjectId": 151
+				},
+				"LightPage.Filter[7].Selection": {
+					"joinId": 1,
+					"smartObjectId": 152
+				},
+				"VideoPage.ControlButtons.Backward_Press": {
+					"joinId": 1,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Play_Press": {
+					"joinId": 2,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Forward_Press": {
+					"joinId": 3,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.ChannelUp_Press": {
+					"joinId": 4,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.ChannelDown_Press": {
+					"joinId": 5,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.BackwardStep_Press": {
+					"joinId": 6,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Pause_Press": {
+					"joinId": 7,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.ForwardStep_Press": {
+					"joinId": 8,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Stop_Press": {
+					"joinId": 9,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.PowerPress": {
+					"joinId": 10,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Info_Press": {
+					"joinId": 11,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Eject_Press": {
+					"joinId": 12,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Guide_Press": {
+					"joinId": 13,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Menu_Press": {
+					"joinId": 14,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Minus_Press": {
+					"joinId": 15,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Plus_Press": {
+					"joinId": 16,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Red_Press": {
+					"joinId": 17,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Green_Press": {
+					"joinId": 18,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Yellow_Press": {
+					"joinId": 19,
+					"smartObjectId": 177
+				},
+				"VideoPage.ControlButtons.Blue_Press": {
+					"joinId": 20,
+					"smartObjectId": 177
+				},
+				"VideoPage.Keypad.Press1": {
+					"joinId": 1,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.Press2": {
+					"joinId": 2,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.Press3": {
+					"joinId": 3,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.Press4": {
+					"joinId": 4,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.Press5": {
+					"joinId": 5,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.Press6": {
+					"joinId": 6,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.Press7": {
+					"joinId": 7,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.Press8": {
+					"joinId": 8,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.Press9": {
+					"joinId": 9,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.Press0": {
+					"joinId": 10,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.PressStar": {
+					"joinId": 11,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.PressHash": {
+					"joinId": 12,
+					"smartObjectId": 178
+				},
+				"VideoPage.Keypad.PressExtra": {
+					"joinId": 13,
+					"smartObjectId": 178
+				},
+				"VideoPage.Dpad.Left": {
+					"joinId": 1,
+					"smartObjectId": 179
+				},
+				"VideoPage.Dpad.Right": {
+					"joinId": 2,
+					"smartObjectId": 179
+				},
+				"VideoPage.Dpad.Up": {
+					"joinId": 3,
+					"smartObjectId": 179
+				},
+				"VideoPage.Dpad.Down": {
+					"joinId": 4,
+					"smartObjectId": 179
+				},
+				"VideoPage.Dpad.Center": {
+					"joinId": 5,
+					"smartObjectId": 179
+				},
+				"AudioPage.ZoneLists.Items[0].Mute": {
+					"joinId": 1,
+					"smartObjectId": 7
+				},
+				"AudioPage.ZoneLists.Items[0].Master": {
+					"joinId": 2,
+					"smartObjectId": 7
+				},
+				"AudioPage.ZoneLists.Items[0].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 7
+				},
+				"AudioPage.ZoneLists.Items[0].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 7
+				},
+				"AudioPage.ZoneLists.Items[0].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 7
+				},
+				"AudioPage.ZoneLists.Items[1].Mute": {
+					"joinId": 1,
+					"smartObjectId": 8
+				},
+				"AudioPage.ZoneLists.Items[1].Master": {
+					"joinId": 2,
+					"smartObjectId": 8
+				},
+				"AudioPage.ZoneLists.Items[1].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 8
+				},
+				"AudioPage.ZoneLists.Items[1].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 8
+				},
+				"AudioPage.ZoneLists.Items[1].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 8
+				},
+				"AudioPage.ZoneLists.Items[2].Mute": {
+					"joinId": 1,
+					"smartObjectId": 9
+				},
+				"AudioPage.ZoneLists.Items[2].Master": {
+					"joinId": 2,
+					"smartObjectId": 9
+				},
+				"AudioPage.ZoneLists.Items[2].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 9
+				},
+				"AudioPage.ZoneLists.Items[2].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 9
+				},
+				"AudioPage.ZoneLists.Items[2].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 9
+				},
+				"AudioPage.ZoneLists.Items[3].Mute": {
+					"joinId": 1,
+					"smartObjectId": 10
+				},
+				"AudioPage.ZoneLists.Items[3].Master": {
+					"joinId": 2,
+					"smartObjectId": 10
+				},
+				"AudioPage.ZoneLists.Items[3].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 10
+				},
+				"AudioPage.ZoneLists.Items[3].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 10
+				},
+				"AudioPage.ZoneLists.Items[3].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 10
+				},
+				"AudioPage.ZoneLists.Items[4].Mute": {
+					"joinId": 1,
+					"smartObjectId": 11
+				},
+				"AudioPage.ZoneLists.Items[4].Master": {
+					"joinId": 2,
+					"smartObjectId": 11
+				},
+				"AudioPage.ZoneLists.Items[4].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 11
+				},
+				"AudioPage.ZoneLists.Items[4].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 11
+				},
+				"AudioPage.ZoneLists.Items[4].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 11
+				},
+				"AudioPage.ZoneLists.Items[5].Mute": {
+					"joinId": 1,
+					"smartObjectId": 12
+				},
+				"AudioPage.ZoneLists.Items[5].Master": {
+					"joinId": 2,
+					"smartObjectId": 12
+				},
+				"AudioPage.ZoneLists.Items[5].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 12
+				},
+				"AudioPage.ZoneLists.Items[5].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 12
+				},
+				"AudioPage.ZoneLists.Items[5].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 12
+				},
+				"AudioPage.ZoneLists.Items[6].Mute": {
+					"joinId": 1,
+					"smartObjectId": 13
+				},
+				"AudioPage.ZoneLists.Items[6].Master": {
+					"joinId": 2,
+					"smartObjectId": 13
+				},
+				"AudioPage.ZoneLists.Items[6].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 13
+				},
+				"AudioPage.ZoneLists.Items[6].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 13
+				},
+				"AudioPage.ZoneLists.Items[6].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 13
+				},
+				"AudioPage.ZoneLists.Items[7].Mute": {
+					"joinId": 1,
+					"smartObjectId": 14
+				},
+				"AudioPage.ZoneLists.Items[7].Master": {
+					"joinId": 2,
+					"smartObjectId": 14
+				},
+				"AudioPage.ZoneLists.Items[7].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 14
+				},
+				"AudioPage.ZoneLists.Items[7].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 14
+				},
+				"AudioPage.ZoneLists.Items[7].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 14
+				},
+				"AudioPage.ZoneLists.Items[8].Mute": {
+					"joinId": 1,
+					"smartObjectId": 15
+				},
+				"AudioPage.ZoneLists.Items[8].Master": {
+					"joinId": 2,
+					"smartObjectId": 15
+				},
+				"AudioPage.ZoneLists.Items[8].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 15
+				},
+				"AudioPage.ZoneLists.Items[8].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 15
+				},
+				"AudioPage.ZoneLists.Items[8].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 15
+				},
+				"AudioPage.ZoneLists.Items[9].Mute": {
+					"joinId": 1,
+					"smartObjectId": 16
+				},
+				"AudioPage.ZoneLists.Items[9].Master": {
+					"joinId": 2,
+					"smartObjectId": 16
+				},
+				"AudioPage.ZoneLists.Items[9].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 16
+				},
+				"AudioPage.ZoneLists.Items[9].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 16
+				},
+				"AudioPage.ZoneLists.Items[9].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 16
+				},
+				"AudioPage.ZoneLists.Items[10].Mute": {
+					"joinId": 1,
+					"smartObjectId": 17
+				},
+				"AudioPage.ZoneLists.Items[10].Master": {
+					"joinId": 2,
+					"smartObjectId": 17
+				},
+				"AudioPage.ZoneLists.Items[10].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 17
+				},
+				"AudioPage.ZoneLists.Items[10].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 17
+				},
+				"AudioPage.ZoneLists.Items[10].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 17
+				},
+				"AudioPage.ZoneLists.Items[11].Mute": {
+					"joinId": 1,
+					"smartObjectId": 18
+				},
+				"AudioPage.ZoneLists.Items[11].Master": {
+					"joinId": 2,
+					"smartObjectId": 18
+				},
+				"AudioPage.ZoneLists.Items[11].VolumeDown": {
+					"joinId": 3,
+					"smartObjectId": 18
+				},
+				"AudioPage.ZoneLists.Items[11].VolumeUp": {
+					"joinId": 4,
+					"smartObjectId": 18
+				},
+				"AudioPage.ZoneLists.Items[11].SourcePress_Event": {
+					"joinId": 5,
+					"smartObjectId": 18
+				},
+				"AudioPage.PresetLists.Presets[0].Selection": {
+					"joinId": 1,
+					"smartObjectId": 19
+				},
+				"AudioPage.PresetLists.Presets[1].Selection": {
+					"joinId": 1,
+					"smartObjectId": 20
+				},
+				"AudioPage.PresetLists.Presets[2].Selection": {
+					"joinId": 1,
+					"smartObjectId": 21
+				},
+				"AudioPage.PresetLists.Presets[3].Selection": {
+					"joinId": 1,
+					"smartObjectId": 22
+				},
+				"AudioPage.PresetLists.Presets[4].Selection": {
+					"joinId": 1,
+					"smartObjectId": 23
+				},
+				"AudioPage.PresetLists.Presets[5].Selection": {
+					"joinId": 1,
+					"smartObjectId": 24
+				},
+				"AudioPage.VolumeLists.VolumeList[0].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 25
+				},
+				"AudioPage.VolumeLists.VolumeList[1].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 26
+				},
+				"AudioPage.VolumeLists.VolumeList[2].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 27
+				},
+				"AudioPage.SourceLists.Items[0].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 28
+				},
+				"AudioPage.SourceLists.Items[1].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 29
+				},
+				"AudioPage.SourceLists.Items[2].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 30
+				},
+				"AudioPage.SourceLists.Items[3].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 31
+				},
+				"AudioPage.SourceLists.Items[4].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 32
+				},
+				"AudioPage.SourceLists.Items[5].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 33
+				},
+				"AudioPage.SourceLists.Items[6].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 34
+				},
+				"AudioPage.SourceLists.Items[7].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 35
+				},
+				"AudioPage.SourceLists.Items[8].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 36
+				},
+				"AudioPage.SourceLists.Items[9].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 37
+				},
+				"AudioPage.SourceLists.Items[10].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 38
+				},
+				"ShadePage.ShadeZones.Zone[0].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 156
+				},
+				"ShadePage.ShadeZones.Zone[0].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 156
+				},
+				"ShadePage.ShadeZones.Zone[0].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 156
+				},
+				"ShadePage.ShadeZones.Zone[0].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 156
+				},
+				"ShadePage.ShadeZones.Zone[0].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 156
+				},
+				"ShadePage.ShadeZones.Zone[0].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 156
+				},
+				"ShadePage.ShadeZones.Zone[1].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 157
+				},
+				"ShadePage.ShadeZones.Zone[1].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 157
+				},
+				"ShadePage.ShadeZones.Zone[1].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 157
+				},
+				"ShadePage.ShadeZones.Zone[1].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 157
+				},
+				"ShadePage.ShadeZones.Zone[1].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 157
+				},
+				"ShadePage.ShadeZones.Zone[1].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 157
+				},
+				"ShadePage.ShadeZones.Zone[2].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 158
+				},
+				"ShadePage.ShadeZones.Zone[2].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 158
+				},
+				"ShadePage.ShadeZones.Zone[2].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 158
+				},
+				"ShadePage.ShadeZones.Zone[2].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 158
+				},
+				"ShadePage.ShadeZones.Zone[2].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 158
+				},
+				"ShadePage.ShadeZones.Zone[2].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 158
+				},
+				"ShadePage.ShadeZones.Zone[3].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 159
+				},
+				"ShadePage.ShadeZones.Zone[3].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 159
+				},
+				"ShadePage.ShadeZones.Zone[3].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 159
+				},
+				"ShadePage.ShadeZones.Zone[3].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 159
+				},
+				"ShadePage.ShadeZones.Zone[3].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 159
+				},
+				"ShadePage.ShadeZones.Zone[3].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 159
+				},
+				"ShadePage.ShadeZones.Zone[4].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 160
+				},
+				"ShadePage.ShadeZones.Zone[4].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 160
+				},
+				"ShadePage.ShadeZones.Zone[4].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 160
+				},
+				"ShadePage.ShadeZones.Zone[4].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 160
+				},
+				"ShadePage.ShadeZones.Zone[4].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 160
+				},
+				"ShadePage.ShadeZones.Zone[4].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 160
+				},
+				"ShadePage.ShadeZones.Zone[5].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 161
+				},
+				"ShadePage.ShadeZones.Zone[5].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 161
+				},
+				"ShadePage.ShadeZones.Zone[5].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 161
+				},
+				"ShadePage.ShadeZones.Zone[5].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 161
+				},
+				"ShadePage.ShadeZones.Zone[5].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 161
+				},
+				"ShadePage.ShadeZones.Zone[5].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 161
+				},
+				"ShadePage.ShadeZones.Zone[6].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 162
+				},
+				"ShadePage.ShadeZones.Zone[6].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 162
+				},
+				"ShadePage.ShadeZones.Zone[6].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 162
+				},
+				"ShadePage.ShadeZones.Zone[6].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 162
+				},
+				"ShadePage.ShadeZones.Zone[6].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 162
+				},
+				"ShadePage.ShadeZones.Zone[6].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 162
+				},
+				"ShadePage.ShadeZones.Zone[7].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 163
+				},
+				"ShadePage.ShadeZones.Zone[7].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 163
+				},
+				"ShadePage.ShadeZones.Zone[7].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 163
+				},
+				"ShadePage.ShadeZones.Zone[7].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 163
+				},
+				"ShadePage.ShadeZones.Zone[7].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 163
+				},
+				"ShadePage.ShadeZones.Zone[7].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 163
+				},
+				"ShadePage.ShadeZones.Zone[8].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 164
+				},
+				"ShadePage.ShadeZones.Zone[8].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 164
+				},
+				"ShadePage.ShadeZones.Zone[8].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 164
+				},
+				"ShadePage.ShadeZones.Zone[8].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 164
+				},
+				"ShadePage.ShadeZones.Zone[8].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 164
+				},
+				"ShadePage.ShadeZones.Zone[8].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 164
+				},
+				"ShadePage.ShadeZones.Zone[9].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 165
+				},
+				"ShadePage.ShadeZones.Zone[9].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 165
+				},
+				"ShadePage.ShadeZones.Zone[9].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 165
+				},
+				"ShadePage.ShadeZones.Zone[9].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 165
+				},
+				"ShadePage.ShadeZones.Zone[9].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 165
+				},
+				"ShadePage.ShadeZones.Zone[9].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 165
+				},
+				"ShadePage.ShadeZones.Zone[10].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 166
+				},
+				"ShadePage.ShadeZones.Zone[10].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 166
+				},
+				"ShadePage.ShadeZones.Zone[10].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 166
+				},
+				"ShadePage.ShadeZones.Zone[10].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 166
+				},
+				"ShadePage.ShadeZones.Zone[10].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 166
+				},
+				"ShadePage.ShadeZones.Zone[10].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 166
+				},
+				"ShadePage.ShadeZones.Zone[11].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 167
+				},
+				"ShadePage.ShadeZones.Zone[11].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 167
+				},
+				"ShadePage.ShadeZones.Zone[11].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 167
+				},
+				"ShadePage.ShadeZones.Zone[11].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 167
+				},
+				"ShadePage.ShadeZones.Zone[11].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 167
+				},
+				"ShadePage.ShadeZones.Zone[11].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 167
+				},
+				"ShadePage.ShadeZones.Zone[12].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 168
+				},
+				"ShadePage.ShadeZones.Zone[12].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 168
+				},
+				"ShadePage.ShadeZones.Zone[12].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 168
+				},
+				"ShadePage.ShadeZones.Zone[12].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 168
+				},
+				"ShadePage.ShadeZones.Zone[12].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 168
+				},
+				"ShadePage.ShadeZones.Zone[12].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 168
+				},
+				"ShadePage.ShadeZones.Zone[13].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 169
+				},
+				"ShadePage.ShadeZones.Zone[13].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 169
+				},
+				"ShadePage.ShadeZones.Zone[13].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 169
+				},
+				"ShadePage.ShadeZones.Zone[13].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 169
+				},
+				"ShadePage.ShadeZones.Zone[13].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 169
+				},
+				"ShadePage.ShadeZones.Zone[13].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 169
+				},
+				"ShadePage.ShadeZones.Zone[14].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 170
+				},
+				"ShadePage.ShadeZones.Zone[14].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 170
+				},
+				"ShadePage.ShadeZones.Zone[14].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 170
+				},
+				"ShadePage.ShadeZones.Zone[14].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 170
+				},
+				"ShadePage.ShadeZones.Zone[14].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 170
+				},
+				"ShadePage.ShadeZones.Zone[14].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 170
+				},
+				"ShadePage.ShadeZones.Zone[15].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 171
+				},
+				"ShadePage.ShadeZones.Zone[15].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 171
+				},
+				"ShadePage.ShadeZones.Zone[15].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 171
+				},
+				"ShadePage.ShadeZones.Zone[15].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 171
+				},
+				"ShadePage.ShadeZones.Zone[15].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 171
+				},
+				"ShadePage.ShadeZones.Zone[15].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 171
+				},
+				"ShadePage.ShadeZones.Zone[16].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 172
+				},
+				"ShadePage.ShadeZones.Zone[16].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 172
+				},
+				"ShadePage.ShadeZones.Zone[16].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 172
+				},
+				"ShadePage.ShadeZones.Zone[16].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 172
+				},
+				"ShadePage.ShadeZones.Zone[16].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 172
+				},
+				"ShadePage.ShadeZones.Zone[16].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 172
+				},
+				"ShadePage.ShadeZones.Zone[17].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 173
+				},
+				"ShadePage.ShadeZones.Zone[17].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 173
+				},
+				"ShadePage.ShadeZones.Zone[17].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 173
+				},
+				"ShadePage.ShadeZones.Zone[17].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 173
+				},
+				"ShadePage.ShadeZones.Zone[17].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 173
+				},
+				"ShadePage.ShadeZones.Zone[17].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 173
+				},
+				"ShadePage.ShadeZones.Zone[18].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 174
+				},
+				"ShadePage.ShadeZones.Zone[18].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 174
+				},
+				"ShadePage.ShadeZones.Zone[18].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 174
+				},
+				"ShadePage.ShadeZones.Zone[18].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 174
+				},
+				"ShadePage.ShadeZones.Zone[18].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 174
+				},
+				"ShadePage.ShadeZones.Zone[18].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 174
+				},
+				"ShadePage.ShadeZones.Zone[19].Open_PressEvent": {
+					"joinId": 1,
+					"smartObjectId": 175
+				},
+				"ShadePage.ShadeZones.Zone[19].Stop_PressEvent": {
+					"joinId": 2,
+					"smartObjectId": 175
+				},
+				"ShadePage.ShadeZones.Zone[19].Close_PressEvent": {
+					"joinId": 3,
+					"smartObjectId": 175
+				},
+				"ShadePage.ShadeZones.Zone[19].Preset1_PressEvent": {
+					"joinId": 4,
+					"smartObjectId": 175
+				},
+				"ShadePage.ShadeZones.Zone[19].Preset2_PressEvent": {
+					"joinId": 5,
+					"smartObjectId": 175
+				},
+				"ShadePage.ShadeZones.Zone[19].Preset3_PressEvent": {
+					"joinId": 6,
+					"smartObjectId": 175
+				},
+				"VideoPage.Zones.Items[0].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 183
+				},
+				"VideoPage.Zones.Items[0].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 183
+				},
+				"VideoPage.Zones.Items[1].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 184
+				},
+				"VideoPage.Zones.Items[1].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 184
+				},
+				"VideoPage.Zones.Items[2].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 185
+				},
+				"VideoPage.Zones.Items[2].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 185
+				},
+				"VideoPage.Zones.Items[3].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 186
+				},
+				"VideoPage.Zones.Items[3].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 186
+				},
+				"VideoPage.Zones.Items[4].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 187
+				},
+				"VideoPage.Zones.Items[4].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 187
+				},
+				"VideoPage.Zones.Items[5].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 188
+				},
+				"VideoPage.Zones.Items[5].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 188
+				},
+				"VideoPage.Zones.Items[6].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 189
+				},
+				"VideoPage.Zones.Items[6].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 189
+				},
+				"VideoPage.Zones.Items[7].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 190
+				},
+				"VideoPage.Zones.Items[7].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 190
+				},
+				"VideoPage.Zones.Items[8].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 191
+				},
+				"VideoPage.Zones.Items[8].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 191
+				},
+				"VideoPage.Zones.Items[9].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 192
+				},
+				"VideoPage.Zones.Items[9].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 192
+				},
+				"VideoPage.Zones.Items[10].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 193
+				},
+				"VideoPage.Zones.Items[10].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 193
+				},
+				"VideoPage.Zones.Items[11].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 194
+				},
+				"VideoPage.Zones.Items[11].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 194
+				},
+				"VideoPage.Zones.Items[12].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 195
+				},
+				"VideoPage.Zones.Items[12].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 195
+				},
+				"VideoPage.Zones.Items[13].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 196
+				},
+				"VideoPage.Zones.Items[13].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 196
+				},
+				"VideoPage.Zones.Items[14].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 197
+				},
+				"VideoPage.Zones.Items[14].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 197
+				},
+				"VideoPage.Zones.Items[15].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 198
+				},
+				"VideoPage.Zones.Items[15].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 198
+				},
+				"VideoPage.Zones.Items[16].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 199
+				},
+				"VideoPage.Zones.Items[16].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 199
+				},
+				"VideoPage.Zones.Items[17].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 200
+				},
+				"VideoPage.Zones.Items[17].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 200
+				},
+				"VideoPage.Zones.Items[18].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 201
+				},
+				"VideoPage.Zones.Items[18].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 201
+				},
+				"VideoPage.Zones.Items[19].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 202
+				},
+				"VideoPage.Zones.Items[19].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 202
+				},
+				"VideoPage.Zones.Items[20].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 203
+				},
+				"VideoPage.Zones.Items[20].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 203
+				},
+				"VideoPage.Zones.Items[21].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 204
+				},
+				"VideoPage.Zones.Items[21].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 204
+				},
+				"VideoPage.Zones.Items[22].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 205
+				},
+				"VideoPage.Zones.Items[22].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 205
+				},
+				"VideoPage.Zones.Items[23].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 206
+				},
+				"VideoPage.Zones.Items[23].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 206
+				},
+				"VideoPage.Zones.Items[24].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 207
+				},
+				"VideoPage.Zones.Items[24].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 207
+				},
+				"VideoPage.Zones.Items[25].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 208
+				},
+				"VideoPage.Zones.Items[25].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 208
+				},
+				"VideoPage.Zones.Items[26].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 209
+				},
+				"VideoPage.Zones.Items[26].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 209
+				},
+				"VideoPage.Zones.Items[27].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 210
+				},
+				"VideoPage.Zones.Items[27].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 210
+				},
+				"VideoPage.Zones.Items[28].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 211
+				},
+				"VideoPage.Zones.Items[28].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 211
+				},
+				"VideoPage.Zones.Items[29].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 212
+				},
+				"VideoPage.Zones.Items[29].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 212
+				},
+				"VideoPage.Zones.Items[30].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 213
+				},
+				"VideoPage.Zones.Items[30].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 213
+				},
+				"VideoPage.Zones.Items[31].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 214
+				},
+				"VideoPage.Zones.Items[31].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 214
+				},
+				"VideoPage.Zones.Items[32].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 215
+				},
+				"VideoPage.Zones.Items[32].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 215
+				},
+				"VideoPage.Zones.Items[33].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 216
+				},
+				"VideoPage.Zones.Items[33].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 216
+				},
+				"VideoPage.Zones.Items[34].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 217
+				},
+				"VideoPage.Zones.Items[34].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 217
+				},
+				"VideoPage.Zones.Items[35].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 218
+				},
+				"VideoPage.Zones.Items[35].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 218
+				},
+				"VideoPage.Zones.Items[36].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 219
+				},
+				"VideoPage.Zones.Items[36].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 219
+				},
+				"VideoPage.Zones.Items[37].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 220
+				},
+				"VideoPage.Zones.Items[37].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 220
+				},
+				"VideoPage.Zones.Items[38].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 221
+				},
+				"VideoPage.Zones.Items[38].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 221
+				},
+				"VideoPage.Zones.Items[39].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 222
+				},
+				"VideoPage.Zones.Items[39].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 222
+				},
+				"VideoPage.Zones.Items[40].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 223
+				},
+				"VideoPage.Zones.Items[40].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 223
+				},
+				"VideoPage.Zones.Items[41].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 224
+				},
+				"VideoPage.Zones.Items[41].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 224
+				},
+				"VideoPage.Zones.Items[42].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 225
+				},
+				"VideoPage.Zones.Items[42].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 225
+				},
+				"VideoPage.Zones.Items[43].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 226
+				},
+				"VideoPage.Zones.Items[43].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 226
+				},
+				"VideoPage.Zones.Items[44].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 227
+				},
+				"VideoPage.Zones.Items[44].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 227
+				},
+				"VideoPage.Zones.Items[45].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 228
+				},
+				"VideoPage.Zones.Items[45].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 228
+				},
+				"VideoPage.Zones.Items[46].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 229
+				},
+				"VideoPage.Zones.Items[46].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 229
+				},
+				"VideoPage.Zones.Items[47].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 230
+				},
+				"VideoPage.Zones.Items[47].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 230
+				},
+				"VideoPage.Zones.Items[48].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 231
+				},
+				"VideoPage.Zones.Items[48].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 231
+				},
+				"VideoPage.Zones.Items[49].PowerToggle": {
+					"joinId": 1,
+					"smartObjectId": 232
+				},
+				"VideoPage.Zones.Items[49].SourceSelection": {
+					"joinId": 2,
+					"smartObjectId": 232
+				},
+				"VideoPage.Presets.Preset[0].Selection": {
+					"joinId": 1,
+					"smartObjectId": 233
+				},
+				"VideoPage.Presets.Preset[1].Selection": {
+					"joinId": 1,
+					"smartObjectId": 234
+				},
+				"VideoPage.Presets.Preset[2].Selection": {
+					"joinId": 1,
+					"smartObjectId": 235
+				},
+				"VideoPage.Presets.Preset[3].Selection": {
+					"joinId": 1,
+					"smartObjectId": 236
+				},
+				"VideoPage.Presets.Preset[4].Selection": {
+					"joinId": 1,
+					"smartObjectId": 237
+				},
+				"VideoPage.Presets.Preset[5].Selection": {
+					"joinId": 1,
+					"smartObjectId": 238
+				},
+				"VideoPage.Presets.Preset[6].Selection": {
+					"joinId": 1,
+					"smartObjectId": 239
+				},
+				"VideoPage.Presets.Preset[7].Selection": {
+					"joinId": 1,
+					"smartObjectId": 240
+				},
+				"VideoPage.Presets.Preset[8].Selection": {
+					"joinId": 1,
+					"smartObjectId": 241
+				},
+				"VideoPage.Presets.Preset[9].Selection": {
+					"joinId": 1,
+					"smartObjectId": 242
+				},
+				"VideoPage.VideoSources.Source[0].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 243
+				},
+				"VideoPage.VideoSources.Source[1].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 244
+				},
+				"VideoPage.VideoSources.Source[2].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 245
+				},
+				"VideoPage.VideoSources.Source[3].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 246
+				},
+				"VideoPage.VideoSources.Source[4].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 247
+				},
+				"VideoPage.VideoSources.Source[5].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 248
+				},
+				"VideoPage.VideoSources.Source[6].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 249
+				},
+				"VideoPage.VideoSources.Source[7].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 250
+				},
+				"VideoPage.VideoSources.Source[8].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 251
+				},
+				"VideoPage.VideoSources.Source[9].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 252
+				},
+				"VideoPage.VideoSources.Source[10].Press_Event": {
+					"joinId": 1,
+					"smartObjectId": 253
+				}
+			},
+			"numeric": {
+				"LightPage.LightList[0].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 40
+				},
+				"LightPage.LightList[1].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 41
+				},
+				"LightPage.LightList[2].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 42
+				},
+				"LightPage.LightList[3].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 43
+				},
+				"LightPage.LightList[4].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 44
+				},
+				"LightPage.LightList[5].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 45
+				},
+				"LightPage.LightList[6].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 46
+				},
+				"LightPage.LightList[7].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 47
+				},
+				"LightPage.LightList[8].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 48
+				},
+				"LightPage.LightList[9].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 49
+				},
+				"LightPage.LightList[10].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 50
+				},
+				"LightPage.LightList[11].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 51
+				},
+				"LightPage.LightList[12].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 52
+				},
+				"LightPage.LightList[13].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 53
+				},
+				"LightPage.LightList[14].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 54
+				},
+				"LightPage.LightList[15].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 55
+				},
+				"LightPage.LightList[16].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 56
+				},
+				"LightPage.LightList[17].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 57
+				},
+				"LightPage.LightList[18].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 58
+				},
+				"LightPage.LightList[19].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 59
+				},
+				"LightPage.LightList[20].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 60
+				},
+				"LightPage.LightList[21].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 61
+				},
+				"LightPage.LightList[22].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 62
+				},
+				"LightPage.LightList[23].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 63
+				},
+				"LightPage.LightList[24].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 64
+				},
+				"LightPage.LightList[25].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 65
+				},
+				"LightPage.LightList[26].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 66
+				},
+				"LightPage.LightList[27].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 67
+				},
+				"LightPage.LightList[28].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 68
+				},
+				"LightPage.LightList[29].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 69
+				},
+				"LightPage.LightList[30].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 70
+				},
+				"LightPage.LightList[31].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 71
+				},
+				"LightPage.LightList[32].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 72
+				},
+				"LightPage.LightList[33].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 73
+				},
+				"LightPage.LightList[34].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 74
+				},
+				"LightPage.LightList[35].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 75
+				},
+				"LightPage.LightList[36].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 76
+				},
+				"LightPage.LightList[37].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 77
+				},
+				"LightPage.LightList[38].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 78
+				},
+				"LightPage.LightList[39].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 79
+				},
+				"LightPage.LightList[40].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 80
+				},
+				"LightPage.LightList[41].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 81
+				},
+				"LightPage.LightList[42].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 82
+				},
+				"LightPage.LightList[43].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 83
+				},
+				"LightPage.LightList[44].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 84
+				},
+				"LightPage.LightList[45].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 85
+				},
+				"LightPage.LightList[46].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 86
+				},
+				"LightPage.LightList[47].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 87
+				},
+				"LightPage.LightList[48].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 88
+				},
+				"LightPage.LightList[49].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 89
+				},
+				"LightPage.LightList[50].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 90
+				},
+				"LightPage.LightList[51].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 91
+				},
+				"LightPage.LightList[52].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 92
+				},
+				"LightPage.LightList[53].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 93
+				},
+				"LightPage.LightList[54].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 94
+				},
+				"LightPage.LightList[55].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 95
+				},
+				"LightPage.LightList[56].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 96
+				},
+				"LightPage.LightList[57].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 97
+				},
+				"LightPage.LightList[58].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 98
+				},
+				"LightPage.LightList[59].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 99
+				},
+				"LightPage.LightList[60].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 100
+				},
+				"LightPage.LightList[61].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 101
+				},
+				"LightPage.LightList[62].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 102
+				},
+				"LightPage.LightList[63].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 103
+				},
+				"LightPage.LightList[64].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 104
+				},
+				"LightPage.LightList[65].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 105
+				},
+				"LightPage.LightList[66].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 106
+				},
+				"LightPage.LightList[67].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 107
+				},
+				"LightPage.LightList[68].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 108
+				},
+				"LightPage.LightList[69].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 109
+				},
+				"LightPage.LightList[70].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 110
+				},
+				"LightPage.LightList[71].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 111
+				},
+				"LightPage.LightList[72].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 112
+				},
+				"LightPage.LightList[73].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 113
+				},
+				"LightPage.LightList[74].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 114
+				},
+				"LightPage.LightList[75].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 115
+				},
+				"LightPage.LightList[76].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 116
+				},
+				"LightPage.LightList[77].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 117
+				},
+				"LightPage.LightList[78].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 118
+				},
+				"LightPage.LightList[79].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 119
+				},
+				"LightPage.LightList[80].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 120
+				},
+				"LightPage.LightList[81].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 121
+				},
+				"LightPage.LightList[82].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 122
+				},
+				"LightPage.LightList[83].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 123
+				},
+				"LightPage.LightList[84].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 124
+				},
+				"LightPage.LightList[85].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 125
+				},
+				"LightPage.LightList[86].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 126
+				},
+				"LightPage.LightList[87].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 127
+				},
+				"LightPage.LightList[88].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 128
+				},
+				"LightPage.LightList[89].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 129
+				},
+				"LightPage.LightList[90].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 130
+				},
+				"LightPage.LightList[91].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 131
+				},
+				"LightPage.LightList[92].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 132
+				},
+				"LightPage.LightList[93].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 133
+				},
+				"LightPage.LightList[94].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 134
+				},
+				"LightPage.LightList[95].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 135
+				},
+				"LightPage.LightList[96].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 136
+				},
+				"LightPage.LightList[97].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 137
+				},
+				"LightPage.LightList[98].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 138
+				},
+				"LightPage.LightList[99].LightOnChange": {
+					"joinId": 2,
+					"smartObjectId": 139
+				}
+			}
+		}
+	}
+}

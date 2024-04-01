@@ -1,0 +1,154 @@
+<template id="controlpads-widget">
+  <div class="controlpads-widget" aria-labelledby="Controlpads">
+    <div class="grid__item">
+      <ch5-button
+        id="btn_backward"
+        iconclass="fas fa-backward"
+        iconposition="top"
+        sendeventonclick="VideoPage.ControlButtons.Backward_Press"
+        receivestateselected="VideoPage.ControlButtons.Backward_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_play"
+        iconclass="fas fa-play"
+        iconposition="top"
+        sendeventonclick="VideoPage.ControlButtons.Play_Press"
+        receivestateselected="VideoPage.ControlButtons.Play_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_forward"
+        iconclass="fas fa-forward"
+        iconposition="top"
+        sendeventonclick="VideoPage.ControlButtons.Forward_Press"
+        receivestateselected="VideoPage.ControlButtons.Forward_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_channelUp"
+        iconclass="fas fa-chevron-up"
+        sendeventonclick="VideoPage.ControlButtons.ChannelUp_Press"
+        receivestateselected="VideoPage.ControlButtons.ChannelUp_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+
+    <div class="grid__item">
+      <ch5-button
+        id="btn_backward-step"
+        iconclass="fas fa-backward-step"
+        sendeventonclick="VideoPage.ControlButtons.BackwardStep_Press"
+        receivestateselected="VideoPage.ControlButtons.BackwardStep_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_pause"
+        iconclass="fas fa-pause"
+        sendeventonclick="VideoPage.ControlButtons.Pause_Press"
+        receivestateselected="VideoPage.ControlButtons.Pause_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_forward-step"
+        iconclass="fas fa-forward-step"
+        sendeventonclick="VideoPage.ControlButtons.ForwardStep_Press"
+        receivestateselected="VideoPage.ControlButtons.ForwardStep_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_channel-down"
+        iconclass="fas fa-chevron-down"
+        sendeventonclick="VideoPage.ControlButtons.ChannelDown_Press"
+        receivestateselected="VideoPage.ControlButtons.ChannelDown_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_stop"
+        iconclass="fas fa-stop"
+        sendeventonclick="VideoPage.ControlButtons.Stop_Press"
+        receivestateselected="VideoPage.ControlButtons.Stop_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_menu"
+        iconclass="fas fa-bars"
+        sendeventonclick="VideoPage.ControlButtons.Menu_Press"
+        receivestateselected="VideoPage.ControlButtons.Menu_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_guide"
+        iconclass="fas fa-expand"
+        sendeventonclick="VideoPage.ControlButtons.Guide_Press"
+        receivestateselected="VideoPage.ControlButtons.Guide_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_plus"
+        iconclass="fas fa-plus"
+        sendeventonclick="VideoPage.ControlButtons.Plus_Press"
+        receivestateselected="VideoPage.ControlButtons.Minus_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_power"
+        iconclass="fas fa-power-off"
+        sendeventonclick="VideoPage.ControlButtons.PowerPress"
+        receivestateselected="VideoPage.ControlButtons.Power_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_info"
+        iconclass="fas fa-info"
+        sendeventonclick="VideoPage.ControlButtons.Info_Press"
+        receivestateselected="VideoPage.ControlButtons.Info_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_eject"
+        iconclass="fas fa-eject"
+        sendeventonclick="VideoPage.ControlButtons.Eject_Press"
+        receivestateselected="VideoPage.ControlButtons.Eject_State"
+        stretch="width">
+      </ch5-button>
+    </div>
+    <div class="grid__item">
+      <ch5-button
+        id="btn_minus"
+        iconclass="fas fa-minus"
+        sendeventonclick="VideoPage.ControlButtons.Minus_Press"
+        receivestateselected="VideoPage.ControlButtons.Minus_State"
+        stretch="width">
+      </ch5-button>
+      
+    </div>
+   
+  </div>
+</template>

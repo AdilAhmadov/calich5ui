@@ -1,0 +1,113 @@
+
+<section id="audiopage-page" class="details-container" aria-labelledby="Audiopage">
+    <div class="audiopage__container">
+        <!--Main Audio Subpage Referance List-->
+        <div class="audio__menu-list">
+          <ch5-subpage-reference-list
+            widgetid="audiocontrols-widget"
+            orientation="vertical"
+            numberofitems="12"
+            columns="4"
+            scrollbar="false"
+            indexid="idx" loaditems="all">
+          </ch5-subpage-reference-list>
+        </div>    
+        
+    <!---->
+        <!--Main Audio Source Selection List-->
+        <div class="audio__source-container">
+          <!--audio__source-list-->
+          <div class="row">  
+            <div class="col-12">
+              <ch5-button-list
+              id="ch5-button-list_id"
+              orientation="horizontal"
+              scrollbar="false"
+              centerItems="true"
+              endless="false"
+              numberOfItems="11"
+              indexId="idx"
+              buttonType="success"
+              buttonHAlignLabel="center"
+              buttonVAlignLabel="middle"
+              buttonIconPosition="first"
+              buttonShape="rounded-rectangle"          
+              buttonReceiveStateSelected="AudioPage.SourceLists.Items[{{idx}}].SelectedState"
+              buttonReceiveStateIconClass="AudioPage.SourceLists.Items[{{idx}}].IconClass"
+              buttonreceivestatelabel="AudioPage.SourceLists.Items[{{idx}}].Name"
+              buttonSendEventOnClick="AudioPage.SourceLists.Items[{{idx}}].Press_Event"
+              contractname=""
+              stretch="both"
+              buttonSgIconTheme="icons-lg"
+              loadItems="visible-only"
+              clickHoldTime="1500">
+            </ch5-button-list>
+            </div>     
+          </div>
+            <!--audio__controls-->
+          <div class="row">
+            <!--Audio Preset Control-->
+            <div class="col-6">
+              <ch5-button-list
+                id="ch5-button-list_id"
+                orientation="horizontal"
+                scrollbar="false"
+                buttontype="info"
+                endless="false"
+                numberOfItems="6"
+                rows="1"
+                buttonShape="rounded-rectangle"            
+                centeritems="true"
+                stretch="both"
+                columns="1"
+                indexId="idx"
+                loadItems="visible-only"
+                scrollToPosition="0"
+                usecontractfornumitems="true"
+                usecontractforeachbuttonselection="true"
+                buttonreceivestateselected="AudioPage.PresetLists.Presets[{{idx}}].SelectedState"
+                contractitemlabeltype="textContent"
+                contractitemicontype="iconClass"
+                buttonReceiveStateIconClass="AudioPage.PresetLists.Presets[{{idx}}].IconClass"
+                buttonreceivestatelabel="AudioPage.PresetLists.Presets[{{idx}}].Name"              
+                buttonSendEventOnClick="AudioPage.PresetLists.Presets[{{idx}}].Selection">       
+            </div>
+            
+            <!--Audio Ducker Control-->
+            <div class="col-2">
+              <ch5-button
+                id="btn_id"
+                Type="success"                
+                stretch="both"
+                receivestateselected="AudioPage.DuckerButton.SelectedState"
+                sendeventonclick="AudioPage.DuckerButton.Press_Event"
+                receivestateiconclass="AudioPage.DuckerButton.IconClass"
+                receivestatelabel="AudioPage.DuckerButton.Name">
+              </ch5-button>
+            </div>    
+            <!--Audio Volume Control    audio__volume-list-->
+            <div class="col-4">
+              <ch5-button-list
+                id="ch5-button-list_id"
+                orientation="horizontal"
+                scrollbar="false"
+                endless="false"
+                numberOfItems="3"
+                centeritems="true"
+                stretch="both"
+                buttontype="info"
+                rows="1"
+                buttonShape="rounded-rectangle"
+                buttonReceiveStateIconClass="AudioPage.VolumeLists.VolumeList[{{idx}}].IconClass"
+                buttonReceiveStateSelected="AudioPage.VolumeLists.VolumeList[{{idx}}].SelectedState"           
+                buttonreceivestatelabel="AudioPage.VolumeLists.VolumeList[{{idx}}].Name"
+                buttonSendEventOnClick="AudioPage.VolumeLists.VolumeList[{{idx}}].Press_Event"
+                columns="1"
+                indexId="idx"
+                loadItems="visible-only"
+                scrollToPosition="0">
+            </div>
+          </div>
+        </div>
+    </div>
+</section>

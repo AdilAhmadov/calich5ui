@@ -1,0 +1,53 @@
+.tv__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 40px 1fr 40px;
+  background: rgba(24, 24, 27, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.1);
+  padding: 5px;
+  gap: 5px;
+  max-width: 360;
+
+
+  //min-width: 350px;
+
+  ch5-jointotext-string {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+  } 
+
+  .source-icon,
+  .zone-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 32px;
+    height: 32px;
+    i{
+      color: white;
+      height: fit-content;
+      width: fit-content;
+    }
+
+  }
+
+  .zone-source{
+    align-self: center;
+  }
+  .zone-toggle{
+    .ch5-toggle__label{
+      color: white;
+      opacity: 1;
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (width: 1280px){
+    
+    
+}
+ 
+}

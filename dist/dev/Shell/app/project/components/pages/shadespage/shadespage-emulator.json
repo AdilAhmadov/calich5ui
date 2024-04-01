@@ -1,0 +1,55 @@
+{
+  "cues": [],
+  "onStart": [
+    {
+      "state": "ShadePage.ShadeZones.Zone[0].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-1"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[1].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-2"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[2].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-3"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[3].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-4"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[4].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-5"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[5].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-6"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[6].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-7"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[7].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-8"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[8].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-9"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[9].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-10"
+    }
+  ]
+}

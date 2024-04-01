@@ -1,0 +1,54 @@
+<template id="keypad-dpad-widget"> 
+    <div class="keypad-dpad-widget" aria-labelledby="Keypad Dpad"> 
+        <!--  -->
+        <div class="controldpad-widget" data-ch5-showpulse="SourcePage.DpadSubpageVisibility" data-ch5-noshow-type="remove" data-ch5-hidepulse="SourcePage.KeypadSubpageVisibility">
+            <div>
+                <ch5-dpad id="btn_sourceDpad"
+                contractname="SourcePage.Dpad"
+                shape="circle"
+                type="secondary"
+                stretch="both">
+            </ch5-dpad>
+            </div>
+            <div class="colored-buttons">
+                <ch5-button id="btn_id" sendeventonclick="btn_id_clicked" shape="circle"  type="danger"></ch5-button>
+                <ch5-button id="btn_id" sendeventonclick="btn_id_clicked" shape="circle"  type="success"></ch5-button>
+                <ch5-button id="btn_id" sendeventonclick="btn_id_clicked" shape="circle"  type="warning"></ch5-button>
+                <ch5-button id="btn_id" sendeventonclick="btn_id_clicked" shape="circle"  type="info"></ch5-button>
+            </div>
+
+        </div>
+        <div class="controlkeypad-widget" data-ch5-showpulse="SourcePage.KeypadSubpageVisibility" data-ch5-noshow-type="display" data-ch5-hidepulse="SourcePage.DpadSubpageVisibility" > 
+            <ch5-keypad id="keypad_id"
+            shape="square"
+            type="primary"
+            textOrientation="top"
+            size="small"
+            showextrabutton="false"
+            hidePoundButton="false"
+            hideAsteriskButton="false"
+            contractname="SourcePage.Keypad">       
+          </ch5-keypad>
+        </div>
+        <div class="item-1">
+            
+            <ch5-button id="btn_dpad_id"
+                label="Dpad"
+                shape="rectangle"
+          
+                sendeventonclick="SourcePage.Dpad_PressEvent" stretch="width"
+                receivestateselected="SourcePage.DpadButtonSelected">
+                <!--  -->
+            </ch5-button>
+        </div>
+        <div class="item-2">
+            <ch5-button id="btn_keypad_id"
+                label="Keypad"
+                shape="rectangle"
+                sendeventonclick="SourcePage.Keypad_PressEvent" stretch="width"
+                receivestateselected="SourcePage.KeypadButtonSelected">
+            </ch5-button>
+        </div>
+       
+    </div>
+</template>

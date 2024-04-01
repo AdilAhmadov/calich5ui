@@ -1,0 +1,39 @@
+<section id="loginpage-page" class="details-container" aria-labelledby="Loginpage">
+    <div class="container">
+        <div class="row text-center">
+          <div class="col mb-3">
+            <ch5-textinput id="ch5-textinput_id"
+              mask=""
+              iconClass="fas fa-user"
+              placeholder="Password"
+              iconPosition="first"
+              minLength="5"
+              maxLength="8"
+              minValue="5"
+              maxValue="8"
+              size="regular"
+              text-transform="none"
+              scaling="true"
+              minimumFontSize="12"
+              receivestatevalue="TestContract"
+              tabIndex="0">
+            </ch5-textinput>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col">
+            <ch5-keypad id="keypad_id"
+              contractName="TestContract"
+              shape="rounded-rectangle"
+              type="success"
+              textOrientation="top"
+              size="x-large"
+              showextrabutton="true"
+              hidePoundButton="false"
+              hideAsteriskButton="false" debug="true">
+              <ch5-keypad-button key="buttonextra" iconClass="fas fa-user"></ch5-keypad-button>
+            </ch5-keypad>
+          </div>
+        </div>
+       </div>
+</section>

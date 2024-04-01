@@ -1,0 +1,34 @@
+
+.shadezone-widget {
+   display: flex;
+   flex-direction: row;
+   max-height: 100px;
+   max-width: 850px;
+   gap: 5px;
+   justify-content: space-between;
+   text-align: center;
+   border: 2px;
+   border-radius: 10px;
+   background-color: rgba(24,24,27, 0.8);
+   box-shadow: 2px 2px 2px hsla(3, 10%, 10%, 0.4);
+   padding: 5px;
+   .percentage{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100px;
+    >h5{
+        color: wheat;
+    }
+   }
+   .zone-name{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-width: 160px;
+    >h5{
+        color: rgb(255, 255, 255);
+        font-size: medium;
+    }
+   }
+}

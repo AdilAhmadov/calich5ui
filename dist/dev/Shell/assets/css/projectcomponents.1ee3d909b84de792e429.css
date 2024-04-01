@@ -1,0 +1,916 @@
+/*!************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/pages/audiopage/audiopage.scss ***!
+  \************************************************************************************************************************************************/
+#audiopage-page .audio__source-container,
+#audiopage-page .audio__menu-list {
+  border: 2px solid hsl(0deg, 36%, 44%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: rgba(17, 16, 16, 0.4);
+}
+#audiopage-page .audiopage__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#audiopage-page .audiopage__container .audio__menu-list {
+  min-height: 460px;
+  margin-bottom: 30px;
+}
+#audiopage-page .audiopage__container .audio__source-container {
+  min-width: 100%;
+  min-height: 180px;
+}
+#audiopage-page .audiopage__container .audio__source-container .ch5-button--icon {
+  font-size: 30px;
+  opacity: 1;
+  padding-right: 10px;
+}
+#audiopage-page .audiopage__container .audio__source-container .ch5-button--pressed {
+  color: #f0fff0;
+  background-color: rgba(88, 112, 128, 0.7725490196);
+  border-color: #0091ea;
+}
+@media screen and (width: 1280px) {
+  #audiopage-page .audiopage__container .audio__menu-list {
+    height: 454px;
+    padding: 2px;
+    margin-bottom: 0px;
+  }
+  #audiopage-page .audiopage__container .ch5-subpage-reference-list.ch5-subpage-reference-list--orientation-vertical.ch5-subpage-reference-list--columns-4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #audiopage-page .audiopage__container .audio__source-container {
+    margin-top: 3px;
+    min-height: 142px;
+  }
+}
+/*!************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/pages/lightpage/lightpage.scss ***!
+  \************************************************************************************************************************************************/
+#lightpage-page {
+  display: flex;
+  justify-content: center;
+}
+#lightpage-page .lightControls {
+  border: 1px solid hsl(0deg, 6%, 83%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  display: flex;
+  justify-content: center;
+  max-height: 1070px;
+  background-color: rgba(17, 16, 16, 0.4);
+}
+#lightpage-page .light__scenecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(17, 16, 16, 0.4);
+}
+@media screen and (max-height: 1080px) {
+  #lightpage-page .lightControls {
+    max-height: 950px;
+  }
+}
+@media screen and (max-height: 800px) {
+  #lightpage-page .lightControls {
+    max-height: 650px;
+  }
+  #lightpage-page .ch5-subpage-reference-list.ch5-subpage-reference-list--orientation-vertical.ch5-subpage-reference-list--columns-5 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/*!************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/pages/loginpage/loginpage.scss ***!
+  \************************************************************************************************************************************************/
+#loginpage-page {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 100%;
+}
+#loginpage-page .form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+#loginpage-page .form-signin .checkbox {
+  font-weight: 400;
+}
+#loginpage-page .form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+#loginpage-page .form-signin input[type=email] {
+  margin-bottom: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#loginpage-page .form-signin input[type=password] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*!**********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/pages/mainpage/mainpage.scss ***!
+  \**********************************************************************************************************************************************/
+#mainpage-page .button__container {
+  display: flex;
+  width: fit-content;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  background-color: rgba(17, 16, 16, 0.4);
+  gap: 10px;
+  padding: 10px;
+}
+#mainpage-page .button__container .ch5-button .cb-btn {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #40505e;
+  border-radius: 0%;
+}
+#mainpage-page .button__container .ch5-button .cb-btn .ch5-button--label {
+  font-size: 26px;
+  flex-wrap: nowrap;
+  opacity: 1;
+}
+#mainpage-page .button__container .ch5-button--pressed {
+  background-color: rgba(210, 123, 16, 0.6);
+  scale: 1.1;
+  z-index: 1;
+}
+#mainpage-page .button__container .ch5-button--pressed .ch5-button--icon {
+  color: rgb(121, 160, 118);
+  scale: 1.06;
+}
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/pages/settingspage/settingspage.scss ***!
+  \******************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/pages/shadespage/shadespage.scss ***!
+  \**************************************************************************************************************************************************/
+#shadespage-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#shadespage-page .shades-container {
+  border: 2px solid hsl(0deg, 36%, 44%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  background-color: rgba(17, 16, 16, 0.4);
+}
+#shadespage-page .shades-container .ch5-button {
+  background: transparent;
+  border-color: #f0fff0;
+}
+#shadespage-page .shades-container .ch5-button--icon {
+  font-size: 26px;
+  opacity: 1;
+  padding-right: 10px;
+}
+#shadespage-page .shades-container .ch5-button--pressed {
+  color: #f0fff0;
+  background-color: rgba(88, 112, 128, 0.7725490196);
+  border-color: #0091ea;
+}
+/*!************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/pages/videopage/videopage.scss ***!
+  \************************************************************************************************************************************************/
+#videopage-page .source__container,
+#videopage-page .displayZones,
+#videopage-page .presetList,
+#videopage-page .sourceList {
+  border: 2px solid hsl(0deg, 36%, 44%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  background-color: rgba(17, 16, 16, 0.4);
+}
+#videopage-page .page_container {
+  display: grid;
+  column-gap: 8px;
+  row-gap: 2px;
+}
+#videopage-page .page_container .displayZones {
+  grid-column: 1;
+  grid-row: 1;
+  justify-content: center;
+  height: 600px;
+  padding: 0px;
+}
+#videopage-page .page_container .presetList {
+  grid-column: 2;
+  grid-row: 1;
+}
+#videopage-page .page_container .sourceList {
+  grid-column: 1/span 2;
+  grid-row: 2;
+  margin-top: 10px;
+}
+#videopage-page .page_container .ch5-button--icon {
+  font-size: 30px;
+  opacity: 1;
+  padding-right: 10px;
+}
+#videopage-page .page_container .ch5-button--pressed {
+  color: rgb(121, 160, 118);
+}
+#videopage-page .page_container .ch5-button--pressed .ch5-button--icon {
+  color: rgb(0, 255, 76);
+  font-size: 25px;
+}
+#videopage-page .page_container .scene__header {
+  height: 40px;
+  margin: 0px;
+  border-radius: 10px 10px 0px 0px;
+  background: #e0dace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+#videopage-page .page_container .scene__header h5 {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3px;
+}
+#videopage-page .page_container .ch5-subpage-reference-list.ch5-subpage-reference-list--orientation-vertical .ch5-subpage-reference-list--subpage-container {
+  padding: 5px;
+}
+@media screen and (height: 1080px) {
+  #videopage-page .page_container .displayZones {
+    height: 528px;
+  }
+}
+@media screen and (width: 1280px) {
+  #videopage-page .page_container .displayZones {
+    height: 528px;
+  }
+  #videopage-page .page_container .ch5-subpage-reference-list.ch5-subpage-reference-list--orientation-vertical.ch5-subpage-reference-list--columns-5 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+#videopage-page .source__container {
+  display: grid;
+  grid-template-columns: 350px 80px 600px 260px 260px;
+  justify-content: center;
+  margin-top: 5px;
+  gap: 10px;
+  padding: 5px;
+}
+#videopage-page .source__container .source_ControlPads {
+  margin-left: 10px;
+}
+#videopage-page .source__container .source_VideoStream {
+  height: fit-content;
+}
+/*!**********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/audiocontrols/audiocontrols.scss ***!
+  \**********************************************************************************************************************************************************/
+.audiocontrols-widget {
+  background: rgba(255, 255, 255, 0.777);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  padding: 10px;
+  gap: 5px;
+  max-width: 375px;
+}
+.audiocontrols-widget .audio_zone-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 10px;
+  align-items: center;
+}
+.audiocontrols-widget ch5-button {
+  max-width: 90px;
+}
+.audiocontrols-widget .ch5-button--icon {
+  font-size: 23px;
+  color: #08090c;
+}
+.audiocontrols-widget .ch5-button-list-button-icon {
+  font-size: 23px;
+  color: #08090c;
+}
+.audiocontrols-widget ch5-jointotext-string {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+/*!************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/coloredbuttons/coloredbuttons.scss ***!
+  \************************************************************************************************************************************************************/
+.coloredbuttons-widget {
+  display: flex;
+  flex-direction: column;
+  background: rgba(24, 24, 27, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  padding: 5px;
+  gap: 5px;
+  width: 80px;
+  height: 340px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.coloredbuttons-widget .colored-buttons ch5-button {
+  height: 60px;
+  width: 60px;
+}
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/controldpad/controldpad.scss ***!
+  \******************************************************************************************************************************************************/
+.controldpad-widget {
+  background: rgba(24, 24, 27, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  padding: 5px;
+  width: 260px;
+  height: 340px;
+  justify-content: center;
+  align-content: center;
+}
+/*!**********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/controlkeypad/controlkeypad.scss ***!
+  \**********************************************************************************************************************************************************/
+.controlkeypad-widget {
+  display: flex;
+  background: rgba(24, 24, 27, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  padding: 5px;
+  width: 260px;
+  height: 340px;
+  justify-content: center;
+  align-content: center;
+}
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/controlpads/controlpads.scss ***!
+  \******************************************************************************************************************************************************/
+.controlpads-widget {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  background: rgba(24, 24, 27, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  padding: 10px;
+  width: 340px;
+}
+.controlpads-widget .grid__item .ch5-button {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #6c757d;
+  border: 1px solid wheat;
+  border-radius: 0%;
+}
+.controlpads-widget .grid__item .ch5-button .ch5-button--icon {
+  font-size: 26px;
+  opacity: 1;
+  margin-bottom: 1px;
+}
+.controlpads-widget .grid__item .ch5-button--pressed {
+  background-color: rgba(210, 123, 16, 0.6);
+  scale: 1.1;
+  z-index: 1;
+}
+.controlpads-widget .grid__item .ch5-button--pressed .ch5-button--icon {
+  color: rgb(121, 160, 118);
+  scale: 1.1;
+}
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/keypad-dpad/keypad-dpad.scss ***!
+  \******************************************************************************************************************************************************/
+.keypad-dpad-widget {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 10%;
+  background: rgba(24, 24, 27, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  padding: 5px;
+  width: 260px;
+  height: 380px;
+  justify-content: center;
+  align-content: center;
+}
+.keypad-dpad-widget .controlkeypad-widget {
+  grid-column: 1/span 2;
+  grid-row: 1;
+}
+.keypad-dpad-widget .controldpad-widget {
+  grid-column: 1/span 2;
+  grid-row: 1;
+  margin-top: 10px;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+}
+.keypad-dpad-widget .controldpad-widget .colored-buttons {
+  text-align: center;
+  padding: 5px;
+}
+.keypad-dpad-widget .controldpad-widget .colored-buttons .cb-btn {
+  height: 50px;
+  width: 50px;
+}
+.keypad-dpad-widget .item-1 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.keypad-dpad-widget .item-2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.keypad-dpad-widget .item-1,
+.keypad-dpad-widget .item-2 {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.keypad-dpad-widget .item-1 .ch5-button,
+.keypad-dpad-widget .item-2 .ch5-button {
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+.keypad-dpad-widget .item-1 .ch5-button--pressed,
+.keypad-dpad-widget .item-2 .ch5-button--pressed {
+  z-index: 1;
+  border-top: 4px solid rgb(35, 159, 165);
+}
+.keypad-dpad-widget .item-1 .ch5-button--pressed .ch5-button--icon,
+.keypad-dpad-widget .item-2 .ch5-button--pressed .ch5-button--icon {
+  color: rgb(121, 160, 118);
+}
+.keypad-dpad-widget .item-1 .ch5-button--selected,
+.keypad-dpad-widget .item-2 .ch5-button--selected {
+  z-index: 1;
+  border-top: 4px solid rgb(0, 255, 102);
+}
+.keypad-dpad-widget .item-1 .ch5-button--selected .ch5-button--icon,
+.keypad-dpad-widget .item-2 .ch5-button--selected .ch5-button--icon {
+  color: rgb(121, 160, 118);
+}
+/*!********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/lightcontrolwidget/lightcontrolwidget.scss ***!
+  \********************************************************************************************************************************************************************/
+.lightcontrolwidget-widget {
+  background: rgba(255, 255, 255, 0.777);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  max-width: 350px;
+}
+.lightcontrolwidget-widget .lightCardTitle {
+  margin: 5px;
+  color: hsl(0deg, 0%, 20%);
+  display: flex;
+  justify-content: space-between;
+}
+.lightcontrolwidget-widget .lightCardTitle ch5-jointotext-string {
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.lightcontrolwidget-widget .lightCardSlider {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lightcontrolwidget-widget .lightCardSlider i {
+  color: rgba(182, 138, 37, 0.6901960784);
+  font-size: 16px;
+}
+.lightcontrolwidget-widget .lightCardSlider .lightCardButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.lightcontrolwidget-widget .lightCardButton {
+  margin: 5px;
+  text-align: center;
+}
+.lightcontrolwidget-widget .lightCardButton .ch5-button {
+  margin: 5px;
+  border-style: solid;
+  border-color: #0091ea;
+  color: #ffffff;
+  background-color: #c1cacf;
+  border-width: 0;
+}
+.lightcontrolwidget-widget .lightCardButton .ch5-button--icon {
+  font-size: 30px;
+  color: #797518;
+}
+.lightcontrolwidget-widget .lightCardButton .ch5-button--pressed {
+  color: #f0fff0;
+  background-color: rgba(88, 112, 128, 0.7725490196);
+  border-color: #0091ea;
+}
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/lightquicklanchwidget/lightquicklanchwidget.scss ***!
+  \**************************************************************************************************************************************************************************/
+.lightquicklanchwidget-widget .light__scenecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  border: 1px solid hsl(0deg, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  padding: auto;
+  width: 145px;
+}
+.lightquicklanchwidget-widget .scene__header {
+  height: 40px;
+  width: 145px;
+  border-radius: 10px 10px 0px 0px;
+  background: #e0dace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+.lightquicklanchwidget-widget .scene__header h5 {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.lightquicklanchwidget-widget .light__scenebuttonlist {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.lightquicklanchwidget-widget .light__scenebuttonlist ch5-button {
+  margin: 5px;
+  min-width: fit-content;
+}
+/*!****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/lightscenewidget/lightscenewidget.scss ***!
+  \****************************************************************************************************************************************************************/
+.lightscenewidget-widget .light__scenecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  border: 1px solid hsl(0deg, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  padding: auto;
+  width: 145px;
+}
+.lightscenewidget-widget .scene__header {
+  height: 40px;
+  width: 145px;
+  border-radius: 10px 10px 0px 0px;
+  background: #e0dace;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  z-index: -1;
+}
+.lightscenewidget-widget .scene__header h5 {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.lightscenewidget-widget .light__scenebuttonlist {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.lightscenewidget-widget .light__scenebuttonlist ch5-button {
+  padding: 5px;
+  min-width: fit-content;
+}
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/pagedisplay/pagedisplay.scss ***!
+  \******************************************************************************************************************************************************/
+.pagedisplay-widget h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+  opacity: 0.5;
+  text-shadow: 1px 1px 1px #fff;
+}
+/*!**********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/projectheader/projectheader.scss ***!
+  \**********************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/shadezone/shadezone.scss ***!
+  \**************************************************************************************************************************************************/
+.shadezone-widget {
+  display: flex;
+  flex-direction: row;
+  max-height: 100px;
+  max-width: 850px;
+  gap: 5px;
+  justify-content: space-between;
+  text-align: center;
+  border: 2px;
+  border-radius: 10px;
+  background-color: rgba(24, 24, 27, 0.8);
+  box-shadow: 2px 2px 2px hsla(3deg, 10%, 10%, 0.4);
+  padding: 5px;
+}
+.shadezone-widget .percentage {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100px;
+}
+.shadezone-widget .percentage > h5 {
+  color: wheat;
+}
+.shadezone-widget .zone-name {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-width: 160px;
+}
+.shadezone-widget .zone-name > h5 {
+  color: rgb(255, 255, 255);
+  font-size: medium;
+}
+/*!****************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/tvcontrols/tvcontrols.scss ***!
+  \****************************************************************************************************************************************************/
+.tv__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 40px 1fr 40px;
+  background: rgba(24, 24, 27, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  padding: 5px;
+  gap: 5px;
+  max-width: 360;
+}
+.tv__container ch5-jointotext-string {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.tv__container .source-icon,
+.tv__container .zone-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+}
+.tv__container .source-icon i,
+.tv__container .zone-icon i {
+  color: white;
+  height: fit-content;
+  width: fit-content;
+}
+.tv__container .zone-source {
+  align-self: center;
+}
+.tv__container .zone-toggle .ch5-toggle__label {
+  color: white;
+  opacity: 1;
+  font-size: 1rem;
+}
+/*!********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/video-stream/video-stream.scss ***!
+  \********************************************************************************************************************************************************/
+.video-stream-widget {
+  background: rgba(24, 24, 27, 0.8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px hsla(0deg, 0%, 0%, 0.1);
+  padding: 5px;
+  height: 340px;
+  justify-content: center;
+  align-content: center;
+}
+/*!****************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./app/project/components/widgets/weatherapp/weatherapp.scss ***!
+  \****************************************************************************************************************************************************/
+.weatherapp-widget {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  background: rgba(24, 24, 27, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 600px;
+  color: #fff;
+}
+.weatherapp-widget .current-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.weatherapp-widget .time-date {
+  grid-column: 1;
+}
+.weatherapp-widget .time .ch5-time {
+  height: 60px;
+  width: fit-content;
+  margin-top: 30px;
+  font-size: 70px;
+  font-weight: 100;
+}
+.weatherapp-widget .date .ch5-datetime {
+  font-size: 30px;
+  font-weight: 100;
+}
+.weatherapp-widget .place-container {
+  grid-column: 3;
+}
+.weatherapp-widget .place-container .time-zone {
+  font-size: 30px;
+  font-weight: 100;
+}
+.weatherapp-widget .place-container .country {
+  font-size: 12px;
+  font-weight: 700;
+}
+.weatherapp-widget .current-info .others {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #eee;
+}
+.weatherapp-widget .current-info .others .weather-item {
+  display: flex;
+  justify-content: space-between;
+}
+.weatherapp-widget .current-info {
+  grid-column: 2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.weatherapp-widget .place-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.weatherapp-widget .place-container .time-zone {
+  font-size: 30px;
+  font-weight: 100;
+}
+.weatherapp-widget .place-container .country {
+  font-size: 12px;
+  font-weight: 700;
+}
+.weatherapp-widget .current-info .others {
+  display: flex;
+  flex-direction: column;
+  background: rgba(24, 24, 27, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #eee;
+}
+.weatherapp-widget .current-info .others .weather-item {
+  display: flex;
+  justify-content: space-between;
+}
+.weatherapp-widget .future-forecast {
+  grid-row: 2;
+  grid-column: 1/4;
+  padding: 20px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.weatherapp-widget .logo {
+  text-align: end;
+}
+.weatherapp-widget .logo > img {
+  width: 250px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.weatherapp-widget .future-forecast .today {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  padding-right: 40px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.weatherapp-widget .future-forecast .today .day {
+  padding: 5px 15px;
+  background: #3c3c44;
+  border-radius: 50px;
+  text-align: center;
+}
+.weatherapp-widget .future-forecast .today .temp {
+  font-size: 18px;
+  padding-top: 15px;
+}
+.weatherapp-widget .future-forecast .weather-forecast {
+  display: flex;
+}
+.weatherapp-widget .weather-forecast .weather-forecast-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  border: 1px solid #eee;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.weatherapp-widget .weather-forecast .weather-forecast-item .day {
+  padding: 5px 15px;
+  background: #3c3c44;
+  border-radius: 50px;
+  text-align: center;
+}
+.weatherapp-widget .weather-forecast .weather-forecast-item .temp {
+  font-weight: 100;
+  font-size: 12px;
+}
+@media only screen and (max-width: 730px) {
+  .weatherapp-widget .container {
+    padding: 20px;
+  }
+  .weatherapp-widget .future-forecast {
+    justify-content: start;
+    align-items: none;
+    overflow-y: scroll;
+  }
+  .weatherapp-widget .future-forecast .today .temp {
+    font-size: 16px;
+  }
+  .weatherapp-widget .date-container .time {
+    font-size: 50px;
+  }
+  .weatherapp-widget .date-container #am-pm {
+    font-size: 20px;
+  }
+  .weatherapp-widget .date-container .date {
+    font-size: 20px;
+  }
+  .weatherapp-widget .place-container {
+    text-align: end;
+    margin-top: 15px;
+  }
+  .weatherapp-widget .place-container .time-zone {
+    font-size: 20px;
+  }
+  .weatherapp-widget .current-info .others {
+    padding: 12px;
+  }
+  .weatherapp-widget .current-info .others .weather-item {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .weatherapp-widget .future-forecast {
+    justify-content: start;
+    align-items: none;
+  }
+}

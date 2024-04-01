@@ -1,0 +1,40 @@
+.controlpads-widget {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background: rgba(24, 24, 27, 0.8);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.1);
+    padding: 10px;
+    width: 340px;
+    .grid__item{
+        .ch5-button{
+            width: 80px;
+            height: 80px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            background-color: #6c757d;
+            border: 1px solid wheat;
+            border-radius: 0%;
+            .ch5-button--icon {
+                font-size: 26px;
+                //color: #797518;
+                opacity: 1;
+                margin-bottom: 1px;           
+              }   
+        }
+        .ch5-button--pressed{
+            background-color: rgba(210, 123, 16, 0.6);
+            scale: 1.1;
+            z-index: 1;      
+            .ch5-button--icon{
+                color: rgb(121, 160, 118);
+                scale: 1.1;
+            }
+        }
+    }
+    
+   
+    
+}

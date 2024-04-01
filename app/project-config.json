@@ -1,0 +1,322 @@
+{
+  "projectName": "calich5ui",
+  "projectType": "shell-template",
+  "version": "0.0.1",
+  "faviconPath": "favicon.ico",
+  "menuOrientation": "horizontal",
+  "selectedTheme": "light-theme",
+  "useWebXPanel": true,
+  "forceDeviceXPanel": false,
+  "themes": [
+    {
+      "name": "light-theme",
+      "extends": "light-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-light.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "repeat": "no-repeat",
+        "refreshRate": 600,
+        "scale": "fit",
+        "url": [
+          "./app/project/assets/img/Project-Backgrounds/01_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/02_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/03_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/04_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/05_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/06_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/07_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/08_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/09_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/10_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/11_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/12_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/13_1920x1200.jpg",
+          "./app/project/assets/img/Project-Backgrounds/14_1920x1200.jpg"
+        ]
+      }
+    },
+    {
+      "name": "dark-theme",
+      "extends": "dark-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-dark.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "backgroundColor": [
+          "#1a1a1a"
+        ]
+      }
+    },
+    {
+      "name": "project-light-theme",
+      "extends": "light-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-light.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "backgroundColor": [
+          "#f8f8f8"
+        ]
+      }
+    },
+    {
+      "name": "project-dark-theme",
+      "extends": "dark-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-dark.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "backgroundColor": [
+          "#1a1a1a"
+        ]
+      }
+    },
+    {
+      "name": "project-custom-theme",
+      "extends": "light-theme",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-light.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "url": [
+          "./app/project/assets/img/Project-Backgrounds/Masters21_Video-BG_1920x1080_v1.jpg"
+        ]
+      }
+    }
+  ],
+  "config": {
+    "controlSystem": {
+      "ipId": "0x04"
+    }
+  },
+  "customSignals": {
+    "receiveStateTheme": "templateTheme",
+    "sendEventTheme": "templateTheme"
+  },
+  "header": {
+    "display": false,
+    "displayInfo": true,
+    "displayTheme": true,
+    "diagnostics": {
+      "logs": {
+        "logAfterProjectLoad": true,
+        "receiveStateLogDiagnostics": "",
+        "logDiagnostics": "none"
+      }
+    },
+    "$component": ""
+  },
+  "footer": {
+    "display": false,
+    "$component": ""
+  },
+  "content": {
+    "$defaultView": "mainpage",
+    "triggerViewProperties": {
+      "gestureable": false,
+      "disableAnimation": true
+    },
+    "pages": [
+      {
+        "pageName": "mainpage",
+        "fullPath": "./app/project/components/pages/mainpage/",
+        "fileName": "mainpage.html",
+        "preloadPage": true,
+        "cachePage": true,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 1,
+          "label": "mainpage",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-house-user",
+          "iconUrl": "",
+          "iconPosition": "top"
+        }
+      },
+      {
+        "pageName": "audiopage",
+        "fullPath": "./app/project/components/pages/audiopage/",
+        "fileName": "audiopage.html",
+        "preloadPage": true,
+        "cachePage": true,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 2,
+          "label": "audiopage",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-audio-description",
+          "iconUrl": "",
+          "iconPosition": "top"
+        }
+      },
+      {
+        "pageName": "videopage",
+        "fullPath": "./app/project/components/pages/videopage/",
+        "fileName": "videopage.html",
+        "preloadPage": true,
+        "cachePage": true,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 3,
+          "label": "videopage",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-display",
+          "iconUrl": "",
+          "iconPosition": "top"
+        }
+      },
+      {
+        "pageName": "lightpage",
+        "fullPath": "./app/project/components/pages/lightpage/",
+        "fileName": "lightpage.html",
+        "preloadPage": true,
+        "cachePage": true,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 4,
+          "label": "lightpage",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-lightbulb",
+          "iconUrl": "",
+          "iconPosition": "top"
+        }
+      },
+      {
+        "pageName": "shadespage",
+        "fullPath": "./app/project/components/pages/shadespage/",
+        "fileName": "shadespage.html",
+        "preloadPage": true,
+        "cachePage": true,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 5,
+          "label": "shadespage",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-wind",
+          "iconUrl": "",
+          "iconPosition": "top"
+        }
+      },
+      {
+        "pageName": "settingspage",
+        "fullPath": "./app/project/components/pages/settingspage/",
+        "fileName": "settingspage.html",
+        "preloadPage": true,
+        "cachePage": true,
+        "standAloneView": false,
+        "navigation": {
+          "sequence": 6,
+          "label": "settingspage",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-wrench",
+          "iconUrl": "",
+          "iconPosition": "top"
+        }
+      },
+      {
+        "pageName": "loginpage",
+        "fullPath": "./app/project/components/pages/loginpage/",
+        "fileName": "loginpage.html",
+        "preloadPage": true,
+        "cachePage": true,
+        "standAloneView": true,
+        "navigation": {
+          "sequence": 7,
+          "label": "loginpage",
+          "isI18nLabel": false,
+          "iconClass": "fas fa-user",
+          "iconUrl": "",
+          "iconPosition": "top"
+        }
+      }
+    ],
+    "widgets": [
+      {
+        "widgetName": "audiocontrols",
+        "fullPath": "./app/project/components/widgets/audiocontrols/",
+        "fileName": "audiocontrols.html"
+      },
+      {
+        "widgetName": "controlpads",
+        "fullPath": "./app/project/components/widgets/controlpads/",
+        "fileName": "controlpads.html"
+      },
+      {
+        "widgetName": "lightcontrolwidget",
+        "fullPath": "./app/project/components/widgets/lightcontrolwidget/",
+        "fileName": "lightcontrolwidget.html"
+      },
+      {
+        "widgetName": "lightquicklanchwidget",
+        "fullPath": "./app/project/components/widgets/lightquicklanchwidget/",
+        "fileName": "lightquicklanchwidget.html"
+      },
+      {
+        "widgetName": "lightscenewidget",
+        "fullPath": "./app/project/components/widgets/lightscenewidget/",
+        "fileName": "lightscenewidget.html"
+      },
+      {
+        "widgetName": "pagedisplay",
+        "fullPath": "./app/project/components/widgets/pagedisplay/",
+        "fileName": "pagedisplay.html"
+      },
+      {
+        "widgetName": "projectheader",
+        "fullPath": "./app/project/components/widgets/projectheader/",
+        "fileName": "projectheader.html"
+      },
+      {
+        "widgetName": "tvcontrols",
+        "fullPath": "./app/project/components/widgets/tvcontrols/",
+        "fileName": "tvcontrols.html"
+      },
+      {
+        "widgetName": "keypadDpad",
+        "fullPath": "./app/project/components/widgets/keypad-dpad/",
+        "fileName": "keypad-dpad.html"
+      },
+      {
+        "widgetName": "videoStream",
+        "fullPath": "./app/project/components/widgets/video-stream/",
+        "fileName": "video-stream.html"
+      },
+      {
+        "widgetName": "controldpad",
+        "fullPath": "./app/project/components/widgets/controldpad/",
+        "fileName": "controldpad.html"
+      },
+      {
+        "widgetName": "controlkeypad",
+        "fullPath": "./app/project/components/widgets/controlkeypad/",
+        "fileName": "controlkeypad.html"
+      },
+      {
+        "widgetName": "coloredbuttons",
+        "fullPath": "./app/project/components/widgets/coloredbuttons/",
+        "fileName": "coloredbuttons.html"
+      },
+      {
+        "widgetName": "shadezone",
+        "fullPath": "./app/project/components/widgets/shadezone/",
+        "fileName": "shadezone.html"
+      },
+      {
+        "widgetName": "weatherapp",
+        "fullPath": "./app/project/components/widgets/weatherapp/",
+        "fileName": "weatherapp.html"
+      }
+    ]
+  }
+}

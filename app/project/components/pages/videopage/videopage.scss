@@ -1,0 +1,98 @@
+#videopage-page {
+    .source__container,
+    .displayZones,
+    .presetList,
+    .sourceList{
+        border: 2px solid hsl(0, 36%, 44%);
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.1);   
+        background-color: rgba($color: rgb(17, 16, 16), $alpha: 0.4); 
+    }
+
+    .page_container{
+        display: grid;
+        column-gap: 8px;
+        row-gap: 2px;
+        .displayZones{
+            grid-column: 1;
+            grid-row: 1;
+            justify-content: center;
+            height: 600px;
+            padding: 0px;
+        }
+        .presetList{
+            grid-column: 2;
+            grid-row: 1; 
+        }
+        .sourceList{
+            grid-column: 1/ span 2;
+            grid-row: 2;
+            margin-top: 10px;
+        }
+        .ch5-button--icon {
+            font-size: 30px;
+            opacity: 1;
+            padding-right: 10px;
+          }
+       
+        .ch5-button--pressed{
+            color: rgb(121, 160, 118);       
+            .ch5-button--icon{
+                color: rgb(0, 255, 76);
+                font-size: 25px;           
+            }
+        }
+        .scene__header{
+            height: 40px;
+            margin: 0px;
+            border-radius: 10px 10px 0px 0px;
+            background:  #e0dace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+            z-index: -1;
+
+            h5{
+               font-size: 20px;
+               color: black;
+               font-weight: bold;
+               text-align: center;
+               padding-top: 3px;
+               
+            }
+        }
+       
+        .ch5-subpage-reference-list.ch5-subpage-reference-list--orientation-vertical .ch5-subpage-reference-list--subpage-container{
+            padding: 5px;
+        }
+        @media screen and (height: 1080px){
+            .displayZones{
+                height: 528px;
+            }       
+        }
+        @media screen and (width: 1280px){
+            .displayZones{
+                height: 528px;
+            }
+            .ch5-subpage-reference-list.ch5-subpage-reference-list--orientation-vertical.ch5-subpage-reference-list--columns-5{
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+       
+    } 
+    .source__container{
+        display: grid;
+        grid-template-columns: 350px 80px 600px 260px 260px;
+        justify-content: center;        
+        margin-top: 5px;
+        gap: 10px;
+        padding: 5px;      
+        .source_ControlPads{
+            margin-left: 10px;   
+        }
+        .source_VideoStream{
+            height: fit-content;
+        }        
+    }    
+}

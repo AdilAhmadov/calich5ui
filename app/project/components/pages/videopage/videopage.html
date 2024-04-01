@@ -1,0 +1,107 @@
+<section
+  id="videopage-page"
+  class="details-container"
+  aria-labelledby="Videopage">
+  <div class="page_container">
+    <div class="displayZones">
+      <ch5-subpage-reference-list
+        id="VideoZoneControlList"
+        widgetid="tvcontrols-widget"
+        orientation="vertical"
+        columns="5"
+        numberofitems="50"
+        scrollbar="false"
+        loaditems="all"
+        indexid="idx"
+      >
+      </ch5-subpage-reference-list>
+    </div>
+    <!--Video Preset Control-->
+    <div class="presetList">
+      <div class="row scene__header">
+        <h5>Filter</h5>
+      </div>
+      <div class="row displayPower mt-2 p-2">
+        <ch5-button
+          id="displayPowerAll"
+          label="All"
+          iconclass="fas fa-power-off"
+          size="large"
+          sendeventonclick="VideoPage.Power_All_Press"
+          receivestateselected="VideoPage.PowerAllState"
+          type="warning">
+        </ch5-button>
+      </div>
+      <br />
+      <div class="row">
+        <ch5-button-list
+          id="VideoPresetList"
+          orientation="vertical"
+          scrollbar="false"
+          buttontype="default"
+          endless="false"
+          numberOfItems="6"
+          buttonShape="rounded-rectangle"
+          centeritems="false"
+          contractname="Contract"
+          indexId="idx"
+          loadItems="all"
+          receivestatenumberofitems="VideoPage.Presets.ListSize"     
+          buttonReceiveStateSelected="VideoPage.Presets.Preset[{{idx}}].SelectedState"
+          buttonReceiveStateIconClass="VideoPage.Presets.Preset[{{idx}}].IconClass"
+          buttonreceivestatelabel="VideoPage.Presets.Preset[{{idx}}].Name"
+          buttonSendEventOnClick="VideoPage.Presets.Preset[{{idx}}].Selection"
+          clickholdtime="1500">
+        </ch5-button-list>
+      </div>
+      <!-- " -->
+    </div>
+    <div class="sourceList">
+      <ch5-button-list
+        id="VideoSourceList"
+        orientation="horizontal"
+        scrollbar="false"
+        centerItems="true"
+        endless="false"
+        numberOfItems="11"
+        indexId="idx"
+        buttonType="success"
+        buttonHAlignLabel="center"
+        buttonVAlignLabel="middle"
+        buttonIconPosition="first"
+        buttonShape="rounded-rectangle"
+        buttonReceiveStateSelected="VideoPage.Sources.Source[{{idx}}].SelectedState"
+        buttonReceiveStateIconClass="VideoPage.Sources.Source[{{idx}}].IconClass"
+        buttonreceivestatelabel="VideoPage.Sources.Source[{{idx}}].Name"
+        buttonSendEventOnClick="VideoPage.Sources.Source[{{idx}}].Press_Event"
+        stretch="both"
+        loadItems="visible-only"
+        clickHoldTime="1500"
+      >
+      </ch5-button-list>
+    </div>
+  </div>
+
+  <div class="source__container">
+    <div class="source_ControlPads">
+      <ch5-template templateId="controlpads-widget"></ch5-template>
+    </div>
+    <div class="source_ColeredButtons">
+      <ch5-template templateId="coloredbuttons-widget"></ch5-template>
+    </div>
+    <div class="source_VideoStream">
+      <ch5-template templateId="video-stream-widget"></ch5-template>
+    </div>
+    <div class="source_Keypad-Dpad">
+      <ch5-template templateId="controlkeypad-widget"></ch5-template>
+    </div>
+    <div class="source_Keypad-Dpad">
+      <ch5-template templateId="controldpad-widget"></ch5-template>
+    </div>
+  </div>
+  <!--
+</div> 
+    <div>
+        <ch5-template templateId="pagedisplay-widget" context="NAME:Video"></ch5-template>
+    </div>
+--></section>

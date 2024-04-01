@@ -1,0 +1,30 @@
+<template id="lightquicklanchwidget-widget"> 
+    <div class="lightquicklanchwidget-widget" aria-labelledby="Lightquicklanchwidget"> 
+        <div class="light__scenecontainer">
+            <div class="scene__header">
+                <h5>Filter</h5>
+            </div>  
+            <div class="light__scenebuttonlist">                                             
+                <ch5-button-list id="ch5-button-list_id"
+                    orientation="vertical"
+                    scrollbar="false"
+                    centerItems="false"
+                    endless="false"
+                    numberOfItems="8"
+                    buttontype="secondary"
+                    rows="1"
+                    columns="1"
+                    indexId="idx"
+                    loadItems="all"
+                    scrollToPosition="0"
+                    buttonshape="rounded-rectangle"
+                    buttonreceivestatelabel="LightPage.Filter[{{idx}}].Name"
+                    buttonreceivestateiconclass="LightPage.Filter[{{idx}}].IconClass"
+                    buttonreceivestateselected="LightPage.Filter[{{idx}}].SelectedState"
+                    buttonsendeventonclick="LightPage.Filter[{{idx}}].Selection">
+                </ch5-button-list>
+            </div>
+               
+        </div>
+    </div>
+</template>

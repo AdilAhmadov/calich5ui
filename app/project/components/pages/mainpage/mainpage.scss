@@ -1,0 +1,38 @@
+#mainpage-page {
+  .button__container{
+    display: flex;
+    width: fit-content;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.1);   
+    background-color: rgba($color: rgb(17, 16, 16), $alpha: 0.4); 
+    gap: 10px;
+    padding: 10px;
+    .ch5-button .cb-btn{
+        width: 200px;
+        height: 60px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background-color: #40505e;
+
+        border-radius: 0%;
+        .ch5-button--label {
+            font-size: 26px;
+            flex-wrap: nowrap;
+            opacity: 1;          
+          }   
+    }
+    .ch5-button--pressed{
+        background-color: rgba(210, 123, 16, 0.6);
+        scale: 1.1;
+        z-index: 1;      
+        .ch5-button--icon{
+            color: rgb(121, 160, 118);
+            scale: 1.06;
+        }
+    }
+  } 
+}
+
+

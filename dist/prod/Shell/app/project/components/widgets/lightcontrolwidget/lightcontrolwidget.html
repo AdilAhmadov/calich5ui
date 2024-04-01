@@ -1,0 +1,38 @@
+<template id="lightcontrolwidget-widget"> 
+    <div class="lightcontrolwidget-widget" aria-labelledby="Lightcontrolwidget"> 
+        <div class="lightCardTitle">
+            <div> <!--receiveStateValue="1" -->
+                <ch5-jointotext-string receivestatevalue="LightPage.LightList[{{idx}}].ZoneName" > </ch5-jointotext-string> 
+            </div>
+            <div> <!--receiveStateValue="1" -->
+                <ch5-jointotext-numeric receivestatevalue="LightPage.LightList[{{idx}}].LightNumericValue"> </ch5-jointotext-numeric> %
+            </div>
+        </div>
+        <br/>
+       
+            <div class="lightCardSlider">               
+                <i class="far fa-sun"></i>
+                <ch5-slider value="20"
+                        id="LightSlider"
+                        min="0"
+                        max="100"
+                        step="1"
+                        value="50"
+                        sendeventonchange="LightPage.LightList[{{idx}}].LightOnChange"
+                        receivestatevalue="LightPage.LightList[{{idx}}].LightControlSliderState" size="small" handleshape="circle" handlesize="small">
+                      </ch5-slider>
+                      <i class="fas fa-sun"></i>
+                </div>
+                <div class="lightCardButton">
+                    <ch5-button id="LightBtnOn"  sendeventonclick="LightPage.LightList[{{idx}}].LightOn" receivestateselected="LightPage.LightList[{{idx}}].LightOnState" 
+                        iconclass="far fa-lightbulb">
+                    </ch5-button>
+
+                    <ch5-button id="LightBtnOff"                    
+                    sendeventonclick="LightPage.LightList[{{idx}}].LightOff"
+                    receivestateselected="LightPage.LightList[{{idx}}].LightOffState"
+                    iconclass="fas fa-lightbulb">
+                </ch5-button>
+            </div>       
+    </div>
+</template>

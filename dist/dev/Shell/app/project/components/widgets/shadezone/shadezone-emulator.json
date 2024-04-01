@@ -1,0 +1,10 @@
+{
+  "cues": [],
+  "onStart": [
+    {
+      "state": "AudioPage.ZoneLists.Items[3].ZoneLabel",
+      "type": "s",
+      "value": "FRONT Desk"
+    }
+  ]
+}

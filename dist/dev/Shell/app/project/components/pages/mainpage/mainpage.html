@@ -1,0 +1,39 @@
+<section
+  id="mainpage-page"
+  class="details-container"
+  aria-labelledby="Mainpage">
+  
+  <ch5-template templateId="weatherapp-widget"></ch5-template>
+
+  <div class="button__container">
+    <ch5-button
+      id="btn-id_main_DayMode"
+      label="Day Mode"
+      halignlabel="center"
+      valignlabel="middle"
+      sendeventonclick="MainPage.DayModePress_Event"
+      receivestateselected="MainPage.DayMode_Selected">
+    </ch5-button>
+
+    <ch5-button
+      id="btn-id_main_EveningMode"
+      label="Evening Mode"
+      sendeventonclick="MainPage.EveningModePress_Event"
+      receivestateselected="MainPage.EveningMode_Selected">
+    </ch5-button>
+
+    <ch5-button
+      id="btn-id_main_NightMode"
+      label="Night Mode"
+      sendeventonclick="MainPage.NightModePress_Event"
+      receivestateselected="MainPage.NightMode_Selected">
+    </ch5-button>
+
+    <ch5-button
+      id="btn-id_main_CloseMode"
+      label="Close Mode"
+      sendeventonclick="MainPage.CloseModePress_Event"
+      receivestateselected="MainPage.CloseMode_Selected">
+    </ch5-button>
+  </div>
+</section>

@@ -1,0 +1,30 @@
+<template id="lightscenewidget-widget"> 
+    <div class="lightscenewidget-widget" aria-labelledby="Lightscenewidget"> 
+        <div class="light__scenecontainer">
+            <div class="scene__header">
+                <h5>Scenes</h5>
+            </div>  
+            <div class="light__scenebuttonlist">                                             
+                <ch5-button-list id="light-btnlist_scenes"
+                    orientation="vertical"
+                    scrollbar="false"
+                    centerItems="false"
+                    endless="false"
+                    buttontype="secondary"
+                    numberOfItems="5"
+                    rows="1"
+                    columns="1"
+                    indexId="idx"
+                    loadItems="all"
+                    scrollToPosition="0"
+                    buttonshape="rounded-rectangle"
+                    buttonreceivestatelabel="LightPage.Scene[{{idx}}].Name"
+                    buttonreceivestateiconclass="LightPage.Scene[{{idx}}].IconClass"
+                    buttonreceivestateselected="LightPage.Scene[{{idx}}].SelectedState"
+                    buttonsendeventonclick="LightPage.Scene[{{idx}}].Selection">
+                </ch5-button-list>               
+            </div>
+               
+        </div>
+    </div>
+</template>

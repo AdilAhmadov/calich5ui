@@ -1,0 +1,125 @@
+{
+  "cues": [],
+  "onStart": [
+    {
+      "state": "AudioPage.ZoneLists.Items[0].ZoneLabel",
+      "type": "s",
+      "value": "CONCOURSE"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[1].ZoneLabel",
+      "type": "s",
+      "value": "ARCADE"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[2].ZoneLabel",
+      "type": "s",
+      "value": "BAR"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[3].ZoneLabel",
+      "type": "s",
+      "value": "FRONT Desk"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[4].ZoneLabel",
+      "type": "s",
+      "value": "ENTRANCE"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[5].ZoneLabel",
+      "type": "s",
+      "value": "REST ROOMS"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[6].ZoneLabel",
+      "type": "s",
+      "value": "ZONE-1"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[7].ZoneLabel",
+      "type": "s",
+      "value": "ZONE-2"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[8].ZoneLabel",
+      "type": "s",
+      "value": "ZONE-3"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[9].ZoneLabel",
+      "type": "s",
+      "value": "ZONE-4"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[10].ZoneLabel",
+      "type": "s",
+      "value": "ZONE-5"
+    }, 
+    {
+      "state": "AudioPage.ZoneLists.Items[11].ZoneLabel",
+      "type": "s",
+      "value": "ZONE-6"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[0].ZoneVolumeValue",
+      "type": "s",
+      "value": "50 %"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[1].ZoneVolumeValue",
+      "type": "s",
+      "value": "68 %"
+    } ,
+    {
+      "state": "AudioPage.ZoneLists.Items[2].ZoneVolumeValue",
+      "type": "s",
+      "value": "70 %"
+    } ,
+    {
+      "state": "AudioPage.ZoneLists.Items[3].ZoneVolumeValue",
+      "type": "s",
+      "value": "96 %"
+    } ,
+    {
+      "state": "AudioPage.ZoneLists.Items[4].ZoneVolumeValue",
+      "type": "s",
+      "value": "100 %"
+    } ,
+    {
+      "state": "AudioPage.ZoneLists.Items[5].ZoneVolumeValue",
+      "type": "s",
+      "value": "25 %"
+    } ,
+    {
+      "state": "AudioPage.ZoneLists.Items[6].ZoneVolumeValue",
+      "type": "s",
+      "value": "27 %"
+    } ,
+    {
+      "state": "AudioPage.ZoneLists.Items[7].ZoneVolumeValue",
+      "type": "s",
+      "value": "63 %"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[8].ZoneVolumeValue",
+      "type": "s",
+      "value": "12 %"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[9].ZoneVolumeValue",
+      "type": "s",
+      "value": "33 %"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[10].ZoneVolumeValue",
+      "type": "s",
+      "value": "74 %"
+    },
+    {
+      "state": "AudioPage.ZoneLists.Items[11].ZoneVolumeValue",
+      "type": "s",
+      "value": "45 %"
+    }
+  ]
+}

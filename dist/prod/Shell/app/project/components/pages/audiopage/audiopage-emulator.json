@@ -1,0 +1,246 @@
+{
+  "cues": [],
+  "onStart": [
+    {
+      "state": "AudioPage.SourceLists.Items[0].Name",
+      "type": "s",
+      "value": "DTV-1"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[1].Name",
+      "type": "s",
+      "value": "DTV-2"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[2].Name",
+      "type": "s",
+      "value": "DTV-3"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[3].Name",
+      "type": "s",
+      "value": "BlueRay-1"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[4].Name",
+      "type": "s",
+      "value": "BlueRay-2"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[5].Name",
+      "type": "s",
+      "value": "BlueRay-3"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[6].Name",
+      "type": "s",
+      "value": "Microphone"
+    } ,
+    {
+      "state": "AudioPage.SourceLists.Items[7].Name",
+      "type": "s",
+      "value": "BMN Source"
+    } ,
+    {
+      "state": "AudioPage.SourceLists.Items[8].Name",
+      "type": "s",
+      "value": "XLR Wallplate"
+    } 
+    ,
+    {
+      "state": "AudioPage.SourceLists.Items[9].Name",
+      "type": "s",
+      "value": "HDMI Wallplate"
+    } ,
+    {
+      "state": "AudioPage.SourceLists.Items[10].Name",
+      "type": "s",
+      "value": "HDMI Wallplate"
+    } ,
+    {
+      "state": "AudioPage.SourceLists.Items[0].IconClass",
+      "type": "s",
+      "value": "fas fa-tv"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[1].IconClass",
+      "type": "s",
+      "value": "fas fa-tv"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[2].IconClass",
+      "type": "s",
+      "value": "fas fa-tv"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[3].IconClass",
+      "type": "s",
+      "value": "fab fa-playstation"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[4].IconClass",
+      "type": "s",
+      "value": "fab fa-playstation"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[5].IconClass",
+      "type": "s",
+      "value": "fab fa-playstation"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[6].IconClass",
+      "type": "s",
+      "value": "fas fa-microphone"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[7].IconClass",
+      "type": "s",
+      "value": "fab fa-youtube"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[8].IconClass",
+      "type": "s",
+      "value": "fas fa-audio-description"
+    },
+    {
+      "state": "AudioPage.SourceLists.Items[9].IconClass",
+      "type": "s",
+      "value": "fas fa-film"
+    },
+    {
+      "state": "Audio.VolumeList[0].IconClas",
+      "type": "s",
+      "value": "fas fa-volume-xmark"
+    }
+    ,
+    {
+      "state": "Audio.VolumeList[1].IconClas",
+      "type": "s",
+      "value": "fas fa-volume-low"
+    }
+    ,
+    {
+      "state": "Audio.VolumeList[2].IconClas",
+      "type": "s",
+      "value": "fas fa-volume-high"
+    }
+    ,
+    {
+      "state": "Audio.VolumeList[0].Name",
+      "type": "s",
+      "value": "Mute"
+    }
+    ,
+    {
+      "state": "Audio.VolumeList[1].Name",
+      "type": "s",
+      "value": "Volume Down"
+    }
+    ,
+    {
+      "state": "Audio.VolumeList[2].Name",
+      "type": "s",
+      "value": "Volume Up"
+    },
+    {
+      "state": "Audio.Ducker.Name",
+      "type": "s",
+      "value": "DUCKER"
+    },
+    {
+      "state": "Audio.SourceList[0].Name",
+      "type": "s",
+      "value": "DTV-1"
+    },
+    {
+      "state": "Audio.SourceList[1].Name",
+      "type": "s",
+      "value": "DTV-2"
+    },
+    {
+      "state": "Audio.SourceList[2].Name",
+      "type": "s",
+      "value": "DTV 3"
+    },
+    {
+      "state": "Audio.SourceList[3].Name",
+      "type": "s",
+      "value": "Blue Ray-1"
+    },
+    {
+      "state": "Audio.SourceList[4].Name",
+      "type": "s",
+      "value": "Blue Ray-2"
+    },
+    {
+      "state": "Audio.SourceList[5].Name",
+      "type": "s",
+      "value": "Blue Ray-3"
+    },
+    {
+      "state": "Audio.SourceList[6].Name",
+      "type": "s",
+      "value": "MIC"
+    },
+    {
+      "state": "Audio.SourceList[7].Name",
+      "type": "s",
+      "value": "BMN"
+    },
+    {
+      "state": "Audio.SourceList[8].Name",
+      "type": "s",
+      "value": "XLR WP"
+    },
+    {
+      "state": "Audio.SourceList[9].Name",
+      "type": "s",
+      "value": "HDMI WP"
+    },
+    {
+      "state": "Audio.SourceList[10].Name",
+      "type": "s",
+      "value": "No Audio"
+    },
+    {
+      "state": "Audio.PresetList[0].Name",
+      "type": "s",
+      "value": "PRESET-1"
+    } ,
+    {
+      "state": "Audio.PresetList[1].Name",
+      "type": "s",
+      "value": "PRESET-2"
+    } ,
+    {
+      "state": "Audio.PresetList[2].Name",
+      "type": "s",
+      "value": "PRESET-3"
+    } ,
+    {
+      "state": "Audio.PresetList[3].Name",
+      "type": "s",
+      "value": "PRESET-4"
+    } ,
+    {
+      "state": "Audio.PresetList[4].Name",
+      "type": "s",
+      "value": "PRESET-5"
+    } ,
+    {
+      "state": "Audio.PresetList[5].Name",
+      "type": "s",
+      "value": "RECALL"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[1].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-2"
+    },
+    {
+      "state": "ShadePage.ShadeZones.Zone[2].ZoneName",
+      "type": "s",
+      "value": "Shade Zone-3"
+    }
+  ]
+}

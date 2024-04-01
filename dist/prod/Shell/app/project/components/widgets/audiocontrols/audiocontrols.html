@@ -1,0 +1,53 @@
+<template id="audiocontrols-widget"> 
+    <div class="audiocontrols-widget" aria-labelledby="Audiocontrols"> 
+        <div class="row"> 
+            <div class="col"> 
+              <ch5-jointotext-string receivestatevalue="AudioPage.ZoneLists.Items[{{idx}}].ZoneLabel"> </ch5-jointotext-string> 
+            </div> 
+            <div class="col-2"> <!--audio__zone-value-->
+              <ch5-jointotext-string receivestatevalue="AudioPage.ZoneLists.Items[{{idx}}].ZoneVolumeValue"> </ch5-jointotext-string>
+            </div>
+            <div class="col"> 
+                  <ch5-button id="btn_id" label="Source" sendeventonclick="AudioPage.ZoneLists.Items[{{idx}}].SourcePress_Event" 
+                  receivestateselected="AudioPage.ZoneLists.Items[{{idx}}].SourceSelectionState" stretch="width" type="success"></ch5-button>
+          </div>
+          <div class="row">
+              <div class="col text-center border-bottom-5 ">
+                <ch5-jointotext-string receivestatevalue="AudioPage.ZoneLists.Items[{{idx}}].SelectedSourceLabel"> </ch5-jointotext-string>
+              </div>            
+          </div>
+          <div class="row mt-2"> <!--audio__zone-button-container-->
+            <div class="col">
+            <!--Mute Button-->
+            <ch5-button
+              iconclass="fas fa-volume-xmark"
+              sendEventOnClick="AudioPage.ZoneLists.Items[{{idx}}].Mute"
+              receiveStateSelected="AudioPage.ZoneLists.Items[{{idx}}].MuteState" type="danger">
+            </ch5-button>
+    
+            <!--Master Check box Button-->
+            <ch5-button
+              checkboxshow="true"
+              label="Master"
+              sendEventOnClick="AudioPage.ZoneLists.Items[{{idx}}].Master"
+              receiveStateSelected="AudioPage.ZoneLists.Items[{{idx}}].MasterState" type="secondary">
+            </ch5-button>
+    
+            <!--Valume Down Button-->
+            <ch5-button
+              iconclass="fas fa-volume-low"
+              sendEventOnClick="AudioPage.ZoneLists.Items[{{idx}}].VolumeDown"
+              receiveStateSelected="AudioPage.ZoneLists.Items[{{idx}}].VolumeDownState"
+            >
+            </ch5-button>
+    
+            <!--Valume Up Button-->
+            <ch5-button
+              iconclass="fas fa-volume-high"
+              sendEventOnClick="AudioPage.ZoneLists.Items[{{idx}}].VolumeUp"
+              receiveStateSelected="AudioPage.ZoneLists.Items[{{idx}}].VolumeUpState">
+            </ch5-button>
+          </div>
+        </div>
+    </div>
+</template>
