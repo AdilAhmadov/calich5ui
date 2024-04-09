@@ -15,7 +15,8 @@
               text-transform="none"
               scaling="true"
               minimumFontSize="12"
-              receivestatevalue="TestContract"
+              receivestatevalue="LoginPage.PassordBoxState"
+              sendeventonchange="LoginPage.PasswordBoxChangeEvent"
               tabIndex="0">
             </ch5-textinput>
           </div>
@@ -30,7 +31,7 @@
               size="x-large"
               showextrabutton="true"
               hidePoundButton="false"
-              hideAsteriskButton="false" debug="true">
+              hideAsteriskButton="false" contractname="LoginPage.LoginKeypad">
               <ch5-keypad-button key="buttonextra" iconClass="fas fa-user"></ch5-keypad-button>
             </ch5-keypad>
           </div>

@@ -11,8 +11,7 @@
           displaySeconds="false"
           horizontalAlignment="center"
           displayType="time"
-          timeOffsetHours="0"
-        >
+          timeOffsetHours="0">
         </ch5-datetime>
       </div>
       <div class="date">
@@ -25,38 +24,76 @@
           styleForDate="MM-dd-yyyy"
           horizontalAlignment="center"
           displayType="date"
-          timeOffsetHours="0"
-        >
+          timeOffsetHours="0">
         </ch5-datetime>
-      </div>
-      <div class="place-container">
-        <div class="time-zone" id="time-zone">Asia/Baku</div>
-        <div id="country" class="country">40.4546N 49.7387E</div>
       </div>
     </div>
 
     <div class="current-info">
       <div class="others" id="current-weather-items">
+        <div class="row">
+          <div class="col">
+            <div class="current-image">
+              <ch5-image alt="weather icon"
+              height="200px"
+              width="200px"
+              url="./app/project/assets/img/WeatherIcon/10d@4x.png">
+            </ch5-image>
+            </div>
+          </div>
+          <div class="col">
+            <div class="place-container">
+              <div class="time-zone"> 
+                <ch5-jointotext-string receiveStateValue="MainPage.Weather.Current_Location"
+                textWhenEmpty="Asia/Baku"></ch5-jointotext-string>
+              </div>
+              <div class="country">
+              <ch5-jointotext-string receiveStateValue="MainPage.Weather.Current_Coordinates"
+                  textWhenEmpty="40.4546N / 49.7387E">
+              </ch5-jointotext-string>
+                
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="weather-item">
           <div>Humidity</div>
-          <div>74%</div>
+          <div>
+            <ch5-jointotext-numeric receiveStateValue="MainPage.Current_HumidityPercentState"
+              type="signed"><span>%</span>
+            </ch5-jointotext-numeric>
+          </div>
         </div>
         <div class="weather-item">
           <div>Pressure</div>
-          <div>1013</div>
+          <div><ch5-jointotext-string receiveStateValue="MainPage.Current_PressureState" textwhenempty="1033">
+          </ch5-jointotext-string></div>
         </div>
         <div class="weather-item">
           <div>Wind Speed</div>
-          <div>5.28</div>
+          <div>
+            <ch5-jointotext-string receiveStateValue="MainPage.Current_WindSpeedState"
+            textWhenEmpty="5.28">
+          </ch5-jointotext-string>
+          </div>
         </div>
 
         <div class="weather-item">
           <div>Sunrise</div>
-          <div>06:40 am</div>
+          <div>
+            <ch5-jointotext-string receiveStateValue="MainPage.Current_SunriseState"
+              textWhenEmpty="06:40 am">
+            </ch5-jointotext-string>
+          </div>
+
         </div>
         <div class="weather-item">
           <div>Sunset</div>
-          <div>18:54 pm</div>
+          <div>
+            <ch5-jointotext-string receiveStateValue="MainPage.Current_SunsetState"
+            textWhenEmpty="18:54 pm">
+          </ch5-jointotext-string>
+          </div>
         </div>
       </div>
     </div>
@@ -65,82 +102,42 @@
       <img src="./app/project/assets/img/Logo/CaliLogo.png" alt="calilogo" />
     </div>
 
-    <div class="future-forecast">
-      <div class="today" id="current-temp">
-        <img
-          src="http://openweathermap.org/img/wn/10d@2x.png"
-          alt="weather icon"
-          class="w-icon"
-        />
-        <div class="other">
-          <div class="day">Monday</div>
-          <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 35.6&#176; C</div>
-        </div>
+    <div class="future-forecast">   
+      <div class="weather-forecast" id="weather-forecast">   
+      <ch5-subpage-reference-list id="ch5-subpage-reference-list_id"
+        widgetId="weather-forecast-item"
+        orientation="horizontal"
+        scrollbar="false"
+        centerItems="false"
+        endless="false"
+        numberOfItems="7"
+        indexId="idx"
+        loadItems="all"
+        scrollToPosition="0">
+      </ch5-subpage-reference-list>
       </div>
+    </div>
+  </div>
+</template>
 
-      <div class="weather-forecast" id="weather-forecast">
-        <div class="weather-forecast-item">
-          <div class="day">Tue</div>
-          <img
-            src="http://openweathermap.org/img/wn/10d@2x.png"
-            alt="weather icon"
-            class="w-icon"
-          />
-          <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 35.6&#176; C</div>
-        </div>
-        <div class="weather-forecast-item">
-          <div class="day">Wed</div>
-          <img
-            src="http://openweathermap.org/img/wn/10d@2x.png"
-            alt="weather icon"
-            class="w-icon"
-          />
-          <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 35.6&#176; C</div>
-        </div>
-        <div class="weather-forecast-item">
-          <div class="day">Thur</div>
-          <img
-            src="http://openweathermap.org/img/wn/10d@2x.png"
-            alt="weather icon"
-            class="w-icon"
-          />
-          <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 35.6&#176; C</div>
-        </div>
-        <div class="weather-forecast-item">
-          <div class="day">Fri</div>
-          <img
-            src="http://openweathermap.org/img/wn/10d@2x.png"
-            alt="weather icon"
-            class="w-icon"
-          />
-          <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 35.6&#176; C</div>
-        </div>
-        <div class="weather-forecast-item">
-          <div class="day">Sat</div>
-          <img
-            src="http://openweathermap.org/img/wn/10d@2x.png"
-            alt="weather icon"
-            class="w-icon"
-          />
-          <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 35.6&#176; C</div>
-        </div>
-        <div class="weather-forecast-item">
-          <div class="day">San</div>
-          <img
-            src="http://openweathermap.org/img/wn/10d@2x.png"
-            alt="weather icon"
-            class="w-icon"
-          />
-          <div class="temp">Night - 25.6&#176; C</div>
-          <div class="temp">Day - 35.6&#176; C</div>
-        </div>
-      </div>
+<template id="weather-forecast-item">
+  <div class="weather-forecast-item" data-ch5-appendclass="MainPage.Weather.WeekDay[{{idx}}].Active_State">
+    <div class="day"><ch5-jointotext-string receiveStateValue="MainPage.Weather.WeekDay[{{idx}}].WeekDay_Label"
+      textWhenEmpty="Week Day- {{idx}}">
+    </ch5-jointotext-string></div>
+    <ch5-image alt="weather icon"
+      height="100px"
+      width="100px"
+      receivestateurl="MainPage.Weather.WeekDay[{{idx}}].WeatherIcon_Url"
+      url="./app/project/assets/img/WeatherIcon/11d@4x.png">
+    </ch5-image>
+    <div class="temp">Night - <ch5-jointotext-string receiveStateValue="MainPage.Weather.WeekDay[{{idx}}].Night_Temp"
+      textWhenEmpty="26.9">
+    </ch5-jointotext-string>&#176; C
+    </div>
+    <div class="temp">Day - <ch5-jointotext-string receiveStateValue="MainPage.Weather.WeekDay[{{idx}}].Day_Temp"
+      textWhenEmpty="36.7">
+    </ch5-jointotext-string>&#176; C
     </div>
   </div>
 </template>

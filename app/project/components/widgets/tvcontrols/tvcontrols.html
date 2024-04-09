@@ -4,8 +4,7 @@
       <i data-ch5-appendclass="VideoPage.Zones.Items[{{idx}}].ZoneNameIconClass"></i>
     </div>
     <div class="zone-name">
-      <ch5-jointotext-string
-        receivestatevalue="VideoPage.Zones.Items[{{idx}}].ZoneName">
+      <ch5-jointotext-string receivestatevalue="VideoPage.Zones.Items[{{idx}}].ZoneName">
       </ch5-jointotext-string>
     </div>
     <div class="zone-source">
@@ -26,7 +25,8 @@
         size="regular"
         value="false"
         sendeventonclick="VideoPage.Zones.Items[{{idx}}].PowerState"
-        receivestatevalue="VideoPage.Zones.Items[{{idx}}].PowerToggle">
+        receivestatevalue="VideoPage.Zones.Items[{{idx}}].PowerToggle"
+        >
       </ch5-toggle>
     </div>
     <div class="source-icon">

@@ -655,10 +655,17 @@
 .shadezone-widget .percentage {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   width: 100px;
 }
-.shadezone-widget .percentage > h5 {
+.shadezone-widget .percentage > span {
+  font-size: 20px;
+  font-weight: bold;
+  color: wheat;
+}
+.shadezone-widget .percentage ch5-jointotext-numeric {
+  font-size: 20px;
+  font-weight: bold;
   color: wheat;
 }
 .shadezone-widget .zone-name {
@@ -689,6 +696,7 @@
   font-size: 16px;
   font-weight: bold;
   padding-left: 10px;
+  color: white;
 }
 .tv__container .source-icon,
 .tv__container .zone-icon {
@@ -734,38 +742,43 @@
   background: rgba(24, 24, 27, 0.6);
   padding: 20px;
   border-radius: 10px;
-  max-height: 600px;
+  max-height: 780px;
   color: #fff;
 }
 .weatherapp-widget .current-info {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .weatherapp-widget .time-date {
   grid-column: 1;
+  align-self: center;
+  text-align: center;
 }
 .weatherapp-widget .time .ch5-time {
-  height: 60px;
+  height: 160px;
   width: fit-content;
   margin-top: 30px;
-  font-size: 70px;
-  font-weight: 100;
+  font-size: 120px;
+  font-weight: 400;
 }
 .weatherapp-widget .date .ch5-datetime {
-  font-size: 30px;
-  font-weight: 100;
+  height: fit-content;
+  width: fit-content;
+  font-size: 60px;
+  font-weight: 300;
 }
 .weatherapp-widget .place-container {
   grid-column: 3;
 }
-.weatherapp-widget .place-container .time-zone {
-  font-size: 30px;
-  font-weight: 100;
+.weatherapp-widget .place-container .time-zone ch5-jointotext-string {
+  font-size: 40px;
+  font-weight: 300;
 }
-.weatherapp-widget .place-container .country {
-  font-size: 12px;
-  font-weight: 700;
+.weatherapp-widget .place-container .country ch5-jointotext-string {
+  font-size: 24px;
+  font-weight: 300;
 }
 .weatherapp-widget .current-info .others {
   display: flex;
@@ -779,6 +792,14 @@
   display: flex;
   justify-content: space-between;
 }
+.weatherapp-widget .current-info .others .weather-item ch5-jointotext-string {
+  font-size: 24px;
+  font-weight: 300;
+}
+.weatherapp-widget .current-info .others .weather-item > div {
+  font-size: 24px;
+  font-weight: 300;
+}
 .weatherapp-widget .current-info {
   grid-column: 2;
   display: flex;
@@ -788,14 +809,6 @@
 .weatherapp-widget .place-container {
   text-align: center;
   margin-top: 20px;
-}
-.weatherapp-widget .place-container .time-zone {
-  font-size: 30px;
-  font-weight: 100;
-}
-.weatherapp-widget .place-container .country {
-  font-size: 12px;
-  font-weight: 700;
 }
 .weatherapp-widget .current-info .others {
   display: flex;
@@ -870,8 +883,8 @@
   text-align: center;
 }
 .weatherapp-widget .weather-forecast .weather-forecast-item .temp {
-  font-weight: 100;
-  font-size: 12px;
+  font-weight: 300;
+  font-size: 24px;
 }
 @media only screen and (max-width: 730px) {
   .weatherapp-widget .container {

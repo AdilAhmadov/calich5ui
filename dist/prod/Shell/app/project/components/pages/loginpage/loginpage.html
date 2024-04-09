@@ -15,7 +15,8 @@
               text-transform="none"
               scaling="true"
               minimumFontSize="12"
-              receivestatevalue="TestContract"
+              receivestatevalue="LoginPage.PassordBoxState"
+              sendeventonchange="LoginPage.PasswordBoxChangeEvent"
               tabIndex="0">
             </ch5-textinput>
           </div>
@@ -23,14 +24,14 @@
         <div class="row text-center">
           <div class="col">
             <ch5-keypad id="keypad_id"
-              contractName="TestContract"
               shape="rounded-rectangle"
+              contractname="LoginPage.LoginKeypad"
               type="success"
               textOrientation="top"
               size="x-large"
               showextrabutton="true"
               hidePoundButton="false"
-              hideAsteriskButton="false" debug="true">
+              hideAsteriskButton="false" >
               <ch5-keypad-button key="buttonextra" iconClass="fas fa-user"></ch5-keypad-button>
             </ch5-keypad>
           </div>

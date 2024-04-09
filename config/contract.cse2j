@@ -1,6 +1,6 @@
 {
 	"name": "UpworkContract",
-	"timestamp": "2024-04-01 21:08:17.509",
+	"timestamp": "2024-04-05 17:43:12.166",
 	"version": "1.0.0.0",
 	"schema_version": 1,
 	"extra_value": "Automation Project Joins Names over Contract",
@@ -597,21 +597,19 @@
 					"1": "LightPage.Filter[7].SelectedState"
 				},
 				"153": {
-					"1": "MainPage.DayMode_Selected",
-					"2": "MainPage.EveningMode_Selected",
-					"3": "MainPage.NightMode_Selected",
-					"4": "MainPage.CloseMode_Selected",
-					"5": "MainPage.ModeRecall_Selected",
-					"6": "MainPage.MainPageVisibility",
-					"7": "MainPage.BrandLogo1_Enable",
-					"8": "MainPage.BrandLogo2_Enable",
-					"9": "MainPage.System_Info_Enable",
-					"10": "MainPage.WeatherApp_Enable"
+					"1": "MainPage.MainPageVisibility",
+					"2": "MainPage.DayMode_Selected",
+					"3": "MainPage.EveningMode_Selected",
+					"4": "MainPage.NightMode_Selected",
+					"5": "MainPage.CloseMode_Selected",
+					"6": "MainPage.ModeRecall_Selected",
+					"7": "MainPage.BrandLogo_Enable",
+					"8": "MainPage.System_Info_Enable"
 				},
-				"154": {
+				"162": {
 					"1": "ShadePage.ShadePageVisibility"
 				},
-				"156": {
+				"164": {
 					"1": "ShadePage.ShadeZones.Zone[0].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[0].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[0].Close_Fb",
@@ -619,7 +617,7 @@
 					"5": "ShadePage.ShadeZones.Zone[0].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[0].Preset_3_Fb"
 				},
-				"157": {
+				"165": {
 					"1": "ShadePage.ShadeZones.Zone[1].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[1].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[1].Close_Fb",
@@ -627,7 +625,7 @@
 					"5": "ShadePage.ShadeZones.Zone[1].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[1].Preset_3_Fb"
 				},
-				"158": {
+				"166": {
 					"1": "ShadePage.ShadeZones.Zone[2].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[2].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[2].Close_Fb",
@@ -635,7 +633,7 @@
 					"5": "ShadePage.ShadeZones.Zone[2].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[2].Preset_3_Fb"
 				},
-				"159": {
+				"167": {
 					"1": "ShadePage.ShadeZones.Zone[3].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[3].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[3].Close_Fb",
@@ -643,7 +641,7 @@
 					"5": "ShadePage.ShadeZones.Zone[3].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[3].Preset_3_Fb"
 				},
-				"160": {
+				"168": {
 					"1": "ShadePage.ShadeZones.Zone[4].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[4].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[4].Close_Fb",
@@ -651,7 +649,7 @@
 					"5": "ShadePage.ShadeZones.Zone[4].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[4].Preset_3_Fb"
 				},
-				"161": {
+				"169": {
 					"1": "ShadePage.ShadeZones.Zone[5].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[5].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[5].Close_Fb",
@@ -659,7 +657,7 @@
 					"5": "ShadePage.ShadeZones.Zone[5].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[5].Preset_3_Fb"
 				},
-				"162": {
+				"170": {
 					"1": "ShadePage.ShadeZones.Zone[6].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[6].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[6].Close_Fb",
@@ -667,7 +665,7 @@
 					"5": "ShadePage.ShadeZones.Zone[6].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[6].Preset_3_Fb"
 				},
-				"163": {
+				"171": {
 					"1": "ShadePage.ShadeZones.Zone[7].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[7].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[7].Close_Fb",
@@ -675,7 +673,7 @@
 					"5": "ShadePage.ShadeZones.Zone[7].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[7].Preset_3_Fb"
 				},
-				"164": {
+				"172": {
 					"1": "ShadePage.ShadeZones.Zone[8].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[8].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[8].Close_Fb",
@@ -683,7 +681,7 @@
 					"5": "ShadePage.ShadeZones.Zone[8].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[8].Preset_3_Fb"
 				},
-				"165": {
+				"173": {
 					"1": "ShadePage.ShadeZones.Zone[9].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[9].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[9].Close_Fb",
@@ -691,7 +689,7 @@
 					"5": "ShadePage.ShadeZones.Zone[9].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[9].Preset_3_Fb"
 				},
-				"166": {
+				"174": {
 					"1": "ShadePage.ShadeZones.Zone[10].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[10].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[10].Close_Fb",
@@ -699,7 +697,7 @@
 					"5": "ShadePage.ShadeZones.Zone[10].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[10].Preset_3_Fb"
 				},
-				"167": {
+				"175": {
 					"1": "ShadePage.ShadeZones.Zone[11].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[11].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[11].Close_Fb",
@@ -707,7 +705,7 @@
 					"5": "ShadePage.ShadeZones.Zone[11].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[11].Preset_3_Fb"
 				},
-				"168": {
+				"176": {
 					"1": "ShadePage.ShadeZones.Zone[12].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[12].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[12].Close_Fb",
@@ -715,7 +713,7 @@
 					"5": "ShadePage.ShadeZones.Zone[12].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[12].Preset_3_Fb"
 				},
-				"169": {
+				"177": {
 					"1": "ShadePage.ShadeZones.Zone[13].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[13].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[13].Close_Fb",
@@ -723,7 +721,7 @@
 					"5": "ShadePage.ShadeZones.Zone[13].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[13].Preset_3_Fb"
 				},
-				"170": {
+				"178": {
 					"1": "ShadePage.ShadeZones.Zone[14].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[14].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[14].Close_Fb",
@@ -731,7 +729,7 @@
 					"5": "ShadePage.ShadeZones.Zone[14].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[14].Preset_3_Fb"
 				},
-				"171": {
+				"179": {
 					"1": "ShadePage.ShadeZones.Zone[15].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[15].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[15].Close_Fb",
@@ -739,7 +737,7 @@
 					"5": "ShadePage.ShadeZones.Zone[15].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[15].Preset_3_Fb"
 				},
-				"172": {
+				"180": {
 					"1": "ShadePage.ShadeZones.Zone[16].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[16].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[16].Close_Fb",
@@ -747,7 +745,7 @@
 					"5": "ShadePage.ShadeZones.Zone[16].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[16].Preset_3_Fb"
 				},
-				"173": {
+				"181": {
 					"1": "ShadePage.ShadeZones.Zone[17].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[17].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[17].Close_Fb",
@@ -755,7 +753,7 @@
 					"5": "ShadePage.ShadeZones.Zone[17].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[17].Preset_3_Fb"
 				},
-				"174": {
+				"182": {
 					"1": "ShadePage.ShadeZones.Zone[18].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[18].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[18].Close_Fb",
@@ -763,7 +761,7 @@
 					"5": "ShadePage.ShadeZones.Zone[18].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[18].Preset_3_Fb"
 				},
-				"175": {
+				"183": {
 					"1": "ShadePage.ShadeZones.Zone[19].Open_Fb",
 					"2": "ShadePage.ShadeZones.Zone[19].Stop_Fb",
 					"3": "ShadePage.ShadeZones.Zone[19].Close_Fb",
@@ -771,11 +769,11 @@
 					"5": "ShadePage.ShadeZones.Zone[19].Preset_2_Fb",
 					"6": "ShadePage.ShadeZones.Zone[19].Preset_3_Fb"
 				},
-				"176": {
+				"184": {
 					"1": "VideoPage.PageVisibility",
 					"2": "VideoPage.PowerAllDisplay_Fb"
 				},
-				"177": {
+				"185": {
 					"1": "VideoPage.ControlButtons.Forward_State",
 					"2": "VideoPage.ControlButtons.Backward_State",
 					"3": "VideoPage.ControlButtons.Play_State",
@@ -797,268 +795,272 @@
 					"19": "VideoPage.ControlButtons.Yellow_State",
 					"20": "VideoPage.ControlButtons.Blue_State"
 				},
-				"183": {
+				"191": {
 					"1": "VideoPage.Zones.Items[0].PowerState",
 					"2": "VideoPage.Zones.Items[0].SourceSelected"
 				},
-				"184": {
+				"192": {
 					"1": "VideoPage.Zones.Items[1].PowerState",
 					"2": "VideoPage.Zones.Items[1].SourceSelected"
 				},
-				"185": {
+				"193": {
 					"1": "VideoPage.Zones.Items[2].PowerState",
 					"2": "VideoPage.Zones.Items[2].SourceSelected"
 				},
-				"186": {
+				"194": {
 					"1": "VideoPage.Zones.Items[3].PowerState",
 					"2": "VideoPage.Zones.Items[3].SourceSelected"
 				},
-				"187": {
+				"195": {
 					"1": "VideoPage.Zones.Items[4].PowerState",
 					"2": "VideoPage.Zones.Items[4].SourceSelected"
 				},
-				"188": {
+				"196": {
 					"1": "VideoPage.Zones.Items[5].PowerState",
 					"2": "VideoPage.Zones.Items[5].SourceSelected"
 				},
-				"189": {
+				"197": {
 					"1": "VideoPage.Zones.Items[6].PowerState",
 					"2": "VideoPage.Zones.Items[6].SourceSelected"
 				},
-				"190": {
+				"198": {
 					"1": "VideoPage.Zones.Items[7].PowerState",
 					"2": "VideoPage.Zones.Items[7].SourceSelected"
 				},
-				"191": {
+				"199": {
 					"1": "VideoPage.Zones.Items[8].PowerState",
 					"2": "VideoPage.Zones.Items[8].SourceSelected"
 				},
-				"192": {
+				"200": {
 					"1": "VideoPage.Zones.Items[9].PowerState",
 					"2": "VideoPage.Zones.Items[9].SourceSelected"
 				},
-				"193": {
+				"201": {
 					"1": "VideoPage.Zones.Items[10].PowerState",
 					"2": "VideoPage.Zones.Items[10].SourceSelected"
 				},
-				"194": {
+				"202": {
 					"1": "VideoPage.Zones.Items[11].PowerState",
 					"2": "VideoPage.Zones.Items[11].SourceSelected"
 				},
-				"195": {
+				"203": {
 					"1": "VideoPage.Zones.Items[12].PowerState",
 					"2": "VideoPage.Zones.Items[12].SourceSelected"
 				},
-				"196": {
+				"204": {
 					"1": "VideoPage.Zones.Items[13].PowerState",
 					"2": "VideoPage.Zones.Items[13].SourceSelected"
 				},
-				"197": {
+				"205": {
 					"1": "VideoPage.Zones.Items[14].PowerState",
 					"2": "VideoPage.Zones.Items[14].SourceSelected"
 				},
-				"198": {
+				"206": {
 					"1": "VideoPage.Zones.Items[15].PowerState",
 					"2": "VideoPage.Zones.Items[15].SourceSelected"
 				},
-				"199": {
+				"207": {
 					"1": "VideoPage.Zones.Items[16].PowerState",
 					"2": "VideoPage.Zones.Items[16].SourceSelected"
 				},
-				"200": {
+				"208": {
 					"1": "VideoPage.Zones.Items[17].PowerState",
 					"2": "VideoPage.Zones.Items[17].SourceSelected"
 				},
-				"201": {
+				"209": {
 					"1": "VideoPage.Zones.Items[18].PowerState",
 					"2": "VideoPage.Zones.Items[18].SourceSelected"
 				},
-				"202": {
+				"210": {
 					"1": "VideoPage.Zones.Items[19].PowerState",
 					"2": "VideoPage.Zones.Items[19].SourceSelected"
 				},
-				"203": {
+				"211": {
 					"1": "VideoPage.Zones.Items[20].PowerState",
 					"2": "VideoPage.Zones.Items[20].SourceSelected"
 				},
-				"204": {
+				"212": {
 					"1": "VideoPage.Zones.Items[21].PowerState",
 					"2": "VideoPage.Zones.Items[21].SourceSelected"
 				},
-				"205": {
+				"213": {
 					"1": "VideoPage.Zones.Items[22].PowerState",
 					"2": "VideoPage.Zones.Items[22].SourceSelected"
 				},
-				"206": {
+				"214": {
 					"1": "VideoPage.Zones.Items[23].PowerState",
 					"2": "VideoPage.Zones.Items[23].SourceSelected"
 				},
-				"207": {
+				"215": {
 					"1": "VideoPage.Zones.Items[24].PowerState",
 					"2": "VideoPage.Zones.Items[24].SourceSelected"
 				},
-				"208": {
+				"216": {
 					"1": "VideoPage.Zones.Items[25].PowerState",
 					"2": "VideoPage.Zones.Items[25].SourceSelected"
 				},
-				"209": {
+				"217": {
 					"1": "VideoPage.Zones.Items[26].PowerState",
 					"2": "VideoPage.Zones.Items[26].SourceSelected"
 				},
-				"210": {
+				"218": {
 					"1": "VideoPage.Zones.Items[27].PowerState",
 					"2": "VideoPage.Zones.Items[27].SourceSelected"
 				},
-				"211": {
+				"219": {
 					"1": "VideoPage.Zones.Items[28].PowerState",
 					"2": "VideoPage.Zones.Items[28].SourceSelected"
 				},
-				"212": {
+				"220": {
 					"1": "VideoPage.Zones.Items[29].PowerState",
 					"2": "VideoPage.Zones.Items[29].SourceSelected"
 				},
-				"213": {
+				"221": {
 					"1": "VideoPage.Zones.Items[30].PowerState",
 					"2": "VideoPage.Zones.Items[30].SourceSelected"
 				},
-				"214": {
+				"222": {
 					"1": "VideoPage.Zones.Items[31].PowerState",
 					"2": "VideoPage.Zones.Items[31].SourceSelected"
 				},
-				"215": {
+				"223": {
 					"1": "VideoPage.Zones.Items[32].PowerState",
 					"2": "VideoPage.Zones.Items[32].SourceSelected"
 				},
-				"216": {
+				"224": {
 					"1": "VideoPage.Zones.Items[33].PowerState",
 					"2": "VideoPage.Zones.Items[33].SourceSelected"
 				},
-				"217": {
+				"225": {
 					"1": "VideoPage.Zones.Items[34].PowerState",
 					"2": "VideoPage.Zones.Items[34].SourceSelected"
 				},
-				"218": {
+				"226": {
 					"1": "VideoPage.Zones.Items[35].PowerState",
 					"2": "VideoPage.Zones.Items[35].SourceSelected"
 				},
-				"219": {
+				"227": {
 					"1": "VideoPage.Zones.Items[36].PowerState",
 					"2": "VideoPage.Zones.Items[36].SourceSelected"
 				},
-				"220": {
+				"228": {
 					"1": "VideoPage.Zones.Items[37].PowerState",
 					"2": "VideoPage.Zones.Items[37].SourceSelected"
 				},
-				"221": {
+				"229": {
 					"1": "VideoPage.Zones.Items[38].PowerState",
 					"2": "VideoPage.Zones.Items[38].SourceSelected"
 				},
-				"222": {
+				"230": {
 					"1": "VideoPage.Zones.Items[39].PowerState",
 					"2": "VideoPage.Zones.Items[39].SourceSelected"
 				},
-				"223": {
+				"231": {
 					"1": "VideoPage.Zones.Items[40].PowerState",
 					"2": "VideoPage.Zones.Items[40].SourceSelected"
 				},
-				"224": {
+				"232": {
 					"1": "VideoPage.Zones.Items[41].PowerState",
 					"2": "VideoPage.Zones.Items[41].SourceSelected"
 				},
-				"225": {
+				"233": {
 					"1": "VideoPage.Zones.Items[42].PowerState",
 					"2": "VideoPage.Zones.Items[42].SourceSelected"
 				},
-				"226": {
+				"234": {
 					"1": "VideoPage.Zones.Items[43].PowerState",
 					"2": "VideoPage.Zones.Items[43].SourceSelected"
 				},
-				"227": {
+				"235": {
 					"1": "VideoPage.Zones.Items[44].PowerState",
 					"2": "VideoPage.Zones.Items[44].SourceSelected"
 				},
-				"228": {
+				"236": {
 					"1": "VideoPage.Zones.Items[45].PowerState",
 					"2": "VideoPage.Zones.Items[45].SourceSelected"
 				},
-				"229": {
+				"237": {
 					"1": "VideoPage.Zones.Items[46].PowerState",
 					"2": "VideoPage.Zones.Items[46].SourceSelected"
 				},
-				"230": {
+				"238": {
 					"1": "VideoPage.Zones.Items[47].PowerState",
 					"2": "VideoPage.Zones.Items[47].SourceSelected"
 				},
-				"231": {
+				"239": {
 					"1": "VideoPage.Zones.Items[48].PowerState",
 					"2": "VideoPage.Zones.Items[48].SourceSelected"
 				},
-				"232": {
+				"240": {
 					"1": "VideoPage.Zones.Items[49].PowerState",
 					"2": "VideoPage.Zones.Items[49].SourceSelected"
 				},
-				"233": {
+				"241": {
 					"1": "VideoPage.Presets.Preset[0].SelectedState"
 				},
-				"234": {
+				"242": {
 					"1": "VideoPage.Presets.Preset[1].SelectedState"
 				},
-				"235": {
+				"243": {
 					"1": "VideoPage.Presets.Preset[2].SelectedState"
 				},
-				"236": {
+				"244": {
 					"1": "VideoPage.Presets.Preset[3].SelectedState"
 				},
-				"237": {
+				"245": {
 					"1": "VideoPage.Presets.Preset[4].SelectedState"
 				},
-				"238": {
+				"246": {
 					"1": "VideoPage.Presets.Preset[5].SelectedState"
 				},
-				"239": {
+				"247": {
 					"1": "VideoPage.Presets.Preset[6].SelectedState"
 				},
-				"240": {
+				"248": {
 					"1": "VideoPage.Presets.Preset[7].SelectedState"
 				},
-				"241": {
+				"249": {
 					"1": "VideoPage.Presets.Preset[8].SelectedState"
 				},
-				"242": {
+				"250": {
 					"1": "VideoPage.Presets.Preset[9].SelectedState"
 				},
-				"243": {
+				"251": {
 					"1": "VideoPage.VideoSources.Source[0].SelectedState"
 				},
-				"244": {
+				"252": {
 					"1": "VideoPage.VideoSources.Source[1].SelectedState"
 				},
-				"245": {
+				"253": {
 					"1": "VideoPage.VideoSources.Source[2].SelectedState"
 				},
-				"246": {
+				"254": {
 					"1": "VideoPage.VideoSources.Source[3].SelectedState"
 				},
-				"247": {
+				"255": {
 					"1": "VideoPage.VideoSources.Source[4].SelectedState"
 				},
-				"248": {
+				"256": {
 					"1": "VideoPage.VideoSources.Source[5].SelectedState"
 				},
-				"249": {
+				"257": {
 					"1": "VideoPage.VideoSources.Source[6].SelectedState"
 				},
-				"250": {
+				"258": {
 					"1": "VideoPage.VideoSources.Source[7].SelectedState"
 				},
-				"251": {
+				"259": {
 					"1": "VideoPage.VideoSources.Source[8].SelectedState"
 				},
-				"252": {
+				"260": {
 					"1": "VideoPage.VideoSources.Source[9].SelectedState"
 				},
-				"253": {
+				"261": {
 					"1": "VideoPage.VideoSources.Source[10].SelectedState"
+				},
+				"262": {
+					"1": "LoginPage.PageVisibilityState",
+					"2": "LoginPage.IncorrectPasswordPouUpVisibility"
 				}
 			},
 			"numeric": {
@@ -1480,76 +1482,76 @@
 					"1": "LightPage.LightList[99].LightNumericValue",
 					"2": "LightPage.LightList[99].LightControlSliderState"
 				},
-				"155": {
+				"163": {
 					"1": "ShadePage.ShadeZones.ListSize"
 				},
-				"156": {
+				"164": {
 					"1": "ShadePage.ShadeZones.Zone[0].Percentage_Num"
 				},
-				"157": {
+				"165": {
 					"1": "ShadePage.ShadeZones.Zone[1].Percentage_Num"
 				},
-				"158": {
+				"166": {
 					"1": "ShadePage.ShadeZones.Zone[2].Percentage_Num"
 				},
-				"159": {
+				"167": {
 					"1": "ShadePage.ShadeZones.Zone[3].Percentage_Num"
 				},
-				"160": {
+				"168": {
 					"1": "ShadePage.ShadeZones.Zone[4].Percentage_Num"
 				},
-				"161": {
+				"169": {
 					"1": "ShadePage.ShadeZones.Zone[5].Percentage_Num"
 				},
-				"162": {
+				"170": {
 					"1": "ShadePage.ShadeZones.Zone[6].Percentage_Num"
 				},
-				"163": {
+				"171": {
 					"1": "ShadePage.ShadeZones.Zone[7].Percentage_Num"
 				},
-				"164": {
+				"172": {
 					"1": "ShadePage.ShadeZones.Zone[8].Percentage_Num"
 				},
-				"165": {
+				"173": {
 					"1": "ShadePage.ShadeZones.Zone[9].Percentage_Num"
 				},
-				"166": {
+				"174": {
 					"1": "ShadePage.ShadeZones.Zone[10].Percentage_Num"
 				},
-				"167": {
+				"175": {
 					"1": "ShadePage.ShadeZones.Zone[11].Percentage_Num"
 				},
-				"168": {
+				"176": {
 					"1": "ShadePage.ShadeZones.Zone[12].Percentage_Num"
 				},
-				"169": {
+				"177": {
 					"1": "ShadePage.ShadeZones.Zone[13].Percentage_Num"
 				},
-				"170": {
+				"178": {
 					"1": "ShadePage.ShadeZones.Zone[14].Percentage_Num"
 				},
-				"171": {
+				"179": {
 					"1": "ShadePage.ShadeZones.Zone[15].Percentage_Num"
 				},
-				"172": {
+				"180": {
 					"1": "ShadePage.ShadeZones.Zone[16].Percentage_Num"
 				},
-				"173": {
+				"181": {
 					"1": "ShadePage.ShadeZones.Zone[17].Percentage_Num"
 				},
-				"174": {
+				"182": {
 					"1": "ShadePage.ShadeZones.Zone[18].Percentage_Num"
 				},
-				"175": {
+				"183": {
 					"1": "ShadePage.ShadeZones.Zone[19].Percentage_Num"
 				},
-				"180": {
+				"188": {
 					"1": "VideoPage.Zones.ListSize"
 				},
-				"181": {
+				"189": {
 					"1": "VideoPage.Presets.ListSize"
 				},
-				"182": {
+				"190": {
 					"1": "VideoPage.VideoSources.ListSize"
 				}
 			},
@@ -2167,469 +2169,531 @@
 					"2": "MainPage.SupportEmailInfo",
 					"3": "MainPage.SupportContactInfo"
 				},
+				"154": {
+					"1": "MainPage.Weather.Current_HumidityPercentState",
+					"2": "MainPage.Weather.Current_PressureState",
+					"3": "MainPage.Weather.Current_WindSpeedState",
+					"4": "MainPage.Weather.Current_SunriseState",
+					"5": "MainPage.Weather.Current_SunsetState",
+					"6": "MainPage.Weather.Current_WeatherIconUrl",
+					"7": "MainPage.Weather.Current_Location",
+					"8": "MainPage.Weather.Current_Coordinates"
+				},
+				"155": {
+					"1": "MainPage.Weather.WeekDay[0].WeekDay_Label",
+					"2": "MainPage.Weather.WeekDay[0].WeatherIcon_Url",
+					"3": "MainPage.Weather.WeekDay[0].Night_Temp",
+					"4": "MainPage.Weather.WeekDay[0].Day_Temp",
+					"5": "MainPage.Weather.WeekDay[0].Active_State"
+				},
 				"156": {
+					"1": "MainPage.Weather.WeekDay[1].WeekDay_Label",
+					"2": "MainPage.Weather.WeekDay[1].WeatherIcon_Url",
+					"3": "MainPage.Weather.WeekDay[1].Night_Temp",
+					"4": "MainPage.Weather.WeekDay[1].Day_Temp",
+					"5": "MainPage.Weather.WeekDay[1].Active_State"
+				},
+				"157": {
+					"1": "MainPage.Weather.WeekDay[2].WeekDay_Label",
+					"2": "MainPage.Weather.WeekDay[2].WeatherIcon_Url",
+					"3": "MainPage.Weather.WeekDay[2].Night_Temp",
+					"4": "MainPage.Weather.WeekDay[2].Day_Temp",
+					"5": "MainPage.Weather.WeekDay[2].Active_State"
+				},
+				"158": {
+					"1": "MainPage.Weather.WeekDay[3].WeekDay_Label",
+					"2": "MainPage.Weather.WeekDay[3].WeatherIcon_Url",
+					"3": "MainPage.Weather.WeekDay[3].Night_Temp",
+					"4": "MainPage.Weather.WeekDay[3].Day_Temp",
+					"5": "MainPage.Weather.WeekDay[3].Active_State"
+				},
+				"159": {
+					"1": "MainPage.Weather.WeekDay[4].WeekDay_Label",
+					"2": "MainPage.Weather.WeekDay[4].WeatherIcon_Url",
+					"3": "MainPage.Weather.WeekDay[4].Night_Temp",
+					"4": "MainPage.Weather.WeekDay[4].Day_Temp",
+					"5": "MainPage.Weather.WeekDay[4].Active_State"
+				},
+				"160": {
+					"1": "MainPage.Weather.WeekDay[5].WeekDay_Label",
+					"2": "MainPage.Weather.WeekDay[5].WeatherIcon_Url",
+					"3": "MainPage.Weather.WeekDay[5].Night_Temp",
+					"4": "MainPage.Weather.WeekDay[5].Day_Temp",
+					"5": "MainPage.Weather.WeekDay[5].Active_State"
+				},
+				"161": {
+					"1": "MainPage.Weather.WeekDay[6].WeekDay_Label",
+					"2": "MainPage.Weather.WeekDay[6].WeatherIcon_Url",
+					"3": "MainPage.Weather.WeekDay[6].Night_Temp",
+					"4": "MainPage.Weather.WeekDay[6].Day_Temp",
+					"5": "MainPage.Weather.WeekDay[6].Active_State"
+				},
+				"164": {
 					"1": "ShadePage.ShadeZones.Zone[0].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[0].Percentage_str"
 				},
-				"157": {
+				"165": {
 					"1": "ShadePage.ShadeZones.Zone[1].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[1].Percentage_str"
 				},
-				"158": {
+				"166": {
 					"1": "ShadePage.ShadeZones.Zone[2].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[2].Percentage_str"
 				},
-				"159": {
+				"167": {
 					"1": "ShadePage.ShadeZones.Zone[3].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[3].Percentage_str"
 				},
-				"160": {
+				"168": {
 					"1": "ShadePage.ShadeZones.Zone[4].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[4].Percentage_str"
 				},
-				"161": {
+				"169": {
 					"1": "ShadePage.ShadeZones.Zone[5].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[5].Percentage_str"
 				},
-				"162": {
+				"170": {
 					"1": "ShadePage.ShadeZones.Zone[6].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[6].Percentage_str"
 				},
-				"163": {
+				"171": {
 					"1": "ShadePage.ShadeZones.Zone[7].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[7].Percentage_str"
 				},
-				"164": {
+				"172": {
 					"1": "ShadePage.ShadeZones.Zone[8].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[8].Percentage_str"
 				},
-				"165": {
+				"173": {
 					"1": "ShadePage.ShadeZones.Zone[9].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[9].Percentage_str"
 				},
-				"166": {
+				"174": {
 					"1": "ShadePage.ShadeZones.Zone[10].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[10].Percentage_str"
 				},
-				"167": {
+				"175": {
 					"1": "ShadePage.ShadeZones.Zone[11].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[11].Percentage_str"
 				},
-				"168": {
+				"176": {
 					"1": "ShadePage.ShadeZones.Zone[12].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[12].Percentage_str"
 				},
-				"169": {
+				"177": {
 					"1": "ShadePage.ShadeZones.Zone[13].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[13].Percentage_str"
 				},
-				"170": {
+				"178": {
 					"1": "ShadePage.ShadeZones.Zone[14].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[14].Percentage_str"
 				},
-				"171": {
+				"179": {
 					"1": "ShadePage.ShadeZones.Zone[15].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[15].Percentage_str"
 				},
-				"172": {
+				"180": {
 					"1": "ShadePage.ShadeZones.Zone[16].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[16].Percentage_str"
 				},
-				"173": {
+				"181": {
 					"1": "ShadePage.ShadeZones.Zone[17].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[17].Percentage_str"
 				},
-				"174": {
+				"182": {
 					"1": "ShadePage.ShadeZones.Zone[18].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[18].Percentage_str"
 				},
-				"175": {
+				"183": {
 					"1": "ShadePage.ShadeZones.Zone[19].ZoneName",
 					"2": "ShadePage.ShadeZones.Zone[19].Percentage_str"
 				},
-				"183": {
+				"191": {
 					"1": "VideoPage.Zones.Items[0].ZoneName",
 					"2": "VideoPage.Zones.Items[0].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[0].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[0].SelectedSourceName"
 				},
-				"184": {
+				"192": {
 					"1": "VideoPage.Zones.Items[1].ZoneName",
 					"2": "VideoPage.Zones.Items[1].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[1].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[1].SelectedSourceName"
 				},
-				"185": {
+				"193": {
 					"1": "VideoPage.Zones.Items[2].ZoneName",
 					"2": "VideoPage.Zones.Items[2].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[2].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[2].SelectedSourceName"
 				},
-				"186": {
+				"194": {
 					"1": "VideoPage.Zones.Items[3].ZoneName",
 					"2": "VideoPage.Zones.Items[3].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[3].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[3].SelectedSourceName"
 				},
-				"187": {
+				"195": {
 					"1": "VideoPage.Zones.Items[4].ZoneName",
 					"2": "VideoPage.Zones.Items[4].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[4].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[4].SelectedSourceName"
 				},
-				"188": {
+				"196": {
 					"1": "VideoPage.Zones.Items[5].ZoneName",
 					"2": "VideoPage.Zones.Items[5].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[5].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[5].SelectedSourceName"
 				},
-				"189": {
+				"197": {
 					"1": "VideoPage.Zones.Items[6].ZoneName",
 					"2": "VideoPage.Zones.Items[6].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[6].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[6].SelectedSourceName"
 				},
-				"190": {
+				"198": {
 					"1": "VideoPage.Zones.Items[7].ZoneName",
 					"2": "VideoPage.Zones.Items[7].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[7].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[7].SelectedSourceName"
 				},
-				"191": {
+				"199": {
 					"1": "VideoPage.Zones.Items[8].ZoneName",
 					"2": "VideoPage.Zones.Items[8].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[8].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[8].SelectedSourceName"
 				},
-				"192": {
+				"200": {
 					"1": "VideoPage.Zones.Items[9].ZoneName",
 					"2": "VideoPage.Zones.Items[9].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[9].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[9].SelectedSourceName"
 				},
-				"193": {
+				"201": {
 					"1": "VideoPage.Zones.Items[10].ZoneName",
 					"2": "VideoPage.Zones.Items[10].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[10].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[10].SelectedSourceName"
 				},
-				"194": {
+				"202": {
 					"1": "VideoPage.Zones.Items[11].ZoneName",
 					"2": "VideoPage.Zones.Items[11].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[11].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[11].SelectedSourceName"
 				},
-				"195": {
+				"203": {
 					"1": "VideoPage.Zones.Items[12].ZoneName",
 					"2": "VideoPage.Zones.Items[12].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[12].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[12].SelectedSourceName"
 				},
-				"196": {
+				"204": {
 					"1": "VideoPage.Zones.Items[13].ZoneName",
 					"2": "VideoPage.Zones.Items[13].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[13].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[13].SelectedSourceName"
 				},
-				"197": {
+				"205": {
 					"1": "VideoPage.Zones.Items[14].ZoneName",
 					"2": "VideoPage.Zones.Items[14].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[14].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[14].SelectedSourceName"
 				},
-				"198": {
+				"206": {
 					"1": "VideoPage.Zones.Items[15].ZoneName",
 					"2": "VideoPage.Zones.Items[15].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[15].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[15].SelectedSourceName"
 				},
-				"199": {
+				"207": {
 					"1": "VideoPage.Zones.Items[16].ZoneName",
 					"2": "VideoPage.Zones.Items[16].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[16].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[16].SelectedSourceName"
 				},
-				"200": {
+				"208": {
 					"1": "VideoPage.Zones.Items[17].ZoneName",
 					"2": "VideoPage.Zones.Items[17].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[17].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[17].SelectedSourceName"
 				},
-				"201": {
+				"209": {
 					"1": "VideoPage.Zones.Items[18].ZoneName",
 					"2": "VideoPage.Zones.Items[18].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[18].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[18].SelectedSourceName"
 				},
-				"202": {
+				"210": {
 					"1": "VideoPage.Zones.Items[19].ZoneName",
 					"2": "VideoPage.Zones.Items[19].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[19].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[19].SelectedSourceName"
 				},
-				"203": {
+				"211": {
 					"1": "VideoPage.Zones.Items[20].ZoneName",
 					"2": "VideoPage.Zones.Items[20].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[20].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[20].SelectedSourceName"
 				},
-				"204": {
+				"212": {
 					"1": "VideoPage.Zones.Items[21].ZoneName",
 					"2": "VideoPage.Zones.Items[21].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[21].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[21].SelectedSourceName"
 				},
-				"205": {
+				"213": {
 					"1": "VideoPage.Zones.Items[22].ZoneName",
 					"2": "VideoPage.Zones.Items[22].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[22].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[22].SelectedSourceName"
 				},
-				"206": {
+				"214": {
 					"1": "VideoPage.Zones.Items[23].ZoneName",
 					"2": "VideoPage.Zones.Items[23].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[23].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[23].SelectedSourceName"
 				},
-				"207": {
+				"215": {
 					"1": "VideoPage.Zones.Items[24].ZoneName",
 					"2": "VideoPage.Zones.Items[24].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[24].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[24].SelectedSourceName"
 				},
-				"208": {
+				"216": {
 					"1": "VideoPage.Zones.Items[25].ZoneName",
 					"2": "VideoPage.Zones.Items[25].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[25].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[25].SelectedSourceName"
 				},
-				"209": {
+				"217": {
 					"1": "VideoPage.Zones.Items[26].ZoneName",
 					"2": "VideoPage.Zones.Items[26].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[26].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[26].SelectedSourceName"
 				},
-				"210": {
+				"218": {
 					"1": "VideoPage.Zones.Items[27].ZoneName",
 					"2": "VideoPage.Zones.Items[27].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[27].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[27].SelectedSourceName"
 				},
-				"211": {
+				"219": {
 					"1": "VideoPage.Zones.Items[28].ZoneName",
 					"2": "VideoPage.Zones.Items[28].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[28].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[28].SelectedSourceName"
 				},
-				"212": {
+				"220": {
 					"1": "VideoPage.Zones.Items[29].ZoneName",
 					"2": "VideoPage.Zones.Items[29].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[29].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[29].SelectedSourceName"
 				},
-				"213": {
+				"221": {
 					"1": "VideoPage.Zones.Items[30].ZoneName",
 					"2": "VideoPage.Zones.Items[30].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[30].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[30].SelectedSourceName"
 				},
-				"214": {
+				"222": {
 					"1": "VideoPage.Zones.Items[31].ZoneName",
 					"2": "VideoPage.Zones.Items[31].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[31].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[31].SelectedSourceName"
 				},
-				"215": {
+				"223": {
 					"1": "VideoPage.Zones.Items[32].ZoneName",
 					"2": "VideoPage.Zones.Items[32].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[32].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[32].SelectedSourceName"
 				},
-				"216": {
+				"224": {
 					"1": "VideoPage.Zones.Items[33].ZoneName",
 					"2": "VideoPage.Zones.Items[33].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[33].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[33].SelectedSourceName"
 				},
-				"217": {
+				"225": {
 					"1": "VideoPage.Zones.Items[34].ZoneName",
 					"2": "VideoPage.Zones.Items[34].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[34].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[34].SelectedSourceName"
 				},
-				"218": {
+				"226": {
 					"1": "VideoPage.Zones.Items[35].ZoneName",
 					"2": "VideoPage.Zones.Items[35].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[35].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[35].SelectedSourceName"
 				},
-				"219": {
+				"227": {
 					"1": "VideoPage.Zones.Items[36].ZoneName",
 					"2": "VideoPage.Zones.Items[36].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[36].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[36].SelectedSourceName"
 				},
-				"220": {
+				"228": {
 					"1": "VideoPage.Zones.Items[37].ZoneName",
 					"2": "VideoPage.Zones.Items[37].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[37].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[37].SelectedSourceName"
 				},
-				"221": {
+				"229": {
 					"1": "VideoPage.Zones.Items[38].ZoneName",
 					"2": "VideoPage.Zones.Items[38].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[38].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[38].SelectedSourceName"
 				},
-				"222": {
+				"230": {
 					"1": "VideoPage.Zones.Items[39].ZoneName",
 					"2": "VideoPage.Zones.Items[39].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[39].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[39].SelectedSourceName"
 				},
-				"223": {
+				"231": {
 					"1": "VideoPage.Zones.Items[40].ZoneName",
 					"2": "VideoPage.Zones.Items[40].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[40].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[40].SelectedSourceName"
 				},
-				"224": {
+				"232": {
 					"1": "VideoPage.Zones.Items[41].ZoneName",
 					"2": "VideoPage.Zones.Items[41].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[41].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[41].SelectedSourceName"
 				},
-				"225": {
+				"233": {
 					"1": "VideoPage.Zones.Items[42].ZoneName",
 					"2": "VideoPage.Zones.Items[42].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[42].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[42].SelectedSourceName"
 				},
-				"226": {
+				"234": {
 					"1": "VideoPage.Zones.Items[43].ZoneName",
 					"2": "VideoPage.Zones.Items[43].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[43].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[43].SelectedSourceName"
 				},
-				"227": {
+				"235": {
 					"1": "VideoPage.Zones.Items[44].ZoneName",
 					"2": "VideoPage.Zones.Items[44].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[44].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[44].SelectedSourceName"
 				},
-				"228": {
+				"236": {
 					"1": "VideoPage.Zones.Items[45].ZoneName",
 					"2": "VideoPage.Zones.Items[45].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[45].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[45].SelectedSourceName"
 				},
-				"229": {
+				"237": {
 					"1": "VideoPage.Zones.Items[46].ZoneName",
 					"2": "VideoPage.Zones.Items[46].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[46].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[46].SelectedSourceName"
 				},
-				"230": {
+				"238": {
 					"1": "VideoPage.Zones.Items[47].ZoneName",
 					"2": "VideoPage.Zones.Items[47].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[47].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[47].SelectedSourceName"
 				},
-				"231": {
+				"239": {
 					"1": "VideoPage.Zones.Items[48].ZoneName",
 					"2": "VideoPage.Zones.Items[48].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[48].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[48].SelectedSourceName"
 				},
-				"232": {
+				"240": {
 					"1": "VideoPage.Zones.Items[49].ZoneName",
 					"2": "VideoPage.Zones.Items[49].ZoneNameIconClass",
 					"3": "VideoPage.Zones.Items[49].SelectedSourceIconClass",
 					"4": "VideoPage.Zones.Items[49].SelectedSourceName"
 				},
-				"233": {
+				"241": {
 					"1": "VideoPage.Presets.Preset[0].Name",
 					"2": "VideoPage.Presets.Preset[0].IconClass"
 				},
-				"234": {
+				"242": {
 					"1": "VideoPage.Presets.Preset[1].Name",
 					"2": "VideoPage.Presets.Preset[1].IconClass"
 				},
-				"235": {
+				"243": {
 					"1": "VideoPage.Presets.Preset[2].Name",
 					"2": "VideoPage.Presets.Preset[2].IconClass"
 				},
-				"236": {
+				"244": {
 					"1": "VideoPage.Presets.Preset[3].Name",
 					"2": "VideoPage.Presets.Preset[3].IconClass"
 				},
-				"237": {
+				"245": {
 					"1": "VideoPage.Presets.Preset[4].Name",
 					"2": "VideoPage.Presets.Preset[4].IconClass"
 				},
-				"238": {
+				"246": {
 					"1": "VideoPage.Presets.Preset[5].Name",
 					"2": "VideoPage.Presets.Preset[5].IconClass"
 				},
-				"239": {
+				"247": {
 					"1": "VideoPage.Presets.Preset[6].Name",
 					"2": "VideoPage.Presets.Preset[6].IconClass"
 				},
-				"240": {
+				"248": {
 					"1": "VideoPage.Presets.Preset[7].Name",
 					"2": "VideoPage.Presets.Preset[7].IconClass"
 				},
-				"241": {
+				"249": {
 					"1": "VideoPage.Presets.Preset[8].Name",
 					"2": "VideoPage.Presets.Preset[8].IconClass"
 				},
-				"242": {
+				"250": {
 					"1": "VideoPage.Presets.Preset[9].Name",
 					"2": "VideoPage.Presets.Preset[9].IconClass"
 				},
-				"243": {
+				"251": {
 					"1": "VideoPage.VideoSources.Source[0].Name",
 					"2": "VideoPage.VideoSources.Source[0].IconClass"
 				},
-				"244": {
+				"252": {
 					"1": "VideoPage.VideoSources.Source[1].Name",
 					"2": "VideoPage.VideoSources.Source[1].IconClass"
 				},
-				"245": {
+				"253": {
 					"1": "VideoPage.VideoSources.Source[2].Name",
 					"2": "VideoPage.VideoSources.Source[2].IconClass"
 				},
-				"246": {
+				"254": {
 					"1": "VideoPage.VideoSources.Source[3].Name",
 					"2": "VideoPage.VideoSources.Source[3].IconClass"
 				},
-				"247": {
+				"255": {
 					"1": "VideoPage.VideoSources.Source[4].Name",
 					"2": "VideoPage.VideoSources.Source[4].IconClass"
 				},
-				"248": {
+				"256": {
 					"1": "VideoPage.VideoSources.Source[5].Name",
 					"2": "VideoPage.VideoSources.Source[5].IconClass"
 				},
-				"249": {
+				"257": {
 					"1": "VideoPage.VideoSources.Source[6].Name",
 					"2": "VideoPage.VideoSources.Source[6].IconClass"
 				},
-				"250": {
+				"258": {
 					"1": "VideoPage.VideoSources.Source[7].Name",
 					"2": "VideoPage.VideoSources.Source[7].IconClass"
 				},
-				"251": {
+				"259": {
 					"1": "VideoPage.VideoSources.Source[8].Name",
 					"2": "VideoPage.VideoSources.Source[8].IconClass"
 				},
-				"252": {
+				"260": {
 					"1": "VideoPage.VideoSources.Source[9].Name",
 					"2": "VideoPage.VideoSources.Source[9].IconClass"
 				},
-				"253": {
+				"261": {
 					"1": "VideoPage.VideoSources.Source[10].Name",
 					"2": "VideoPage.VideoSources.Source[10].IconClass"
+				},
+				"262": {
+					"1": "LoginPage.PassordBoxState"
 				}
 			}
 		},
@@ -2665,7 +2729,7 @@
 				},
 				"VideoPage.PowerAllDisplay_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 176
+					"smartObjectId": 184
 				},
 				"AudioPage.DuckerButton.Press_Event": {
 					"joinId": 1,
@@ -3525,155 +3589,207 @@
 				},
 				"VideoPage.ControlButtons.Backward_Press": {
 					"joinId": 1,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Play_Press": {
 					"joinId": 2,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Forward_Press": {
 					"joinId": 3,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.ChannelUp_Press": {
 					"joinId": 4,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.ChannelDown_Press": {
 					"joinId": 5,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.BackwardStep_Press": {
 					"joinId": 6,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Pause_Press": {
 					"joinId": 7,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.ForwardStep_Press": {
 					"joinId": 8,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Stop_Press": {
 					"joinId": 9,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.PowerPress": {
 					"joinId": 10,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Info_Press": {
 					"joinId": 11,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Eject_Press": {
 					"joinId": 12,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Guide_Press": {
 					"joinId": 13,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Menu_Press": {
 					"joinId": 14,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Minus_Press": {
 					"joinId": 15,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Plus_Press": {
 					"joinId": 16,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Red_Press": {
 					"joinId": 17,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Green_Press": {
 					"joinId": 18,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Yellow_Press": {
 					"joinId": 19,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.ControlButtons.Blue_Press": {
 					"joinId": 20,
-					"smartObjectId": 177
+					"smartObjectId": 185
 				},
 				"VideoPage.Keypad.Press1": {
 					"joinId": 1,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.Press2": {
 					"joinId": 2,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.Press3": {
 					"joinId": 3,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.Press4": {
 					"joinId": 4,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.Press5": {
 					"joinId": 5,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.Press6": {
 					"joinId": 6,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.Press7": {
 					"joinId": 7,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.Press8": {
 					"joinId": 8,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.Press9": {
 					"joinId": 9,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.Press0": {
 					"joinId": 10,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.PressStar": {
 					"joinId": 11,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.PressHash": {
 					"joinId": 12,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Keypad.PressExtra": {
 					"joinId": 13,
-					"smartObjectId": 178
+					"smartObjectId": 186
 				},
 				"VideoPage.Dpad.Left": {
 					"joinId": 1,
-					"smartObjectId": 179
+					"smartObjectId": 187
 				},
 				"VideoPage.Dpad.Right": {
 					"joinId": 2,
-					"smartObjectId": 179
+					"smartObjectId": 187
 				},
 				"VideoPage.Dpad.Up": {
 					"joinId": 3,
-					"smartObjectId": 179
+					"smartObjectId": 187
 				},
 				"VideoPage.Dpad.Down": {
 					"joinId": 4,
-					"smartObjectId": 179
+					"smartObjectId": 187
 				},
 				"VideoPage.Dpad.Center": {
 					"joinId": 5,
-					"smartObjectId": 179
+					"smartObjectId": 187
+				},
+				"LoginPage.LoginKeypad.Press1": {
+					"joinId": 1,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.Press2": {
+					"joinId": 2,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.Press3": {
+					"joinId": 3,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.Press4": {
+					"joinId": 4,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.Press5": {
+					"joinId": 5,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.Press6": {
+					"joinId": 6,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.Press7": {
+					"joinId": 7,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.Press8": {
+					"joinId": 8,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.Press9": {
+					"joinId": 9,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.Press0": {
+					"joinId": 10,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.PressStar": {
+					"joinId": 11,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.PressHash": {
+					"joinId": 12,
+					"smartObjectId": 263
+				},
+				"LoginPage.LoginKeypad.PressExtra": {
+					"joinId": 13,
+					"smartObjectId": 263
 				},
 				"AudioPage.ZoneLists.Items[0].Mute": {
 					"joinId": 1,
@@ -3997,967 +4113,967 @@
 				},
 				"ShadePage.ShadeZones.Zone[0].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 156
+					"smartObjectId": 164
 				},
 				"ShadePage.ShadeZones.Zone[0].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 156
+					"smartObjectId": 164
 				},
 				"ShadePage.ShadeZones.Zone[0].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 156
+					"smartObjectId": 164
 				},
 				"ShadePage.ShadeZones.Zone[0].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 156
+					"smartObjectId": 164
 				},
 				"ShadePage.ShadeZones.Zone[0].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 156
+					"smartObjectId": 164
 				},
 				"ShadePage.ShadeZones.Zone[0].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 156
+					"smartObjectId": 164
 				},
 				"ShadePage.ShadeZones.Zone[1].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 157
+					"smartObjectId": 165
 				},
 				"ShadePage.ShadeZones.Zone[1].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 157
+					"smartObjectId": 165
 				},
 				"ShadePage.ShadeZones.Zone[1].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 157
+					"smartObjectId": 165
 				},
 				"ShadePage.ShadeZones.Zone[1].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 157
+					"smartObjectId": 165
 				},
 				"ShadePage.ShadeZones.Zone[1].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 157
+					"smartObjectId": 165
 				},
 				"ShadePage.ShadeZones.Zone[1].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 157
+					"smartObjectId": 165
 				},
 				"ShadePage.ShadeZones.Zone[2].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 158
+					"smartObjectId": 166
 				},
 				"ShadePage.ShadeZones.Zone[2].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 158
+					"smartObjectId": 166
 				},
 				"ShadePage.ShadeZones.Zone[2].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 158
+					"smartObjectId": 166
 				},
 				"ShadePage.ShadeZones.Zone[2].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 158
+					"smartObjectId": 166
 				},
 				"ShadePage.ShadeZones.Zone[2].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 158
+					"smartObjectId": 166
 				},
 				"ShadePage.ShadeZones.Zone[2].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 158
+					"smartObjectId": 166
 				},
 				"ShadePage.ShadeZones.Zone[3].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 159
+					"smartObjectId": 167
 				},
 				"ShadePage.ShadeZones.Zone[3].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 159
+					"smartObjectId": 167
 				},
 				"ShadePage.ShadeZones.Zone[3].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 159
+					"smartObjectId": 167
 				},
 				"ShadePage.ShadeZones.Zone[3].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 159
+					"smartObjectId": 167
 				},
 				"ShadePage.ShadeZones.Zone[3].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 159
+					"smartObjectId": 167
 				},
 				"ShadePage.ShadeZones.Zone[3].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 159
+					"smartObjectId": 167
 				},
 				"ShadePage.ShadeZones.Zone[4].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 160
+					"smartObjectId": 168
 				},
 				"ShadePage.ShadeZones.Zone[4].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 160
+					"smartObjectId": 168
 				},
 				"ShadePage.ShadeZones.Zone[4].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 160
+					"smartObjectId": 168
 				},
 				"ShadePage.ShadeZones.Zone[4].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 160
+					"smartObjectId": 168
 				},
 				"ShadePage.ShadeZones.Zone[4].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 160
+					"smartObjectId": 168
 				},
 				"ShadePage.ShadeZones.Zone[4].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 160
+					"smartObjectId": 168
 				},
 				"ShadePage.ShadeZones.Zone[5].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 161
+					"smartObjectId": 169
 				},
 				"ShadePage.ShadeZones.Zone[5].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 161
+					"smartObjectId": 169
 				},
 				"ShadePage.ShadeZones.Zone[5].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 161
+					"smartObjectId": 169
 				},
 				"ShadePage.ShadeZones.Zone[5].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 161
+					"smartObjectId": 169
 				},
 				"ShadePage.ShadeZones.Zone[5].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 161
+					"smartObjectId": 169
 				},
 				"ShadePage.ShadeZones.Zone[5].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 161
+					"smartObjectId": 169
 				},
 				"ShadePage.ShadeZones.Zone[6].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 162
+					"smartObjectId": 170
 				},
 				"ShadePage.ShadeZones.Zone[6].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 162
+					"smartObjectId": 170
 				},
 				"ShadePage.ShadeZones.Zone[6].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 162
+					"smartObjectId": 170
 				},
 				"ShadePage.ShadeZones.Zone[6].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 162
+					"smartObjectId": 170
 				},
 				"ShadePage.ShadeZones.Zone[6].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 162
+					"smartObjectId": 170
 				},
 				"ShadePage.ShadeZones.Zone[6].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 162
+					"smartObjectId": 170
 				},
 				"ShadePage.ShadeZones.Zone[7].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 163
+					"smartObjectId": 171
 				},
 				"ShadePage.ShadeZones.Zone[7].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 163
+					"smartObjectId": 171
 				},
 				"ShadePage.ShadeZones.Zone[7].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 163
+					"smartObjectId": 171
 				},
 				"ShadePage.ShadeZones.Zone[7].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 163
+					"smartObjectId": 171
 				},
 				"ShadePage.ShadeZones.Zone[7].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 163
+					"smartObjectId": 171
 				},
 				"ShadePage.ShadeZones.Zone[7].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 163
+					"smartObjectId": 171
 				},
 				"ShadePage.ShadeZones.Zone[8].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 164
+					"smartObjectId": 172
 				},
 				"ShadePage.ShadeZones.Zone[8].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 164
+					"smartObjectId": 172
 				},
 				"ShadePage.ShadeZones.Zone[8].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 164
+					"smartObjectId": 172
 				},
 				"ShadePage.ShadeZones.Zone[8].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 164
+					"smartObjectId": 172
 				},
 				"ShadePage.ShadeZones.Zone[8].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 164
+					"smartObjectId": 172
 				},
 				"ShadePage.ShadeZones.Zone[8].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 164
+					"smartObjectId": 172
 				},
 				"ShadePage.ShadeZones.Zone[9].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 165
+					"smartObjectId": 173
 				},
 				"ShadePage.ShadeZones.Zone[9].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 165
+					"smartObjectId": 173
 				},
 				"ShadePage.ShadeZones.Zone[9].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 165
+					"smartObjectId": 173
 				},
 				"ShadePage.ShadeZones.Zone[9].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 165
+					"smartObjectId": 173
 				},
 				"ShadePage.ShadeZones.Zone[9].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 165
+					"smartObjectId": 173
 				},
 				"ShadePage.ShadeZones.Zone[9].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 165
+					"smartObjectId": 173
 				},
 				"ShadePage.ShadeZones.Zone[10].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 166
+					"smartObjectId": 174
 				},
 				"ShadePage.ShadeZones.Zone[10].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 166
+					"smartObjectId": 174
 				},
 				"ShadePage.ShadeZones.Zone[10].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 166
+					"smartObjectId": 174
 				},
 				"ShadePage.ShadeZones.Zone[10].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 166
+					"smartObjectId": 174
 				},
 				"ShadePage.ShadeZones.Zone[10].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 166
+					"smartObjectId": 174
 				},
 				"ShadePage.ShadeZones.Zone[10].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 166
+					"smartObjectId": 174
 				},
 				"ShadePage.ShadeZones.Zone[11].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 167
+					"smartObjectId": 175
 				},
 				"ShadePage.ShadeZones.Zone[11].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 167
+					"smartObjectId": 175
 				},
 				"ShadePage.ShadeZones.Zone[11].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 167
+					"smartObjectId": 175
 				},
 				"ShadePage.ShadeZones.Zone[11].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 167
+					"smartObjectId": 175
 				},
 				"ShadePage.ShadeZones.Zone[11].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 167
+					"smartObjectId": 175
 				},
 				"ShadePage.ShadeZones.Zone[11].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 167
+					"smartObjectId": 175
 				},
 				"ShadePage.ShadeZones.Zone[12].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 168
+					"smartObjectId": 176
 				},
 				"ShadePage.ShadeZones.Zone[12].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 168
+					"smartObjectId": 176
 				},
 				"ShadePage.ShadeZones.Zone[12].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 168
+					"smartObjectId": 176
 				},
 				"ShadePage.ShadeZones.Zone[12].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 168
+					"smartObjectId": 176
 				},
 				"ShadePage.ShadeZones.Zone[12].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 168
+					"smartObjectId": 176
 				},
 				"ShadePage.ShadeZones.Zone[12].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 168
+					"smartObjectId": 176
 				},
 				"ShadePage.ShadeZones.Zone[13].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 169
+					"smartObjectId": 177
 				},
 				"ShadePage.ShadeZones.Zone[13].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 169
+					"smartObjectId": 177
 				},
 				"ShadePage.ShadeZones.Zone[13].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 169
+					"smartObjectId": 177
 				},
 				"ShadePage.ShadeZones.Zone[13].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 169
+					"smartObjectId": 177
 				},
 				"ShadePage.ShadeZones.Zone[13].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 169
+					"smartObjectId": 177
 				},
 				"ShadePage.ShadeZones.Zone[13].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 169
+					"smartObjectId": 177
 				},
 				"ShadePage.ShadeZones.Zone[14].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 170
+					"smartObjectId": 178
 				},
 				"ShadePage.ShadeZones.Zone[14].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 170
+					"smartObjectId": 178
 				},
 				"ShadePage.ShadeZones.Zone[14].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 170
+					"smartObjectId": 178
 				},
 				"ShadePage.ShadeZones.Zone[14].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 170
+					"smartObjectId": 178
 				},
 				"ShadePage.ShadeZones.Zone[14].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 170
+					"smartObjectId": 178
 				},
 				"ShadePage.ShadeZones.Zone[14].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 170
+					"smartObjectId": 178
 				},
 				"ShadePage.ShadeZones.Zone[15].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 171
+					"smartObjectId": 179
 				},
 				"ShadePage.ShadeZones.Zone[15].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 171
+					"smartObjectId": 179
 				},
 				"ShadePage.ShadeZones.Zone[15].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 171
+					"smartObjectId": 179
 				},
 				"ShadePage.ShadeZones.Zone[15].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 171
+					"smartObjectId": 179
 				},
 				"ShadePage.ShadeZones.Zone[15].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 171
+					"smartObjectId": 179
 				},
 				"ShadePage.ShadeZones.Zone[15].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 171
+					"smartObjectId": 179
 				},
 				"ShadePage.ShadeZones.Zone[16].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 172
+					"smartObjectId": 180
 				},
 				"ShadePage.ShadeZones.Zone[16].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 172
+					"smartObjectId": 180
 				},
 				"ShadePage.ShadeZones.Zone[16].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 172
+					"smartObjectId": 180
 				},
 				"ShadePage.ShadeZones.Zone[16].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 172
+					"smartObjectId": 180
 				},
 				"ShadePage.ShadeZones.Zone[16].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 172
+					"smartObjectId": 180
 				},
 				"ShadePage.ShadeZones.Zone[16].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 172
+					"smartObjectId": 180
 				},
 				"ShadePage.ShadeZones.Zone[17].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 173
+					"smartObjectId": 181
 				},
 				"ShadePage.ShadeZones.Zone[17].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 173
+					"smartObjectId": 181
 				},
 				"ShadePage.ShadeZones.Zone[17].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 173
+					"smartObjectId": 181
 				},
 				"ShadePage.ShadeZones.Zone[17].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 173
+					"smartObjectId": 181
 				},
 				"ShadePage.ShadeZones.Zone[17].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 173
+					"smartObjectId": 181
 				},
 				"ShadePage.ShadeZones.Zone[17].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 173
+					"smartObjectId": 181
 				},
 				"ShadePage.ShadeZones.Zone[18].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 174
+					"smartObjectId": 182
 				},
 				"ShadePage.ShadeZones.Zone[18].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 174
+					"smartObjectId": 182
 				},
 				"ShadePage.ShadeZones.Zone[18].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 174
+					"smartObjectId": 182
 				},
 				"ShadePage.ShadeZones.Zone[18].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 174
+					"smartObjectId": 182
 				},
 				"ShadePage.ShadeZones.Zone[18].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 174
+					"smartObjectId": 182
 				},
 				"ShadePage.ShadeZones.Zone[18].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 174
+					"smartObjectId": 182
 				},
 				"ShadePage.ShadeZones.Zone[19].Open_PressEvent": {
 					"joinId": 1,
-					"smartObjectId": 175
+					"smartObjectId": 183
 				},
 				"ShadePage.ShadeZones.Zone[19].Stop_PressEvent": {
 					"joinId": 2,
-					"smartObjectId": 175
+					"smartObjectId": 183
 				},
 				"ShadePage.ShadeZones.Zone[19].Close_PressEvent": {
 					"joinId": 3,
-					"smartObjectId": 175
+					"smartObjectId": 183
 				},
 				"ShadePage.ShadeZones.Zone[19].Preset1_PressEvent": {
 					"joinId": 4,
-					"smartObjectId": 175
+					"smartObjectId": 183
 				},
 				"ShadePage.ShadeZones.Zone[19].Preset2_PressEvent": {
 					"joinId": 5,
-					"smartObjectId": 175
+					"smartObjectId": 183
 				},
 				"ShadePage.ShadeZones.Zone[19].Preset3_PressEvent": {
 					"joinId": 6,
-					"smartObjectId": 175
+					"smartObjectId": 183
 				},
 				"VideoPage.Zones.Items[0].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 183
+					"smartObjectId": 191
 				},
 				"VideoPage.Zones.Items[0].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 183
+					"smartObjectId": 191
 				},
 				"VideoPage.Zones.Items[1].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 184
+					"smartObjectId": 192
 				},
 				"VideoPage.Zones.Items[1].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 184
+					"smartObjectId": 192
 				},
 				"VideoPage.Zones.Items[2].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 185
+					"smartObjectId": 193
 				},
 				"VideoPage.Zones.Items[2].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 185
+					"smartObjectId": 193
 				},
 				"VideoPage.Zones.Items[3].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 186
+					"smartObjectId": 194
 				},
 				"VideoPage.Zones.Items[3].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 186
+					"smartObjectId": 194
 				},
 				"VideoPage.Zones.Items[4].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 187
+					"smartObjectId": 195
 				},
 				"VideoPage.Zones.Items[4].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 187
+					"smartObjectId": 195
 				},
 				"VideoPage.Zones.Items[5].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 188
+					"smartObjectId": 196
 				},
 				"VideoPage.Zones.Items[5].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 188
+					"smartObjectId": 196
 				},
 				"VideoPage.Zones.Items[6].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 189
+					"smartObjectId": 197
 				},
 				"VideoPage.Zones.Items[6].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 189
+					"smartObjectId": 197
 				},
 				"VideoPage.Zones.Items[7].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 190
+					"smartObjectId": 198
 				},
 				"VideoPage.Zones.Items[7].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 190
+					"smartObjectId": 198
 				},
 				"VideoPage.Zones.Items[8].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 191
+					"smartObjectId": 199
 				},
 				"VideoPage.Zones.Items[8].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 191
+					"smartObjectId": 199
 				},
 				"VideoPage.Zones.Items[9].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 192
+					"smartObjectId": 200
 				},
 				"VideoPage.Zones.Items[9].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 192
+					"smartObjectId": 200
 				},
 				"VideoPage.Zones.Items[10].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 193
+					"smartObjectId": 201
 				},
 				"VideoPage.Zones.Items[10].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 193
+					"smartObjectId": 201
 				},
 				"VideoPage.Zones.Items[11].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 194
+					"smartObjectId": 202
 				},
 				"VideoPage.Zones.Items[11].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 194
+					"smartObjectId": 202
 				},
 				"VideoPage.Zones.Items[12].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 195
+					"smartObjectId": 203
 				},
 				"VideoPage.Zones.Items[12].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 195
+					"smartObjectId": 203
 				},
 				"VideoPage.Zones.Items[13].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 196
+					"smartObjectId": 204
 				},
 				"VideoPage.Zones.Items[13].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 196
+					"smartObjectId": 204
 				},
 				"VideoPage.Zones.Items[14].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 197
+					"smartObjectId": 205
 				},
 				"VideoPage.Zones.Items[14].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 197
+					"smartObjectId": 205
 				},
 				"VideoPage.Zones.Items[15].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 198
+					"smartObjectId": 206
 				},
 				"VideoPage.Zones.Items[15].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 198
+					"smartObjectId": 206
 				},
 				"VideoPage.Zones.Items[16].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 199
+					"smartObjectId": 207
 				},
 				"VideoPage.Zones.Items[16].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 199
+					"smartObjectId": 207
 				},
 				"VideoPage.Zones.Items[17].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 200
+					"smartObjectId": 208
 				},
 				"VideoPage.Zones.Items[17].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 200
+					"smartObjectId": 208
 				},
 				"VideoPage.Zones.Items[18].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 201
+					"smartObjectId": 209
 				},
 				"VideoPage.Zones.Items[18].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 201
+					"smartObjectId": 209
 				},
 				"VideoPage.Zones.Items[19].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 202
+					"smartObjectId": 210
 				},
 				"VideoPage.Zones.Items[19].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 202
+					"smartObjectId": 210
 				},
 				"VideoPage.Zones.Items[20].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 203
+					"smartObjectId": 211
 				},
 				"VideoPage.Zones.Items[20].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 203
+					"smartObjectId": 211
 				},
 				"VideoPage.Zones.Items[21].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 204
+					"smartObjectId": 212
 				},
 				"VideoPage.Zones.Items[21].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 204
+					"smartObjectId": 212
 				},
 				"VideoPage.Zones.Items[22].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 205
+					"smartObjectId": 213
 				},
 				"VideoPage.Zones.Items[22].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 205
+					"smartObjectId": 213
 				},
 				"VideoPage.Zones.Items[23].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 206
+					"smartObjectId": 214
 				},
 				"VideoPage.Zones.Items[23].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 206
+					"smartObjectId": 214
 				},
 				"VideoPage.Zones.Items[24].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 207
+					"smartObjectId": 215
 				},
 				"VideoPage.Zones.Items[24].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 207
+					"smartObjectId": 215
 				},
 				"VideoPage.Zones.Items[25].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 208
+					"smartObjectId": 216
 				},
 				"VideoPage.Zones.Items[25].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 208
+					"smartObjectId": 216
 				},
 				"VideoPage.Zones.Items[26].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 209
+					"smartObjectId": 217
 				},
 				"VideoPage.Zones.Items[26].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 209
+					"smartObjectId": 217
 				},
 				"VideoPage.Zones.Items[27].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 210
+					"smartObjectId": 218
 				},
 				"VideoPage.Zones.Items[27].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 210
+					"smartObjectId": 218
 				},
 				"VideoPage.Zones.Items[28].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 211
+					"smartObjectId": 219
 				},
 				"VideoPage.Zones.Items[28].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 211
+					"smartObjectId": 219
 				},
 				"VideoPage.Zones.Items[29].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 212
+					"smartObjectId": 220
 				},
 				"VideoPage.Zones.Items[29].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 212
+					"smartObjectId": 220
 				},
 				"VideoPage.Zones.Items[30].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 213
+					"smartObjectId": 221
 				},
 				"VideoPage.Zones.Items[30].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 213
+					"smartObjectId": 221
 				},
 				"VideoPage.Zones.Items[31].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 214
+					"smartObjectId": 222
 				},
 				"VideoPage.Zones.Items[31].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 214
+					"smartObjectId": 222
 				},
 				"VideoPage.Zones.Items[32].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 215
+					"smartObjectId": 223
 				},
 				"VideoPage.Zones.Items[32].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 215
+					"smartObjectId": 223
 				},
 				"VideoPage.Zones.Items[33].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 216
+					"smartObjectId": 224
 				},
 				"VideoPage.Zones.Items[33].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 216
+					"smartObjectId": 224
 				},
 				"VideoPage.Zones.Items[34].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 217
+					"smartObjectId": 225
 				},
 				"VideoPage.Zones.Items[34].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 217
+					"smartObjectId": 225
 				},
 				"VideoPage.Zones.Items[35].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 218
+					"smartObjectId": 226
 				},
 				"VideoPage.Zones.Items[35].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 218
+					"smartObjectId": 226
 				},
 				"VideoPage.Zones.Items[36].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 219
+					"smartObjectId": 227
 				},
 				"VideoPage.Zones.Items[36].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 219
+					"smartObjectId": 227
 				},
 				"VideoPage.Zones.Items[37].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 220
+					"smartObjectId": 228
 				},
 				"VideoPage.Zones.Items[37].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 220
+					"smartObjectId": 228
 				},
 				"VideoPage.Zones.Items[38].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 221
+					"smartObjectId": 229
 				},
 				"VideoPage.Zones.Items[38].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 221
+					"smartObjectId": 229
 				},
 				"VideoPage.Zones.Items[39].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 222
+					"smartObjectId": 230
 				},
 				"VideoPage.Zones.Items[39].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 222
+					"smartObjectId": 230
 				},
 				"VideoPage.Zones.Items[40].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 223
+					"smartObjectId": 231
 				},
 				"VideoPage.Zones.Items[40].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 223
+					"smartObjectId": 231
 				},
 				"VideoPage.Zones.Items[41].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 224
+					"smartObjectId": 232
 				},
 				"VideoPage.Zones.Items[41].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 224
+					"smartObjectId": 232
 				},
 				"VideoPage.Zones.Items[42].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 225
+					"smartObjectId": 233
 				},
 				"VideoPage.Zones.Items[42].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 225
+					"smartObjectId": 233
 				},
 				"VideoPage.Zones.Items[43].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 226
+					"smartObjectId": 234
 				},
 				"VideoPage.Zones.Items[43].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 226
+					"smartObjectId": 234
 				},
 				"VideoPage.Zones.Items[44].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 227
+					"smartObjectId": 235
 				},
 				"VideoPage.Zones.Items[44].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 227
+					"smartObjectId": 235
 				},
 				"VideoPage.Zones.Items[45].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 228
+					"smartObjectId": 236
 				},
 				"VideoPage.Zones.Items[45].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 228
+					"smartObjectId": 236
 				},
 				"VideoPage.Zones.Items[46].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 229
+					"smartObjectId": 237
 				},
 				"VideoPage.Zones.Items[46].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 229
+					"smartObjectId": 237
 				},
 				"VideoPage.Zones.Items[47].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 230
+					"smartObjectId": 238
 				},
 				"VideoPage.Zones.Items[47].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 230
+					"smartObjectId": 238
 				},
 				"VideoPage.Zones.Items[48].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 231
+					"smartObjectId": 239
 				},
 				"VideoPage.Zones.Items[48].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 231
+					"smartObjectId": 239
 				},
 				"VideoPage.Zones.Items[49].PowerToggle": {
 					"joinId": 1,
-					"smartObjectId": 232
+					"smartObjectId": 240
 				},
 				"VideoPage.Zones.Items[49].SourceSelection": {
 					"joinId": 2,
-					"smartObjectId": 232
+					"smartObjectId": 240
 				},
 				"VideoPage.Presets.Preset[0].Selection": {
 					"joinId": 1,
-					"smartObjectId": 233
+					"smartObjectId": 241
 				},
 				"VideoPage.Presets.Preset[1].Selection": {
 					"joinId": 1,
-					"smartObjectId": 234
+					"smartObjectId": 242
 				},
 				"VideoPage.Presets.Preset[2].Selection": {
 					"joinId": 1,
-					"smartObjectId": 235
+					"smartObjectId": 243
 				},
 				"VideoPage.Presets.Preset[3].Selection": {
 					"joinId": 1,
-					"smartObjectId": 236
+					"smartObjectId": 244
 				},
 				"VideoPage.Presets.Preset[4].Selection": {
 					"joinId": 1,
-					"smartObjectId": 237
+					"smartObjectId": 245
 				},
 				"VideoPage.Presets.Preset[5].Selection": {
 					"joinId": 1,
-					"smartObjectId": 238
+					"smartObjectId": 246
 				},
 				"VideoPage.Presets.Preset[6].Selection": {
 					"joinId": 1,
-					"smartObjectId": 239
+					"smartObjectId": 247
 				},
 				"VideoPage.Presets.Preset[7].Selection": {
 					"joinId": 1,
-					"smartObjectId": 240
+					"smartObjectId": 248
 				},
 				"VideoPage.Presets.Preset[8].Selection": {
 					"joinId": 1,
-					"smartObjectId": 241
+					"smartObjectId": 249
 				},
 				"VideoPage.Presets.Preset[9].Selection": {
 					"joinId": 1,
-					"smartObjectId": 242
+					"smartObjectId": 250
 				},
 				"VideoPage.VideoSources.Source[0].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 243
+					"smartObjectId": 251
 				},
 				"VideoPage.VideoSources.Source[1].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 244
+					"smartObjectId": 252
 				},
 				"VideoPage.VideoSources.Source[2].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 245
+					"smartObjectId": 253
 				},
 				"VideoPage.VideoSources.Source[3].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 246
+					"smartObjectId": 254
 				},
 				"VideoPage.VideoSources.Source[4].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 247
+					"smartObjectId": 255
 				},
 				"VideoPage.VideoSources.Source[5].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 248
+					"smartObjectId": 256
 				},
 				"VideoPage.VideoSources.Source[6].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 249
+					"smartObjectId": 257
 				},
 				"VideoPage.VideoSources.Source[7].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 250
+					"smartObjectId": 258
 				},
 				"VideoPage.VideoSources.Source[8].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 251
+					"smartObjectId": 259
 				},
 				"VideoPage.VideoSources.Source[9].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 252
+					"smartObjectId": 260
 				},
 				"VideoPage.VideoSources.Source[10].Press_Event": {
 					"joinId": 1,
-					"smartObjectId": 253
+					"smartObjectId": 261
 				}
 			},
 			"numeric": {
@@ -5360,6 +5476,12 @@
 				"LightPage.LightList[99].LightOnChange": {
 					"joinId": 2,
 					"smartObjectId": 139
+				}
+			},
+			"string": {
+				"LoginPage.PasswordBoxChangeEvent": {
+					"joinId": 1,
+					"smartObjectId": 262
 				}
 			}
 		}

@@ -12,8 +12,7 @@
         numberofitems="50"
         scrollbar="false"
         loaditems="all"
-        indexid="idx"
-      >
+        indexid="idx">
       </ch5-subpage-reference-list>
     </div>
     <!--Video Preset Control-->
@@ -69,11 +68,11 @@
         buttonHAlignLabel="center"
         buttonVAlignLabel="middle"
         buttonIconPosition="first"
-        buttonShape="rounded-rectangle"
-        buttonReceiveStateSelected="VideoPage.Sources.Source[{{idx}}].SelectedState"
-        buttonReceiveStateIconClass="VideoPage.Sources.Source[{{idx}}].IconClass"
-        buttonreceivestatelabel="VideoPage.Sources.Source[{{idx}}].Name"
-        buttonSendEventOnClick="VideoPage.Sources.Source[{{idx}}].Press_Event"
+        buttonShape="rounded-rectangle" 
+        buttonReceiveStateSelected="VideoPage.VideoSources.Source[{{idx}}].SelectedState"
+        buttonReceiveStateIconClass="VideoPage.VideoSources.Source[{{idx}}].IconClass"
+        buttonreceivestatelabel="VideoPage.VideoSources.Source[{{idx}}].Name"
+        buttonSendEventOnClick="VideoPage.VideoSources.Source[{{idx}}].Press_Event"
         stretch="both"
         loadItems="visible-only"
         clickHoldTime="1500"
